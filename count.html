@@ -54,8 +54,7 @@
 </head>
 <body>
 
-  <ul class="menu"></ul>
-
+ 
   <table class="table-ob">
     <tr>
       <th></th>
@@ -278,10 +277,10 @@
         var sessionName = session.replace('.', '');
         var sessionName = sessionName.replace('.txt', '');
         var sessionName = sessionName.replace('.rtf', '');
-        var html = `<li><a href="#${sessionName}">${sessionName}</a></li>`;
-        $('.menu').append(html);
+        // var html = `<li><a href="#${sessionName}">${sessionName}</a></li>`;
+        // $('.menu').append(html);
 
-        $('body').append(`<div class="pattern" id="${sessionName}"></div>`);
+        // $('body').append(`<div class="pattern" id="${sessionName}"></div>`);
 
         parseTxt(session,sessionName);
 
@@ -323,7 +322,7 @@
   function parseTxt(url,sessionName){
     var target = '#' + sessionName;
 
-    $(target).append(`<h2>${sessionName}</h2>`);
+    // $(target).append(`<h2>${sessionName}</h2>`);
 
     $.get("data/" + url, function(data) {
 
@@ -333,7 +332,7 @@
         lines.forEach(function(line){
           // console.log(line);
 
-          $(target).append("<p>");
+          // $(target).append("<p>");
 
           tags.forEach(function(tag){
 
@@ -344,13 +343,13 @@
 
               var classes = classesChecker(tag[1]);
 
-              $(target).append(`<span class="${classes}"> ${tag[1]} </span>`);
+              // $(target).append(`<span class="${classes}"> ${tag[1]} </span>`);
               
             }
 
           });
 
-          $(target).append("</p>");
+          // $(target).append("</p>");
 
         });
 
