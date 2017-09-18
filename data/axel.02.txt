@@ -1,0 +1,218 @@
+{!mediafile axel.02.mp4.mini.mp4}
+
+
+Session 02
+ID 102
+Control
+
+**FIRST**
+
+P: {obstacle>system_bug}add a recurring event on Tuesdays from 3 to 5 p.m.{/obstacle>system_bug}
+
+DC: What day and time should I create this event?
+
+{speak_outloud}P: Judging by the text on the side I would assume it had a made the title blank and filled in the time.{/speak_outloud}
+
+P: change title to weekly literature team project meaning
+
+DC: Ready to update the title of this event. Is that all?
+
+P: change the date to Tuesday at {misheard}3:35 p.m. (3 to 5 PM){/misheard}
+
+DC: Is that all?
+
+P: {tactic>hyperarticulation}change the date to Tuesday at 3 to 5 p.m.{/tactic>hyperarticulation}
+
+DC: Sorry but there is not event titled, Òdate to Tuesday at 3 to 5 p.m.Ó Please try again.
+
+P: {tactic>settling}we had this problem last time and it was really annoying.{/tactic>settling}
+
+P: add the location to Summit
+
+DC: Ready to set the location. Is that all?
+
+{menu_usage}{speak_outloud}P: That seems like an odd phrasing for the command. ÒAdd the location to ÉÓ I donÕt, it seems off. Oh, its just change the location to. Its just add then. Add the location to seems off to me but change the location is fine. I assume, I canÕt remember if I said recurring but I assume I did. I assume thatÕs what that button means. IÕm going to assume IÕm good. Oh crap. I um..{/speak_outloud}{/menu_usage}
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**SECOND**
+
+P: {obstacle>NLP_error}modify recurring event weekly literature team project meeting{/obstacle>NLP_error}
+
+DC: Sorry but there is no event titled, Òrecurring event weekly literature team project meeting.Ó Please try again.
+
+P: {tactic>hyperarticulation}modify recurring event weekly literature team project meeting{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled, Òrecurring event weekly literature team project meeting.Ó Please try again.
+
+{att>blame_self}{speak_outloud}P: Did IÉdid I misspell? I may have misspelled the previous one. I canÕt see, I canÕt see it.{/speak_outloud}{/att>blame_self}
+
+{speak_outloud}I: It should be weekly team project meeting.
+
+P: What but I am saying, meeting, meeting is like, changed. I donÕt know.{/speak_outloud}
+
+P: {tactic>hyperarticulation}modified recurring events weekly literature team project meeting{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled, Òrecurring event weekly literature team project meeting.Ó Please try again.
+
+P:{tactic>simplification}{misheard} modified (modify){/misheard} weekly literature team project meeting{/tactic>simplification}
+
+DC: Sorry but there is no event titled, Òweekly literature team project meeting.Ó Please try again.
+
+{speak_outloud}{day01_task01_titled_ignored}P: Like I need to access that thing. But its not registering my voice and I dont see any other options. So, I dont think I can do anything. Unless I can see. My assumption is I said the wrong thing and didnt change it. And I canÕt see it. The end of this. I guess it has to be meeting. I dont know. If I could just see what it is I could do it.{/day01_task01_titled_ignored}{/speak_outloud}
+
+P: {tactic>hyperarticulation}modify weekly literature team project meaning{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: change the title to weekly literature team project meeting
+
+DC: Ready to update the title of this event. Is that all?
+{speak_outloud}
+P: I donÕt know if this is going again how it can be done. I know this isnÕt the intended series of steps.
+
+I: You can do whatever you normally would do. {/speak_outloud}
+
+{menu_usage}P: {obstacle>NLP_error}change the date to Tuesdays at 10 to 11 a.m.{/obstacle>NLP_error}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>hyperarticulation}{misheard}naked (make){/misheard} date Tuesday at 10 to 11 a.m.{/tactic>hyperarticulation}
+
+DC: Ready to modify the start time. Is that all?
+{/menu_usage}
+
+{blame_gui}P:Not clear from the side panel how to change the end time.{/blame_gui}
+
+P: {tactic>simplification}change the date to Tuesday at 10 a.m.{/tactic>simplification}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>hyperarticulation}change the date to Tuesday at {misheard}10:10 a.m.{/misheard}{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>settling}yes{/tactic>settling}
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+P: delete recurring events wait
+
+DC:DC: Sorry but there is no event titled, ÒwaitÓ to delete. Please try again.
+
+P: I wanted to make sure weekly workout was multiple days in the week. Just Mondays, soÉ that fine.
+
+P: delete recurring events weekly workout
+
+DC: Are you sure you want to delete this event?
+
+P: yes
+
+DC: Event deleted. Success. Calendar updated.
+
+
+**FOURTH**
+
+P: {obstacle>NLP_error}modify recurring event weekly literature team project meeting{/obstacle>NLP_error}
+
+DC: Sorry but there is no event titled, Òrecurring event weekly literature team project meeting.Ó Please try again.
+
+{assume_less_intelligence}{att>blame_nlp}{speak_outloud}P: Unless I am reading this wrong I would expect recurring event to be exclude from that query. Cause obviously when it hears recurring event its not going to pick up the weekly team literature project meeting. And if I do it the other way and I am just modiying it, going off what this is giving me, if I just go to, weekly literature team project meeting, É I am not sure if it is going to effect the um if its going to effect all of them.{/speak_outloud}{/att>blame_nlp}{/assume_less_intelligence}
+
+{memo}MEMO: Do more techy people assume less intelligence when not robust like siri? When NLP worse?{/memo}
+
+P: {tactic>simplification}modify weekly literature team project meeting{/tactic>simplification}
+
+DC: What would you like to modify for this event?
+
+{blame_gui}{/blame_gui}{menu_usage}{speak_outloud}P: I am confused. Invite contact to event name, that does not seem like how I would normally do it. I would assume, I am going to try it. Since I am on the screen already. {/speak_outloud}{/menu_usage}
+
+P: invite John Smith
+
+DC: Ready to invite. Is that all?
+{speak_outloud}
+P: I didnÕt thnk that would work. If I was just reading of this I would just type the event name first with doesnÕt seem normal.
+
+{/speak_outloud}
+
+P: {obstacle>unfamiliar_commands}invite Kelly Nelson{/obstacle>unfamiliar_commands}
+
+DC: Ready to invite. Is that all?
+
+{speak_outloud}P: I guess I have to say both at the same time. I would assume it would add Kelly Nelson under John Smith.{/speak_outloud}
+
+P: {tactic>use_more_info}invite John Smith and Kelly Nelson{/tactic>use_more_info}
+
+DC: Ready to invite. Is that all?
+
+{speak_outloud}P:  I was expecting it to but it as one name. I would assume thatÕs how a voice interface would process it. It couldnÕt handle mutliple at a time. But that seemed to be, it didnÕt pick up the end, it just.{/speak_outloud}
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+END OF TASK
+
+ÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+BEGIN Q&A
+
+ÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+
+I: Just a couple of quick questions for you about your experience today. Firstly, let's start off, like, how did you feel today versus last session?
+
+P: I guess I felt a little more {att>frustrated}frustrated{/att>frustrated} today because I think today's prompts were a bit more complex and were using more niche features. Some of the inconsistencies with the system really showed, especially with ... probably one of the more complicated things is modifying a recurring event, so like when it said it took recurring event and it said that it was part of the title. That was annoying, considering I could tell at other parts it would take out stuff like "and" or something. Part of the ... of the fact that it said modify recurring event and it wouldn't remove recurring event at that command was ... kind of like took me out of the experience. I don't think I successfully completed that one--
+
+I: Okay.
+
+P: --with the weekly, changing weekly É literature or something. I think it ended up being one event that went to like ... one non-stop event that went from today to August 22nd and I had no idea how to change the August 22nd part because it wasn't very clear on the menu, I guess, so, because of stuff like that it was more frustrating.
+
+I: Yeah, okay, fair enough. All right, and, what about your approach? Did your approach towards the interface change from session 1 to session 2? How you sort of just tackled everything?
+
+P: I mean I guess there obviously was no initial start-up period where I was like {learn_command}Óoh wow this, I have to go read the menu and then go back" {/learn_command} so now I was like, I know the menu, I know the basic commands, so, which might have also added to the frustration a bit because I think I felt more confident about it. You know, not everything about this is seamless, it was like, now I have a better understanding of the system so I can kind of play to its quirks but ... it ended up not being the case, it ended up that the quirks still kind of got to me.
+
+I: Okay. All right, and what did you understand about sort of, what is your É menu model of how DiscoverCal works change, based on that?
+
+P: My mental model?
+
+I: What is the functionality, or how its working? Sort of your understanding of how DiscoverCal works. Did that sort of change at all?
+
+P: {inconsistent}Maybe ... I guess the big topic was that, for the session was removing key words from your speech, and, I think that was more clear today. But what wasn't as clear is, whatever technology is being used to process my voice is very bipolar. Either it gets what I'm saying perfectly or I feel like I have to speak super articulately.{/inconsistent}
+
+{memo}MEMO: Do techier users not break down commands as much because they have more hope?{/memo}
+
+I: Okay ... all right.
+
+P: Because stuff like that recurring event, need the meaning thing. Yeah, that was.
+
+I: All right. And so, based on your interaction today, did this influence in any way your understanding of how voice interaction generally works?
+
+P: Sorry, can you repeat the question?
+
+I: Did this in any way influence the way that voice interaction in general works, or your understanding of how it generally works?
+
+P: No, not really.
+
+I: Okay, and so say tomorrow you were to start using Siri or something else a little more frequently. Would your approach towards either of those interfaces change?
+
+{att>assimilation_bias}P: Not really, cause it seems a little more primitive than this.
+{/att>assimilation_bias}
+
+{memo}MEMO: Assimiliation bias - smartest software wins.{/memo}
+
+I: Okay, all right. And, that's basically it.
+
+
+

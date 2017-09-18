@@ -1,0 +1,108 @@
+{!mediafile axel.03.mp4.mini.mp4}
+
+Session 03
+ID 102
+Control
+
+**FIRST**
+
+{learn_command}P: create an event on Friday at 10 a.m.
+{/learn_command}
+DC: What is the title of this event?
+
+P: dentist appointment
+
+DC: Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+{speak_outloud}P: Mark Black is a name right?{/speak_outloud}
+
+{speak_outloud}I: Yes
+
+{menu_usage}P: Another I am missing out, because of the way the prompt is set up I got to kinda look up and down to make sure I am saying like all the right, cause you have to remember, the prompt, and the multiple bits of information. You gotta keep going back and forth. Um.{/speak_outloud}
+{/menu_usage}
+
+P: set a weekly event on Saturdays and 8 p.m.
+
+DC: What day and time should I create this event?
+
+P: change title to weekly Skype
+
+DC: Ready to update the title of this event. Is that all?
+
+P: change the date to Saturday at 8 p.m.
+
+DC: Is that all?
+
+P: invite Mark black
+
+DC: Ready to invite. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+END OF TASK
+ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+BEGIN Q&A
+ÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑÑ
+
+
+I: Okay. So, about your session today. How did you feel?
+
+P: I thought it was a lot smoother. I got the pre-test second. I noticed that, I think the system is set up, and then I noticed this, noticed this before, but I know I said, "It's all it did." I think all of the things have been only one hour increments, and that's what the system automatically put. But since, whenever a card said, do from 10:00 to 11:00 am, I would say, do 10:00 to 11:00 am. And it would try and to like an automatic ... It would automatically set it to that. And that's like how it's built, so ... Or at least that's as I see it. So, when I said 10:00 to 11:00, it would read the "to", like a 2. Which I assume was a problem in making it now, that it would read that increment of two as a number instead that ... Whatever the grammatical ... I can't believe I forgot what to this is called.
+
+I: No, I understand what you're saying.
+
+{inconsistent}P: Yeah, there was one inconsistency that I found from using the menu, which is that like- I think when you- Maybe I mentioned this last week, or last session, if you say "Add an event," and then the name of the event, it auto fills with the name of the event. But if you say "Add an event," and then say "Add a recurring event," that it reads the recurring event as the title. {/inconsistent}
+
+I: Okay.
+
+P: Actually, I can't remember specifically now, but I think, it might have been the other way around. But either way, it's just that inconsistency. Where it's using- It's taking recurring event or weekly event and it masks the title name of the event.
+
+I: Are these things that you realized this session, or was it something that you've been noticing, and it's been confirmed over sessions, or is it something that you noticed earlier but didn't remember to mention?
+
+P: I'd noticed the problems earlier. I guess the third session just let me- Considering we only got three or four problems per session, this is only the second or{get_used_to_bugs} third time I'd done a recurring event. So, now I know that there- I'm not saying the thing wrong. Because, I could get it done. Now I'm aware of how the system- The system's just set up that way.{/get_used_to_bugs}
+
+I: Okay. All right. All right, beside that, what about your approach this session? Did anything- What was your approach? How did you go about completing the tasks, and was it any different from your previous sessions?
+
+P:{menu_usage} I still go back and forth from the left menu. {/menu_usage}{menu_useful_for_beginners}I think if it wasn't there at this point, I could function without it. {/menu_useful_for_beginners}{menu_useful}But, it's very comforting for it to be there. It's like a crutch. 
+{/menu_useful}
+
+I: Is there anything that you would change in it? Is there anything that bothers you about it? That you like specifically?
+
+P: I think there should be more consistency with how the commands are organized. I think ... So that, it's not taking "recurring event," as a word. I think it makes sense if the hierarchy is like, you have an event, then you set a date for that event. And then you ... Yeah, so, if that order makes a lot of sense to me, but not all of the things on the left menu correspond with that. Sometimes, I'd set a recurring event, with the date and time, then I have to change the title. I would like to be able to say it all, together. 
+
+I: Okay. All right. Besides that, is there anything else about DiscoverCal? How it works, how it functions? Anything new that you noticed now that you didn't know before? How's your understanding of how DiscoverCal works changed over these sessions?
+
+P: Besides the few things, which you did already mention. That you were talking about
+
+P: I'm sorry, can you repeat that? It was long and I kinda- I was zoned out already.
+
+I: It's okay, it's okay. It's fine. Has your understanding of how DiscoverCal functions or works changed at all with these sessions? From the first session to now, besides the few things that you already mentioned? 
+
+P: Yeah. I don't know if anything changed for this session really. I'm kind of confused ... This is the first time that there's been a weekly thing. I'm kind of confused as to why weekly, isn't rolled into recurring. I'm confused as to why they're separate. Options.
+
+P: I don't know if there's anything other than that, that I- I feel like I mentioned everything, I feel like how I understand the system, with the "to" being- Can't figure out if it's "to," not "and" to or whatever ... It seems to be reading ... Actually, it doesn't even seem to read the "to" as a 2, it just seems to completely mess up the phrasing of it. Then if the random- I think last week, I said 9:00 to 10:00, and it put it to 10:51, which wasn't even remotely what I said. So, yeah. I guess it makes the event, and then depending on what event you make, you have to populate different information using your voice. It's essentially how I understand it. 
+
+I: All right. Okay. Is there anything else you want to add about your experience here? About DiscoverCal? About your interaction in general? Any additional comments?
+
+P: No, not really. I feel like I've said everything.
+
+I: Okay. Did the system perform as you expected it to today?
+
+P: Sorry?
+
+I: Did the system perform as you expected it to today?
+
+P: Yeah.
+
+

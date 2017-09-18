@@ -1,0 +1,261 @@
+{!mediafile nick.02.MP4.mini.MP4}
+
+
+Session 02
+ID 32
+Experimental
+
+
+**FIRST**
+
+P: {impact>simplification}{impact>hyperarticulation}{/impact>hyperarticulation}{/impact>simplification}add team project meeting
+
+DC: What day and time should I create this event?
+
+P: Tuesdays from 3 to 5 p.m.
+
+DC: Is that all?
+
+{speak_outloud}P: How do I make it recurringÉ{/speak_outloud}
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}at The Summit
+
+DC: Sorry, tell me one more time?
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}change location to The Summit
+
+DC: Ready to set the location. Is that all?
+
+{obstacle>unfamiliar_commands}P: it's recurring{/obstacle>unfamiliar_commands}
+
+DC: Sorry but there is no event titled, Ò Ó to delete. Please try again.
+
+{tactic>settling}P: Yeah, itÕs fine. I will know next tuesday. ItÕs fine.
+{/tactic>settling}
+
+P: yes
+
+{obstacle>feedback}{/obstacle>feedback}DC: Sorry, say that again?
+
+P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}
+
+DC: Sorry, tell me one more time?
+
+P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}
+
+DC: Sorry, can you tell me again?
+
+P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}
+
+DC: Sorry, could you say that again?
+
+{speak_outloud}P: I think I confused it because I am still in this menu.{/speak_outloud}
+
+{tactic>restart}P: cancel{/tactic>restart}
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+{speak_outloud}P: Should I try again?{/speak_outloud}
+
+{impact>hyperarticulation}{/impact>hyperarticulation}P: add literature team project {misheard}meaning{/misheard}
+
+DC: What day and time should I create this event?
+
+{impact>hyperarticulation}P: Tuesday 3 to 5 p.m.{/impact>hyperarticulation}
+
+DC: Is that all?
+
+{impact>hyperarticulation}P: change location to The Summit{/impact>hyperarticulation}
+
+DC: Ready to set the location. Is that all?
+
+{impact>hyperarticulation}P: yes{/impact>hyperarticulation}
+
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+
+{obstacle>feedback}P: change literature team project meeting{/obstacle>feedback}
+
+DC: Sorry but there is no event titled, Òliterature team project meeting.Ó Please try again.
+
+{speak_outloud}P: Are you sure?{/speak_outloud}
+
+P: {tactic>hyperarticulation}modify literature team project meeting{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled, Òliterature team project meeting.Ó Please try again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}modifying literature team project {tactic>hyperarticulation}meaning{/tactic>hyperarticulation}
+
+P: modifying literature team project {tactic>hyperarticulation}meaning{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: {impact>hyperarticulation}change the title{/impact>hyperarticulation}
+
+DC: What should be the title of this event?
+
+P: literature team project {impact>hyperarticulation}meeting{/impact>hyperarticulation}
+
+DC: {obstacle>system_bug}{/obstacle>system_bug}Ready to update the title of this event. Is that all?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}change date and time
+
+DC: What would you like to modify for this event?
+
+P: {tactic>simplification}change the date{/tactic>simplification}
+
+DC: What date and time should this event start?
+
+P:{tactic>use_knowledge} change the date to Tuesday at 10 to 11 a.m.{/tactic>use_knowledge}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}change the date to Tuesdays at 10 to 11 a.m.
+
+DC: What would you like to modify for this event?
+
+P: change the date Tuesday at 10 to 11 a.m.
+
+DC: What would you like to modify for this event?
+
+P: beats me{att>confused}{/att>confused}
+
+DC: Sorry, could you say that again?
+
+{speak_outloud}
+I: You can look at your previous prompt if you need to.
+
+P: I originalyl set it to tuesday at 3-5pm. And it seems like it is at tuesday from 10:50 am to sat. I guess its recurring.
+
+I: The 10:50 is something you just changed right now.
+
+P: Did I do that?
+
+I: Yes. 
+
+{quote}{att>confused}P: Um. I will try to change it to 10 to 11 am. Again. I donÕt know if I am misunderstanding.{/att>confused}
+{/quote}{/speak_outloud}
+
+P: {tactic>simplification}change the date{/tactic>simplification}
+
+DC: What date and time should this event start?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}change the date to Tuesday from 10 to 11 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: yes{att>confused}{/att>confused}
+
+DC: I couldnÕt hear you, could you say that again?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+{speak_outloud}P: Persistence is the key.{/speak_outloud}
+
+
+
+**THIRD**
+
+
+P: {misheard}modify with the Attic. (wait I take that back){/misheard}
+
+DC: DC: Sorry but there is no event titled, Òwith the Attic .Ó Please try again.
+
+P: delete weekly workout
+
+DC: Are you sure you want to delete this event?
+
+P: yes
+
+DC: Event deleted. Success. Calendar updated.
+
+
+**FOURTH**
+
+
+P: {obstacle>feedback}{/obstacle>feedback}invite John Smith to literature team meeting
+
+DC: Sorry but there is no event titled, Ò literature team meeting.Ó Please try again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>hyperarticulation}{/tactic>hyperarticulation}invite John Smith to literature 
+
+{obstacle>NLP_error}team{/obstacle>NLP_error} project meeting
+
+DC: Sorry but there is no event titled, Ò literature team meeting.Ó Please try again.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}invite John Smith to literature team project meeting
+
+DC: I couldnÕt hear you, could you say that again.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}invite John Smith to literature team project meeting
+
+{obstacle>NLP_error}DC: Event attendees has been updated. Is that all?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: invite literature team project meeting with Kelly Nelson{/tactic>hyperarticulation}
+
+DC: I couldnÕt hear you, could you say that again.
+
+P: invite literature team project meeting with Kelly Nelson
+
+DC: Event attendees has been updated. Is that all?
+
+{obstacle>system_bug}{/obstacle>system_bug}{speak_outloud}P: I think it deleted my other one. Um. I only see one attendee. I would be nice if I could ask whos invited. So I couldÉ{/speak_outloud}{att>confused}{/att>confused}
+
+{tactic>settling}P: yes{/tactic>settling}
+
+{obstacle>NLP_error}DC: I couldnÕt hear you, could you say that again?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+I: Okay. So, based on your session today, what did you think that the system was capable of doing anything that knew that you learned that it was capable of doing that you didn't know last session?
+
+P: I learned that it's capable of adding guests to a function, or something.
+
+I: Okay. All right. And what about limitations? Anything else that you, like, noticed that you didn't know about last time?
+
+P: The left menu didn't fill me in on how to like, work with reoccurring events and that was a curiosity of mine, because I wanted to set it to reoccur on Tuesdays, and I didn't know if for sure if I did or I didn't set it to- I'm pretty sure I didn't. That was my lack of confidence in whether or not I completed the task. I wasn't sure if I invited both John Smith and Kelly Nelson.
+
+I: Okay. All right, so based on your interaction today, what was your approach? How did you approach the interface to complete your tasks.
+
+P: {menu_usage}Read, Read left menu. First decide what I was gonna say, and then start trying.{/menu_usage}
+
+I: Okay, and how was, how was that different from your approach last week? 
+
+P: {att>assimilation_bias}Last week I was kind of just going off based of what I've been used to before. But now, I've kind of readjusted myself to use these new commands and I'm sure once I've memorized this, I can É{/att>assimilation_bias}{att>learning_system}{/att>learning_system}
+
+I: Okay. All right, so you said, "Once I memorize the commands." What- How would that help in getting that you would still need to use the Left Menu as much?
+
+P: It- I would not- If I got some more useful ones memorized, I would only use it when I forget one, or something like that. It would be become less useful but reassuring that it's there, you know? Like, how I could always refer back to it. That sort of thing.
+
+I: Okay, and, sorry. And what about sort of your insight of how to discover categories? Did that change in any way or is it just the same? And did it perform as you'd expect it to this session?
+
+P: The check pad didn't, the discover kind of, but the check pad was a little cumbersome today.
+
+I: Okay, yeah, we'll try to take that out.
+
+P: It still had some issues.
+
+I: All right, and so, and you thought it was similar, and do you think this is mapped in any way in understanding voice interaction in general and do you have and any other comments about DiscoverCal?
+
+
+

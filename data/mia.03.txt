@@ -1,0 +1,157 @@
+{!mediafile mia.03.mini.mp4}
+
+Session 03
+ID 51
+Control
+
+
+{speak_outloud}
+I: Welcome to day three. It is the same thing you have been doing for the other days. We have out prompts for you. This is your last session as well. Do you have any questions before we begin?
+
+P: No{/speak_outloud}
+
+P: {impact>simplification}{impact>hyperarticulation}{/impact>hyperarticulation}{/impact>simplification}create dentist appointment on Friday at 10 a.m.
+
+DC: What day and time should I create this event?
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}Friday at 10 a.m.
+
+DC: Is that all?
+
+P: {impact>simplification}{/impact>simplification}{misheard}it {/misheard}title
+
+DC: What should be the title of this event?
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}dentist appointment
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated. 
+
+
+**SECOND**
+
+
+{speak_outloud}I: Awesome. Your second one.{/speak_outloud}
+
+P: Ok. mmmm. ok.
+
+P: {impact>simplification}{/impact>simplification}{impact>hyperarticulation}add event weekly Skype with high school pal
+{/impact>hyperarticulation}
+
+DC: What day and time should I create this event?
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}Saturdays at 8 p.m.
+
+DC: Is that all?
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}{command_not_supported}Include{/command_not_supported} Mark black
+
+DC: Sorry, say that again?
+
+P: {tactic>use_knowledge}{/tactic>use_knowledge}{tactic>use_knowledge}{/tactic>use_knowledge}invite Mark black
+
+DC: Ready to invite. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+I: Alright last one.
+
+P: Oh, I already did that. So we are good. Because I included it into the event.
+
+
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+
+END OF TASK
+
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+
+BEGIN Q&A
+
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+
+I: All right, awesome. So, again, same questions that I ask at the end of every session. What do you think DiscoverCal is capable of?
+
+P: I think DiscoverCal is very capable of making a calendar for somebody who wants to use a voice interface. Yeah.
+
+I: And anything today that had you change what you thought the rotations of the system were?
+
+P: Not really. In fact, seeing the card. I kinda liked the fact that I ... It was not really a thing that DiscoverCal did, but I noticed that I was going to be Skyping Mark, specifically, so I added him in the invite as I was doing the one card. And then, the next card was that action, so I was like, "Oh, okay." I already knew that DiscoverCal could do that, so I just did it.
+
+I: So, it supported an action that we didn't tell you to do. You just were like-
+
+P: Yeah, yeah. I was just like, "Well, I know I can do it, so I'm gonna do it." Yeah.
+
+I: That was awesome. Well, because you first were like, "I already did this." I was like, "Did I mix up the cards?" And then, I remembered the problem, like, "Oh, it's inviting. She can already invite." So, based off your three sessions, what types of ... So, I remember our first session, you used Counter Management a lot.
+
+P: Yes.
+
+I: What type of things would scare you or you wouldn't feel doing with a voice control calendar, or voice control at all?
+
+P: I know calendars, I'm definitely comfortable. I feel like I do voice text a lot, and usually I have success with that on just my phone. So, I'm not really scared to do that. I don't really feel like anything I would think of. Maybe something seriously important that I'm afraid I would mess up, but that might just be myself. I really think that ... I don't know if I have a tag in here. I think that a calendar, for sure, would be good. I think maybe there's a tiny chance of you writing down the wrong date, or time or something, which could be tough. But as long as you check it visually, I feel like it's fine. With the voice and text, it's like, as long as you can see the result you should be good.
+
+I: So, if you were using a system, say, are you familiar with Amazon Echo, where's it's just a pillar?
+
+P: Yeah, I don't know if I would like that. I would like a visual response, as well. I definitely like being able to just do it really quickly and talk it out, because I like actually talking things out a lot.
+
+I: I'm with you.
+
+P: Yeah, right? So, being able to do that but just having a little bit of visual feedback would just be perfect, I feel like.
+
+I: Something that was like, "Read over this. Is this correct?"
+
+P: Yeah, and you're like, "Yeah, totally."
+
+I: Yeah, and it's a lot easier then. All right, what about if the system read it back to you? Not the same?
+
+P: Not the same. I do like the visual feedback. As much as I like the voice interface, just having that little extra reassurance is nice for me.
+
+I: Yeah. It's something we're used to.
+
+P: Yeah, that's for sure.
+
+I: So, I think you've hit upon this question already, but did what you did today, did it perform as you expected it to?
+
+P: Yeah, I think so.
+
+I: Was there anything that didn't meet your expectations?
+
+P: Mm-hmm (negative).
+
+I: No?
+
+P: No.
+
+I: Okay.
+
+P: The one time was when it put the whole date and time in the title. I thought about that now, and I think that when I'm supposed to say, "Oh, create an event," I should just say the title first without doing the date and time. Now I realize that I would just go ahead and do that, moving forward. Because before it was sometimes just add the date and time in, but other times it would just add the whole thing. So, I think I would, going forward, just say the title and then go and add the date and time afterwards, which is not that big of a deal.
+
+I: Yeah. And how did you figure that out?
+
+P: Because I think a couple times in the last sessions, too, I would say, "Oh, on," and sometimes I would say, "On," and then it would add Monday atÉ But it would keep the "On" in the title, so that would be kinda confusing, I  think, for the interface. But just saying the title and then manually adding the date after would be fine.
+
+I: So, like trail and error?
+
+P: Yeah, yeah, yeah. For sure.
+
+I: And again, how did interacting with DiscoverCal today and, you know, if you want to reflect upon your three sessions, 
+change your understanding of voice control, in general?
+
+P: It improved it in the way that I know that it could help me with the calendar thing. It's definitely something that
+
+P: I've used before, not a lot. But using it a little bit more makes me feel, I guess, more comfortable with it, I feel like. And I  feel like if I continue to use this I would just only get more comfortable, and it would just be easier as I went along because I  would get acclimated to the system. {att>learning_system}Because, especially after three sessions, I feel like I know the system well. So, that's why I think it would be easy to just keep using after.{/att>learning_system}
+
+I: Nice. Let me write that down.
+
+P: Take your time.
+
+
+

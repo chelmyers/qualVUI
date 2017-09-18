@@ -1,0 +1,174 @@
+{!mediafile nick.03.MP4.mini.MP4}
+
+
+
+
+Session 03
+ID 32
+Experimental
+
+
+P: {obstacle>unfamiliar_commands}{att>confident_back_to_long_command}create dentist appointment on Friday{/att>confident_back_to_long_command}{/obstacle>unfamiliar_commands}
+
+DC: What day and time should I create this event?
+
+P: {tactic>guessing}{/tactic>guessing}{tactic>simplification}{/tactic>simplification}change name
+
+DC: Sorry but there is no event titled, Ò name.Ó Please try again.
+
+P: {tactic>guessing}{/tactic>guessing}change dentist appointment on Friday
+
+DC: Is that all?
+
+P: {tactic>guessing}{/tactic>guessing}change name
+
+DC: Sorry but there is no event titled, Ò name.Ó Please try again.
+
+P: {tactic>use_knowledge}change title{/tactic>use_knowledge}
+
+DC: What should be the title of this event?
+
+P: dentist appointment
+
+DC: Ready to update the title of this event. Is that all?
+
+P: Friday at 10 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+{speak_outloud}P: i did it. I felt really good about it.{/speak_outloud}
+
+
+**SECOND**
+
+
+P:{impact>hyperarticulation}{/impact>hyperarticulation} {impact>simplification}add Skype{/impact>simplification}
+
+DC: What day and time should I create this event?
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}{impact>simplification}{/impact>simplification}Saturdays at 8 p.m.
+
+DC: Is that all?
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}invite Skype with Mark black
+
+DC: DC: Sorry but there is no event titled, ÒSkype.Ó Please try again.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}invite Skype with Mark black
+
+DC: Sorry but there is no event titled, Ò Skype.Ó Please try again.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}invite Skype with Mark Clapp
+
+DC: Sorry but there is no event titled, Ò Skype.Ó Please try again.
+
+{tactic>settling}P: yes{/tactic>settling}
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+P: {impact>simplification}{/impact>simplification}edit Skype
+
+DC: What would you like to modify for this event?
+
+P: invite Skype with Mark black
+
+DC: Event attendees has been updated. Is that all?
+
+{impact>hyperarticulation}P: yes{/impact>hyperarticulation}
+
+DC: I couldnÕt hear you, could you say that again?
+
+{impact>hyperarticulation}{/impact>hyperarticulation}P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+
+
+
+
+
+I: So based on your ... Let me ask you just straight up what you said sort of in your first task that you felt really good about that. So if you want to elaborate a bit more about what you were thinking at that point.
+
+P: Oh, on the first test?
+
+I: Mm-hmm (affirmative). I mean I wrote down that you said, "I felt really good about completing that."
+
+P: Oh, yeah, yeah, yeah. I don't know, I just, I figured it out. Like, I know now after three times, finally, I know what to say and when to say it and I did it pretty well I think. I made it work, I felt good about it.
+
+I: Okay. And how did you feel about having to figure it out yourself versus having to refer to something?
+
+{att>delighted}P: I felt pretty successful. I feel like I completed a puzzle sort of thing.{/att>delighted}
+
+I: Okay, awesome.
+
+P: -- obviously it's not a puzzle, but it's that same sort of satisfaction.
+
+I: Okay. All right, awesome. And so what was your approach this session? What did you do to actually complete your tasks?
+
+{approach}P: I sat down, and I thought "All right, let's analyze the prompt before speaking, think of what I'm going to say, and then say it.Ó{/approach}
+
+I: Okay. And how is that different to what you did at the previous session?
+
+P: So I was getting there in previous sessions but I wasn't all the way. I was sorta like, I would think of what I'm going to say but then I would miss important parts of the prompt like I would always miss like mark black -- today I was on.
+
+I: Okay, all right. Okay. And so what about your understanding of how DiscoverCal functions? Has that changed at all?
+
+P: No.
+
+I: Okay. And what about its capabilities? Is there something new that you discovered it could do today, or limitations that you found from it today that you didn't know about earlier?
+
+P: It had a hard time with the word "Skype" I think. That's just because it's a brand name. -- But it figured it out, it knew what it was. I was actually impressed, I thought it was going to be lowercase and then kinda confusing like Skype would be.
+
+{att>learning_system}I: Okay. And what about its general capabilities? Did you notice anything that it was capable of doing that it didn't do last session, or anything like that? Okay. And besides that, you have some experience with a voice interface before, you said that you use Siri fairly frequently?{/att>learning_system}
+
+P: Yeah. Okay Google.
+
+I: Okay Google. Yeah, sorry, my bad. So how does this in any way influence or inform you in any way about how Okay Google maybe work?
+
+P: It's probably nearly the same thing in terms of ... interpreting what someone says. Translating it into a command or determining of its context and then plugging it into forms. I imagine it's probably pretty similar.
+
+I: Okay. ... All right. And besides that, did the system perform as you expected it to today?
+
+P: Yeah. Pretty much.
+
+I: All right. And besides that, you want to add anything about your sessions, anything that's changed between session one to three besides your approach sort of thing that you learned? --
+
+P: Just gotten better at it with time, you know. The more you use it, the more you activate it to ... It's a little bit of a learning curve at first because you have to like learn the commands, but once you get it, you get it.
+
+I:{learn_command} Did you feel like you have learned the commands?{/learn_command}
+
+P: For this part, yeah. If there was a question about it, I would look for it off the menu. It'd be fine.
+
+I: Okay. All right. Is there anything that you thought about the left menu that you would want that wasn't there right now?
+
+P: I didn't really think that much into it.
+
+I: All right. ... That's about it. Do you have any comments? Anything you want-
+
+
+
+

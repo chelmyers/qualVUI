@@ -1,0 +1,213 @@
+{!mediafile erin.01.mp4.mini.mp4}
+
+Session 01
+ID 11
+Experimental
+
+
+
+
+{feedback_visual_ignored}{day01_task01_titled_ignored}{att>intial_command_long}P: add event math group meeting on Wednesday 6 p.m. to 7 p.m. at Saxbys Cafe{/att>intial_command_long}
+{/day01_task01_titled_ignored}{/feedback_visual_ignored}{obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}
+
+DC: What day and time should I create this event?
+
+P:{tactic>use_more_info} Wednesday May 17th 6 p.m. to 7 p.m.{/tactic>use_more_info}
+
+DC: Is that all?
+
+P: the location is Saxbys Cafe
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+
+
+
+P: {obstacle>NLP_error}{misheard}Advent (add event){/misheard} study session{/obstacle>NLP_error}
+
+DC: I'm afraid I don't understand.
+
+{tactic>hyperarticulation}P: add event study session{/tactic>hyperarticulation}
+
+DC: What day and time should I create this event?
+
+P: Thursday May 18th 1 to 2 p.m.
+
+DC: Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**THIRD**
+
+
+P: {obstacle>feedback}modify event group meeting{/obstacle>feedback}
+
+DC: Sorry but there is no event titled, Òevent group meeting.Ó Please try again.
+
+{speak_outloud}
+I: The title is Ò event group meeting on Wednesday 6 p.m. to 7 p.m. at Saxbys CafeÓ You cant see it so I am telling you.
+
+P: ok.{/speak_outloud}
+
+P: {tactic>use_more_info}modify event group meeting on Wednesday 6 p.m. to 7 p.m. at Saxbys Cafe{/tactic>use_more_info}
+
+DC: What would you like to modify for this event?
+
+P: {obstacle>NLP_error}modify location{/obstacle>NLP_error}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>simplification}location{/tactic>simplification}
+
+DC: What is the new location of this event?
+
+P: Hagerty Library
+
+DC: Ready to set the location. Is that all?
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: math group meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**FOURTH**
+
+
+
+P: {impact>simplification}create event{/impact>simplification}
+
+DC: What day and time should I create this event?
+
+P: Monday
+
+DC: What is the title of this event?
+
+P: weekly workout
+
+DC: {feedback_user_not_listening}Please include a time and date for the start of this event.{/feedback_user_not_listening}
+
+P: {obstacle>unfamiliar_commands}Monday{/obstacle>unfamiliar_commands}
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>use_more_info}Monday May 15th at 9 to 10 a.m.{/tactic>use_more_info}
+
+DC: Ready to modify the start time. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+I: Based on your ... Is there anything you want to say before I ask you any questions.
+
+P: Nope.
+
+I: What was your approach, today. How did you approach the interface?
+
+P: At first, I just wanted to kinda say all of the details at once and hope that it would kind of parse through that.{att>assimilation_bias} I think OKGoogle does that, so that's kind of what I'm used it. {/att>assimilation_bias} But once I realized that the things had to be broken down, that was a lot easier.
+
+I: Okay.
+
+P: So, probably the second time I was like, yeah, okay, I need to tell it to create the event first and then go through all the stuff.
+
+I: Okay. What made you realize that you had to do that?
+
+P: The fact that it set the title of my first event to all of the details.
+
+I: And how did you go about trying to figure out what you should say in order to get the right, sort of, back and forth to happen?
+
+P: The left menu was really helpful.
+
+I: Okay.
+
+P: And then also just the titles above each of the fields that had to be filled out when creating the event.
+
+I: Okay, so based on your interaction today, how would you say that this was different than the approach with what you already use? Like OKGoogle?
+
+P: It required a lot more back and forth. Rather than being able to say everything at once, you had to kind of break it down.
+
+I: Okay. 
+
+P: I was also unsure of how to create a recurring event after I said, "Add an event," because I didn't say, "Add a recurring event." But it interpreted the weekly, so that was really nice.
+
+I: Okay, cool. So what did you understand about how Discover kind of works. How does it function?
+
+P: You've gotta walk it through, kind of the first step, first kind of like you're selecting something out of a menu. And then insert all the details one by one.
+
+I: Okay. And what did you think were its limitations?
+
+P: I think the back and forth is really time consuming.
+
+I: Okay.
+
+P: And I think having it be a lot faster would be something good if I were to use this on a day to day basis. Where I can just kind of say it and then be done.
+
+I: Okay. Did this in any way influence how you understand other voice interfaces work or function in general?
+
+P: I don't think so.
+
+I: So what you understand of how OKGoogle, what does that say?
+
+P: I don't know much about voice recognition at all.
+
+I: Sorry-
+
+P: I'm always just kind of amazed by how they can pick out words from all these different kinds of voices but beyond that ...
+
+I: What is your understanding of how OKGoogle works in the capacity that you've used it in?
+
+P: I usually don't phrase things as questions, and it's still kind of able to figure out what I'm searching for. But I've always kind of interpreted that as more of a Google thing than a voice control thing, because all the voice control does is record what words you're saying and then beyond that the Google search engine takes care of the rest.
+
+I: So for the recording, what words you say aspect, what you think is ... How do you think OKGoogle parses through that aspect?
+
+P: Oh gosh. 
+
+I: Just like sort of you're understanding or your expectation from the interface?
+
+P: My guess is that it breaks down the sound waves, and stuff. I don't know if that's the answer you're looking for?
+
+I: No, It's not about that. It's just sort of understand what you're ... Say for example, if I came to this interface for the first time, and I'm like, I know if I move my mouse, it's going to go left and right, so I'm not gonna move it up and down in the air, right? Because I know that's a limitation of the thing.
+
+I: When you start a voice interface with OKGoogle, you know there's certain things that it will accept, certain things that it won't. That understanding makes you use it a certain way, so what is that understanding of yours with OKGoogle?
+
+P: You've gotta, of course, press the main info button before you start talking. You've gotta make sure you're not in a super crowded room, because then it won't be able to figure out your voice versus everything else that's going on. And just speak, probably, a little more loudly and clearly than usual.
+
+I: Okay. All right. What did you ... Did this interface perform as you expected it to? Whatever your expectation was on the goal.
+
+P: For the most part, with the exception of saying everything at once.
+
+I: Okay.
+
+

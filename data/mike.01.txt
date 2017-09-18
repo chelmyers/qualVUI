@@ -1,0 +1,255 @@
+{!mediafile mike.01.MP4.mini.MP4}
+
+
+Session 01
+ID 96
+Experimental
+
+
+
+**FIRST**
+
+P: create an event on Wednesday from 6 to 7 p.m.
+
+DC: What is the title of this event?
+
+P: {misheard}maskers{/misheard} meeting
+
+DC: Is that all?
+
+P: no
+
+DC: Ok, what else?
+
+P: {obstacle>unfamiliar_commands}event is at Saxbys Cafe{/obstacle>unfamiliar_commands}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{speak_outloud}Ok, I see.{/speak_outloud}
+
+P: change title to math group meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: change location to Saxbys Cafe
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+
+{speak_outloud}
+I: all right. Ready for your seconf prompt:
+
+P: yup.
+{/speak_outloud}
+
+P: create event titled study session
+
+DC: What day and time should I create this event?
+
+P: Thursday from 1 to 2 p.m.
+
+DC: Is that all?
+
+P: {misheard}send{/misheard} title to study session for US History test
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**THIRD**
+
+
+
+P: edit Math {obstacle>NLP_error}Master{/obstacle>NLP_error} meeting
+
+DC: What would you like to modify for this event?
+
+P: {tactic>hyperarticulation}edit math group meeting{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: set location to Hagerty Library
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**FOURTH**
+
+
+P: set recurring event
+
+DC: What day and time should I create this event?
+
+P: send title to a set time to Monday
+
+DC: What is the title of this event?
+
+P: set {obstacle>NLP_error}timer{/obstacle>NLP_error} to weekly workout
+
+DC: Please include a time and date for this event.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}
+{obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}date is Monday time is 9 to 10
+
+DC: Please include a time and date for this event.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}Monday at 9 to 10 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: {obstacle>system_bug}set start time to 9{/obstacle>system_bug}
+
+DC: Please include a time and date for this event.
+
+P: {tactic>use_more_info}set time to Monday 9 a.m. to Monday 10 a.m.{/tactic>use_more_info}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {obstacle>feedback}set an time to 10 a.m.{/obstacle>feedback}
+
+DC: Please include a time and date for this event.
+
+{att>frustrated}P: ahh.{/att>frustrated}
+
+P: {tactic>use_knowledge}set end time to Monday 10 a.m.{/tactic>use_knowledge}
+
+DC: Event end time is set to be updated. Is that all?
+
+P: {misheard}send{/misheard} title to weekly workout
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+P: Cool. 
+
+I: Okay. 
+
+P: Yeah. 
+
+I: So I have a few more questions for you-
+
+P: Yep. 
+
+I: Then you'll be free to go. My first question is based off your experience today, what do you think DiscoverCal is capable of? 
+
+P: Well, it looks like it's really good for managing your events. 
+
+I: Mm-hmm (yes)
+
+P: It's actually something that I've been wanting out of a calendar application, not necessarily a voice controlled one. 
+
+I: Yeah. 
+
+P: But being able to manage events easily like that. Move things around. 
+
+I: Mm-hmm (yes)
+
+P: It's definitely capable of interpreting complex commands without me having to route through menus and stuff like that. It could be interesting depending on how far it takes it ÕCause the nice thing is you can ... Whatever you can think of you can probably program into there. Yeah. 
+
+I: So, what are the limitations of this voice controlled application? 
+
+P: Huh, what are the limitations? I don't think that there are very many. Anything you can type in, you can say just as easily. Maybe, if ... Well, the user would have to be in a quiet place. So, it's fairly difficult to isolate one person's voice-When there is a whole bunch of things going on in the background. 
+
+I: Yeah. 
+
+P: But other than that, it works just as well as any other calendar app. 
+
+I: Awesome. 
+
+P: Yeah. 
+
+I: Did it perform as you expected it to? I noticed that you were having some obstacles with getting the time on the last one.
+
+{att>confident_back_to_long_command}P: Yes. So, for the base functionality, yeah, it functioned exactly as I expected it to.   Add event, adds an event.  But, I was trying to see if I could do more complex stuff Mm-hmm{/att>confident_back_to_long_command}
+
+P: And the answer was not quite.  So, it definitely handled the recurring event real easily. It doesn't quite handle the title naming. 
+
+I: Yeah. 
+
+P: 'Cause it said for that last one it had the title as "Set Weekly Workout". But, yeah, other than that, it's 4 out of 5, I guess. If you want to use that. 
+
+I: So, what is your technical background? Are you a CCI? 
+
+P: Yeah, I'm a CS Major. 
+
+I: Okay. 
+
+P: I'm not a hardware person, but I'm a software person. 
+
+I: Okay. Awesome. So, you are-
+
+P: So I could imagine how this works. 
+
+I: Yeah, yeah. Yeah. All right, great. Let me see, do I have ... Well, last question for you. 
+
+P: Mm-hmm (yes)
+
+I: How does interacting with DiscoverCal today ... I'm sorry, I have ... That was a lie, I have two more questions for you. How does your interactions today contribute to your understanding of voice control in general? 
+
+P: It's pretty nice because I don't often see it on something smaller scale. Usually when I see voice control, it's either ... Well, with the exception of consults,{personal_assistant} it's always search, and weather, and notes{/personal_assistant}-
+
+I: Yeah. 
+
+P: And everything.
+
+I: Mm-hmm (yes)
+
+P: So, it's nice that it's something smaller and isolated because then it doesn't need to interpret ten thousand different types of commands. It's an expert system. 
+
+I: Yeah. 
+
+P: Yeah. 
+
+I: And when you found yourself ... The system was behaving the way you wanted it to do, you were testing it-
+
+P: Yep. 
+
+I: How did you get around that obstacle? What did you try to do? 
+
+{quote}P: I tried to change how I was phrasing it so it would work like I expect it to. So, if I wanted to set the time, I have to say "Set this time".  Structuring the sentences around what it expects. And I lost what I was gonna add to that. {/quote}
+
+I: It happens to me all the time. It's totally fine. 
+
+{quote}
+P: Yeah, it's, yeah, it ... Oh, yeah. And breaking down more complex commands into simpler ones. 
+
+P: That helped to overcome it. 
+{/quote}
+
+I: All right. That's all I got for you. 
+
+
+
+
+
+

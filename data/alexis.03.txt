@@ -1,0 +1,80 @@
+{!mediafile alexis.03.mini.MP4}
+Session 03
+ID 56
+Experimental
+P: add dentist appointment
+DC: What day and time should I create this event?
+P: {obstacle>NLP_error}Friday 10 o'clock a.m.{/obstacle>NLP_error}
+DC: Is that all?
+P: {tactic>use_more_info}{say_more_info}Friday May 25th 10 o'clock a.m.{/say_more_info}{/tactic>use_more_info}
+DC: Please include a time and date for the start of this event.
+P: {tactic>hyperarticulation}Friday May 25th 10 o'clock a.m.{/tactic>hyperarticulation}
+DC: {date_and_time_error}Please include a time and date for the start of this event.{/date_and_time_error}
+P: {tactic>simplification}May 25th 10 o'clock a.m.{/tactic>simplification}
+DC: Please include a time and date for the start of this event.
+P: {tactic>guessing}{command_not_supported}edit date and time{/command_not_supported}{/tactic>guessing}
+DC: Sorry, but there is no event titled ýÿdate and timeýÿ
+P: {tactic>simplification}10 o'clock a.m.{/tactic>simplification}
+DC: Please include a time and date for the start of this event.
+P: {ignore_feedback_to_try_anything_that_may_work}{tactic>desperation}10 o'clock Friday May 25th{/tactic>desperation}{/ignore_feedback_to_try_anything_that_may_work}
+DC: Please include a time and date for the start of this event.
+P: {ignore_feedback_to_try_anything_that_may_work}{tactic>simplification}{/tactic>simplification}10 o'clock a.m.{/ignore_feedback_to_try_anything_that_may_work}
+DC: Please include a time and date for the start of this event.
+P: {tactic>use_more_info}10 o'clock Friday{/tactic>use_more_info}
+DC: Please include a time and date for the start of this event.
+P: {tactic>use_more_info}10 o'clock Friday May 25th{/tactic>use_more_info}
+DC: Please include a time and date for the start of this event.
+P: Fridayýÿ.
+DC:{cutoff} I couldnýÿt hear you-{/cutoff}
+P: {misheard}Cancel{/misheard}
+DC: Sorry, could you say that again?
+P: c{misheard}ancel{/misheard}
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+P: {say_more_info}{tactic>use_more_info}Friday May 26th 10 o'clock a.m. dentist appointment{/tactic>use_more_info}{/say_more_info}
+DC: {vui_err{obstacle>system_bug}error}Sorry but there is no event title ýÿFriday May 26th 10 o'clock a.m. dentist appointmentýÿ to delete. please try again.{/vui_error}
+P: {tactic>restart}add event dentist appointment{/tactic>restart}{/restart}
+DC: What day and time should I create this event?
+P: Friday May 26th 10 o'clock a.m.
+DC: Is that all?
+P: {misheard}yes{/misheard}
+{cutoff}DC: I couldnýÿt hear you, could you say that-{/cutoff}
+P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}
+DC: Ok. Success. Calendar updated.
+***SECOND***
+P: add weekly event
+DC: What day and time should I create this event?
+P: Saturday May 20th 8 o'clock p.m.
+DC: What is the title of this event?
+P: {att>unsure}Skype{/att>unsure}
+DC: Is that all?
+P: {obstacle>feedback}{command_not_supported}attendees Mark black{/command_not_supported}{/obstacle>feedback}
+DC: I removed the attendees. Is that all?
+P: {tactic>hyperarticulation}{command_not_supported}attendees Mark black{/command_not_supported}{/tactic>hyperarticulation}
+DC: I removed the attendees. Is that all?
+{memo}**MEMO: Maybe people are reluctant to look at VUI because it slows them down***{/memo}
+P: {tactic>use_more_info}add attendees Mark black{/tactic>use_more_info}
+DC: Ready to invite. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: Okay so how was your session today?
+P: I mean, I think I've gotten the gist of like, what it likes but it's totally inconsistent, like it's still ... like that first prompt I thought was going to be super easy because I had done more complex things in the past, but it's still like, you have to word everything exactly the way that{distrust_NLP} they want you to word it so it makes it tough still{/distrust_NLP}. And then as you can see that's what I typically do when it's not working, I just like start over and then for some reason it works, I don't know what I change but it does work sometimes.
+I: Okay. All right. And what was your approach with the system? Like this session? Like what approach did you take to actually get things done?
+P: {approach}Pretty much the same as I've been doing. I just use that left column on what to start with, and then also using my past knowledge of, you know, okay, I can cancel out then if it's not going to work.{/approach} And then like with the attendees, I remembered from one of the other sessions that I can't say like ... I think I was saying "add guest" but it was actually attendees, like I knew the verbiage that I was supposed to use. And yeah, I think I speak a lot more like deliberately with this system now to make sure it understands my pronunciation.
+I: Okay. Besides that, was there anything that you discovered new that you didn't know before in the application or any capabilities that{nlp_want_more}{/nlp_want_more} you found out today that you didn't like?
+P: Like today specifically?
+I: In the session.
+P: I don't think anything new, no, because the tasks I had done previously. Again, figuring out different ways to word the stuff because it didn't always work the same way. Because like I know in the past that I would say like 10:00 am, it would just like work but like today it didn't work, but then some things worked today really smoothly that didn't work in the past. I think it changes every time.
+{memo}**Memo: Hard to tell if they didnýÿt hear them right or logic error**{/memo}
+I: Okay. What about sort of your general understanding of voice interfaces, I know you have experience with voice interfaces before, but did your understanding of how voice interfaces work change at all from this interaction?
+P: How they work. I guess I think with other voice interactions, I think like Siri's probably been the most new though like dictating for iMessages has been the most smooth and that was like my first exposure, and then we got Alexa's and she's a little bit more inconsistent so I kind of learned, okay, you have to be a little bit more deliberate in what you're saying, and then this was probably the worst and most inconsistent. So I, like ... it kind of I guess taught me about, kind of like what the machines hear and like how I have to word things exactly the way they want to do, because obviously this isn't as widespread of a system as like Siri so it doesn't have as much machine learning so because I wasn't used to that, I had to like, kind of accommodate to their system.
+I: All right and besides that, is there anything else that you think you want to mention regarding voice control,ýÿ anything to do with this session, previous sessions, any changes between session one and three that you want to mention?
+P: I {nlp_want_more}think again just like the biggest issue is the consistency and like the ability for people to talk normally. Like I think whether you say "add event on this date" or "add this event", it should both work. {/nlp_want_more}From my experience with like learning through the past three sessions, you have to say like "add" name of event, every time I say like "add event name, add" and then the time and date, that doesn't work. I don't know if that's just something that I'm like saying in the wrong order but I think there should be more like flexibility in what you can say but also more consistency in what works. Those were like my two issues with it and something that I would like to have in voice control systems in order for them to be like effective.
+I: Okay. All right. Perfect. And anything else that you want to mention?
+P: Nope, I think that's it.
+I: Okay. Great.
+

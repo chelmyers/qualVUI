@@ -1,0 +1,147 @@
+
+{!mediafile erin.03.mp4.mini.mp4}
+
+
+Session 03
+ID 11
+Experimental
+
+
+P: {obstacle>NLP_error}{misheard}Advent (add event){/misheard}{/obstacle>NLP_error}
+
+DC: Sorry, can you say that again?
+
+P:{tactic>hyperarticulation} add event{/tactic>hyperarticulation}
+
+DC: What day and time should I create this event?
+
+P: Friday at 10 a.m.
+
+DC: Is that all?
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: dentist appointment
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND***
+
+
+
+
+P: add recurring event
+
+DC: What day and time should I create this event?
+
+P: Saturday 8 p.m.
+
+DC: What is the title of this event?
+
+P: weekly Skype with high school pal Mark black
+
+DC: Is that all?
+
+P: {obstacle>NLP_error}add attendee {/obstacle>NLP_error}**CHANGED TITLE***
+
+DC: What day and time should I create this event?
+
+P: {tactic>use_knowledge}change title{/tactic>use_knowledge}
+
+DC: What should be the title of this event?
+
+P: {tactic>use_knowledge}weekly Skype with high school Powell Mark black{/tactic>use_knowledge}
+
+DC: Ready to update the title of {cutoff}this event. Is that all?{/cutoff}
+
+P: {tactic>hyperarticulation}address {misheard}(add guest){/misheard}{/tactic>hyperarticulation}
+
+DC: I didn't get that. {cutoff}Can you say it again?{/cutoff}
+
+{speak_outloud}
+P: It changed the title again.
+
+{/speak_outloud}
+
+P: {tactic>guessing}{command_not_supported}add guest{/command_not_supported}{/tactic>guessing}
+
+{memo}**MEMO: Create new command based off other commands**
+{/memo}
+
+DC: What day and time should I create this event?
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: weekly Skype when high school Powell {misheard}(pal) {/misheard}Mark black
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {tactic>guessing}edit guest list{/tactic>guessing}
+
+DC:  Sorry but there is no event titled, Òguest list.Ó Please try again.
+
+P: {tactic>rely_on_gui}invite Mark black{/tactic>rely_on_gui}
+
+DC: Ready to invite. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+I:	Again, as always, I have followup questions for you. First one's a little bit different. That's because you're new to me, the first time we're meeting. And that is, what is your background here?
+
+P:	I am a sophomore in the game design program.
+
+I:	Awesome and what type of programs do you use for that in your major?
+
+P:	Unity, Maya, Mudbox, and then various other websites. SourceTree, Trello, so project management stuff.
+
+I:	So you use Git, Unity, so high level technical skills, right? Great. My other questions I have for you are the standard ones. Based off your usage today what do you think this DiscoverCal is capable of and what are its limitations?
+
+P:	It seems pretty limited to just creating events with times, places, and attendees and then the recurring option. But beyond that, I don't know if it's capable of inviting people to those events externally by email, kind of like Google Calendar does. Or being able to set up anything super fancy, but for just straight forward "I have this every week at this time and this place" it's pretty capable.
+
+I:	Awesome. Did the performance of DiscoverCal today match your expectations?
+
+P:	For the most part, I was a little bit disappointed I had to try so many times to invite a person to an event because that was not an issue I had before.{att>blame_self} Also, referencing the left menu, it was probably that I was using the wrong keywords.{/att>blame_self}
+
+I:	How does your interaction of DiscoverCal contribute to your understanding of Voice control?
+
+P:	É
+
+I:	Oh, no it's fine, I think I said it too fast and I might have not actually said it at all. Do you ever talk and you're like did I say that out loud and did it make sense?
+
+P:	All the time. I'm like here are some words and I'm like, I hope that makes sense to other people.
+
+I:	What'd I just say? Sorry, the question is how does interacting with DiscoverCal today contribute to your understanding of Voice control in general?
+
+P:	I think it's kind of in my brain separated what I'm used to from Okay Google where you can say everything at once and it'll kind of parse out the different parts for you versus this where you have to kind of specify each individual thing. Instead of saying it all at once. So getting used to that and realizing that its probably a little easier to do from a software perspective than grabbing everything and then trying to have an AI system do it. It's probably just easier to write.
+
+I:	Okay, and the last question for you is when you realize that there was some obstacle and the system wasn't performing the way that you wanted, what skills or knowledge did you use to still accomplish your task?
+
+P:	{tactic>hyperarticulation}{tactic>simplification}My first strategy was just to speak more clearly, because I don't necessarily always tend to do that. Then I just tried as many different keywords as possible, trying to grab from the left-hand menu. Guest versus invite versus attendees. Because there were a couple different words used for the same thing, so I was just like, I'll just try them until I find one that works.{/tactic>simplification}{/tactic>hyperarticulation}
+
+I:	All right. 
+
+
+

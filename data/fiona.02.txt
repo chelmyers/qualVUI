@@ -1,0 +1,470 @@
+{!mediafile fiona.02.mini.MP4}
+
+Session 02
+ID 84
+Control
+
+
+
+{_time}0:00:19{/_time} 
+I: So we have DiscoverCal open for you we are just going to begin with the tasks for day 2. So here you go, this is your first prompt. And jsut remember to try and think out loud  as much as you can. And you don�t have to think about reading, but just whatever else. 
+
+P: {menu_usage}So on the side is says, �Add an event on� So I am going to say that.{/menu_usage}
+
+{_time}0:00:52{/_time}
+P: {att>intial_command_long}add an event on Tuesdays{/att>intial_command_long}
+
+{_time}0:01:00{/_time}
+DC: What is the title of this event?
+
+{_time}0:01:04{/_time}
+P: {att>blame_nlp}{speak_outloud}Ok so that time it didn�t add in a title for me.{/speak_outloud}{/att>blame_nlp}
+
+{_time}0:01:11{/_time}
+P: {att>confident}literature team project{/att>confident}
+
+{_time}0:01:12{/_time}
+DC: Please include a time and date for this event.
+
+{_time}0:01:20{/_time}
+P: {obstacle>unfamiliar_commands}{att>confident_back_to_long_command}Tuesday's at 3 to 5 p.m.{/att>confident_back_to_long_command}{/obstacle>unfamiliar_commands}
+
+{_time}0:01:22{/_time}
+DC: Ready to modify the start time. Is that all?
+
+{_time}0:01:29{/_time}
+P: {tactic>use_more_info}{att>confused}{att>unsure}every Tuesday at 3 to 5 p.m.{/att>unsure}{/att>confused}{/tactic>use_more_info}
+
+{_time}0:01:31{/_time}
+DC: {misheard}Are you sure you want to delete this event?{/misheard}
+
+{_time}0:01:37{/_time}
+P: {tactic>guessing}{machine_language_fallback}change date and time{/machine_language_fallback}{/tactic>guessing}
+
+{_time}0:01:39{/_time}
+DC: What would you like to modify for this event?
+
+{_time}0:01:45{/_time}
+P: {att>confused}{speak_outloud}Ok, I just want to change the time�{/speak_outloud}{/att>confused}
+
+{_time}0:01:52{/_time}
+P: {tactic>simplification}change time{/tactic>simplification}
+
+{_time}0:01:52{/_time}
+DC: Please include a time and date for this event.
+
+{_time}0:02:01{/_time}
+P: {tactic>use_more_info}Tuesdays at 3 to 5 PM{/tactic>use_more_info}
+
+{_time}0:02:02{/_time}
+DC: {misheard}{confusing_feedback}Please include a time and date for the start of this event.{/confusing_feedback}{/misheard}
+
+{_time}0:02:13{/_time}
+P: {att>confused}{att>frustrated}{speak_outloud}Ok�I just want to change�because it say tuesday, I want a recurring event{/speak_outloud}{/att>frustrated}{/att>confused}
+
+{_time}0:02:22{/_time}
+P: {tactic>guessing}{human_convo_fallback}{guess_command}this is a reoccurring event{/guess_command}{/human_convo_fallback}{/tactic>guessing}
+
+{_time}0:02:22{/_time}
+DC: {misheard}What should be the title of this event?{/misheard}
+
+{_time}0:02:23{/_time}
+P: literature team project
+
+{_time}0:02:27{/_time}
+DC: Ready to update the title of this event. Is that all?
+
+{_time}0:02:32{/_time}
+P: change location
+
+{_time}0:02:34{/_time}
+DC: What is the new location of this event?
+
+{_time}0:02:36{/_time}
+P: The Summit
+
+{_time}0:02:39{/_time}
+DC: Ready to set the location. Is that all?
+
+{_time}0:02:43{/_time}
+P: {speak_outloud}No, because I need to change from one tuesday to every tuesday.{/speak_outloud}
+
+{_time}0:02:51{/_time}
+P: {tactic>guessing}change the date{/tactic>guessing}
+
+{_time}0:02:52{/_time}
+DC: {misheard}What would you like to modify for this event?{/misheard}
+
+{_time}0:03:02{/_time}
+P: {att>confused}So it says to say {menu_usage}�Change/make the date� {/menu_usage}which I said but now it seems confused. Ummm.{/att>confused}
+
+{_time}0:03:15{/_time}
+P: {tactic>guessing}{guess_command}{command_not_supported}{question_if_att>unsure}{machine_language_fallback}make the date?{/machine_language_fallback}{/question_if_att>unsure}{/command_not_supported}{/guess_command}{/tactic>guessing}
+
+{_time}0:03:19{/_time}
+DC: Please include a time and date for the start of this event. 
+
+{_time}0:03:22{/_time}
+P: {tactic>use_more_info}every Tuesday at 3 to 5 pm{/tactic>use_more_info}
+
+{_time}0:03:28{/_time}
+DC: Ready to modify the start time. Is that all?
+
+{_time}0:03:35{/_time}
+P: {att>frustrated}{speak_outloud}I just need it to be recurring.{/speak_outloud}{/att>frustrated}
+
+
+{_time}0:03:35{/_time}
+P: {tactic>use_more_info}change date to every Tuesday at 3 to 5 p.m.{/tactic>use_more_info}
+
+{_time}0:03:42{/_time}
+DC: What would you like to modify for this event?
+
+{_time}0:03:48{/_time}
+{speak_outloud}P: ummm, I want to modify the date and time. {att>confused}{att>blame_self}{att>frustrated}I just don�t know what to say then{/att>frustrated}{/att>blame_self}{/att>confused}.{/speak_outloud}
+
+{_time}0:03:52{/_time}
+{tactic>desperation}{guess_command}{command_not_supported}P: {machine_language_fallback}reset time{/machine_language_fallback}{/command_not_supported}{/guess_command}{/tactic>desperation}
+
+{_time}0:03:58{/_time}
+DC: Please include a time and date for the start of this event. 
+
+{_time}0:04:06{/_time}
+P: {att>blame_nlp}{att>incorrect_mental_model}Maybe its confused because it�s already Tuesday at 3-5?{/att>incorrect_mental_model}{/att>blame_nlp} Um. {att>confused}I don�t know what to do.{/att>confused}
+
+{_time}0:04:19{/_time}
+P:{tactic>simplification} {machine_language_fallback}set time{/machine_language_fallback}{/tactic>simplification}
+
+{_time}0:04:21{/_time}
+DC: Please include a time and date for the start of this event. 
+
+{_time}0:04:32{/_time}
+P: {tactic>hyperarticulation}every Tuesday from 3 to 5 p.m.{/tactic>hyperarticulation}
+
+{_time}0:04:35{/_time}
+DC: Ready to modify the start time. Is that all?
+
+{_time}0:04:39{/_time}
+P: {tactic>desperation}{command_not_supported}{guess_command}this is a reoccurring event{/guess_command}{/command_not_supported}{/tactic>desperation}
+
+{_time}0:04:42{/_time}
+DC: What should be the title of this event?
+
+{_time}0:04:45{/_time}
+P: {att>frustrated}{speak_outloud}That�s not what I wanted.{/speak_outloud}{/att>frustrated}
+
+{_time}0:04:47{/_time}
+P: weekly literature team project
+
+{_time}0:04:48{/_time}
+DC: Ready to update the title of this event. Is that all?
+
+{tactic>restart}{_time}0:04:56{/_time}
+P: Maybe I should�try again.
+
+{_time}0:05:03{/_time}
+P: cancel{/tactic>restart}
+
+{_time}0:05:03{/_time}
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+{_time}0:05:08{/_time}
+P: {att>frustrated}Yeah, I know�{/att>frustrated}
+
+{_time}0:05:18{/_time}
+P: {tactic>use_more_info}create event every Tuesday from 3 to 5 p.m.{/tactic>use_more_info}
+
+{_time}0:05:22{/_time}
+DC: What day and time should I create this event?
+
+{_time}0:05:24{/_time}
+P: {misheard}{speak_outloud}Ok so that time it put it in the title again.{/speak_outloud}{/misheard}
+
+{_time}0:05:33{/_time}
+P: {tactic>simplification}{feedback_user_not_listening}set title{/feedback_user_not_listening}{/tactic>simplification}
+
+{_time}0:05:35{/_time}
+DC: {feedback_user_not_listening}What day and time should I create this event?{/feedback_user_not_listening}
+
+{_time}0:05:39{/_time}
+P: {tactic>hyperarticulation}every Tuesday from 3 to 5 p.m.{/tactic>hyperarticulation}
+
+{_time}0:05:42{/_time}
+DC: Is that all?
+
+{_time}0:05:46{/_time}
+P: change title
+
+{_time}0:05:48{/_time}
+DC: What should be the title of this event?
+
+{_time}0:05:51{/_time}
+P: weekly literature team project
+
+{_time}0:05:55{/_time}
+DC: Ready to update the title of this event. Is that all?
+
+{_time}0:05:59{/_time}
+P: change location
+
+{_time}0:06:00{/_time}
+DC: What is the new location of this event?
+
+{_time}0:06:04{/_time}
+P: The Summit
+
+{_time}0:06:05{/_time}
+DC: Ready to set the location. Is that all?
+
+{_time}0:06:10{/_time}
+P: yes
+
+{_time}0:06:12{/_time}
+DC: Ok. Success. Calendar updated.
+
+**SECOND PROMPT**
+
+
+{_time}0:06:16{/_time}
+I: Ok, here is your second prompt.
+
+{_time}0:06:14{/_time}
+P: modify weekly literature team project
+
+{_time}0:06:33{/_time}
+DC: What would you like to modify for this event?
+
+{_time}0:06:36{/_time}
+P: {obstacle>feedback}change time{/obstacle>feedback}
+
+{_time}0:06:42{/_time}
+DC: Please include the time and date for the start of this event.
+
+{_time}0:06:46{/_time}
+P: {tactic>use_more_info}change time to Tuesdays at 10 to 11 a.m.{/tactic>use_more_info}
+
+{_time}0:06:57{/_time}
+DC: Ready to modify the start time. Is that all?
+
+{_time}0:07:01{/_time}
+P: {feedback_rely_on_visual}It looked like it worked.{/feedback_rely_on_visual}
+
+{_time}0:07:02{/_time}
+P: {misheard}yes{/misheard}
+
+{_time}0:07:05{/_time}
+DC: I couldn�t here you could you say that again?
+
+{_time}0:07:05{/_time}
+P: yes
+
+{_time}0:07:09{/_time}
+DC: Ok. Success. Calendar updated.  Success. Calendar updated.
+
+{_time}0:07:12{/_time}
+I: Ok, um, here is the third prompt.
+
+**THIRD PROMPT***
+
+
+{_time}0:07:34{/_time}
+{menu_usage}P: Ok, there is a delete event I see.. so�{/menu_usage}
+
+{_time}0:07:34{/_time}  
+P: delete weekly workout
+
+{_time}0:07:43{/_time}
+DC: Are you sure you want to delete this event?
+
+{_time}0:07:47{/_time}
+P: {obstacle>NLP_error}yes{/obstacle>NLP_error}
+
+{_time}0:07:48{/_time}
+DC: I couldn�t hear you, could you say that again?
+
+{_time}0:07:50{/_time}
+P: {tactic>hyperarticulation}Yes{/tactic>hyperarticulation}
+
+{_time}0:07:54{/_time}
+DC: Event deleted. Success. Calendar updated.
+
+
+**FOURTH***
+
+
+{_time}0:08:04{/_time}
+I: Here is the fourth prompt.
+
+{_time}0:08:27{/_time}
+P: Ok um. I need to modify event. Um. 
+
+{_time}0:08:38{/_time}
+P: modify weekly literature team project
+
+{_time}0:08:41{/_time}
+DC: What would you like to modify for this event?
+
+{_time}0:08:51{/_time}
+{menu_usage}P: It says add guest via..ok.{/menu_usage}
+
+{_time}0:08:58{/_time}
+P: {obstacle>system_bug}Invite John Smith and Kelly Nelson{/obstacle>system_bug}
+
+{_time}0:09:02{/_time}
+DC: Please include a time and date for the end of this event.
+
+{_time}0:09:05{/_time}
+P: {tactic>simplification}add attendees{/tactic>simplification}
+
+{_time}0:09:12{/_time}
+DC: Please include a time and date for the end of this event.
+
+{_time}0:09:17{/_time}
+P: {att>frustrated}{att>confused}{att>blame_nlp}Well it already has that. It say invite event name.. ok.{/att>blame_nlp}{/att>confused}{/att>frustrated}
+
+{_time}0:09:30{/_time}
+P: {tactic>use_more_info}{menu_usage}invite John Smith to weekly literature team project{/menu_usage}{/tactic>use_more_info}
+
+{_time}0:09:34{/_time}
+DC: Event attendees has been updated. Is that all?
+
+{_time}0:09:39{/_time}
+P:{speak_outloud} It put the name as undefined John smith. {att>confused}Not sure why.{/att>confused}{/speak_outloud}
+
+{_time}0:09:48{/_time}
+P: {tactic>use_knowledge}Inivite Kelly Nelson to weekly literature team project{/tactic>use_knowledge}
+
+{_time}0:09:54{/_time}
+DC: {misheard}Sorry, can you say that again?{/misheard}
+
+{_time}0:10:06{/_time}
+P: {tactic>guessing}edit event guest list{/tactic>guessing}
+
+{menu_usage}**looks at menu to see what to say**{/menu_usage}
+
+
+{_time}0:10:09{/_time}
+DC: What would you like to modify for this event?
+
+{_time}0:10:16{/_time}
+P: {att>confused}guest list� {does_not_like_ui}Just seems odd because it say event name and contact name, which doesn�t seem right{/does_not_like_ui}. Like the right order to me.{/att>confused}
+
+{_time}0:10:38{/_time}
+P: {tactic>hyperarticulation}invite Kelly Nelson to weekly literature team project{/tactic>hyperarticulation}
+
+{_time}0:10:40{/_time}
+DC: Event attendees has been updated. Is that all?
+
+{_time}0:10:44{/_time}
+P: {att>frustrated}{speak_outloud}Ok, now john smith is gone.{/speak_outloud}{/att>frustrated}
+
+{_time}0:10:48{/_time}
+P: {tactic>use_more_info}Invite John Smith and Kelly Nelson to weekly literature team project{/tactic>use_more_info}
+
+{_time}0:10:59{/_time}
+DC: {misheard}Please include a time and date for the end of this event.{/misheard}
+
+{_time}0:11:01{/_time}
+P: It already has that. {att>blame_nlp}{att>incorrect_mental_model}Can it not have more than one attendee?{/att>incorrect_mental_model}{/att>blame_nlp}
+
+{_time}0:11:19{/_time}
+P: {tactic>simplification}invite John Smith{/tactic>simplification}
+
+{_time}0:11:21{/_time}
+DC: Ready to invite. Is that all?
+
+{_time}0:11:24{/_time}
+P: {tactic>use_knowledge}invite Kelly Nelson{/tactic>use_knowledge}
+
+{_time}0:11:27{/_time}
+DC: Ready to invite. Is that all?
+
+{_time}0:11:30{/_time}
+P: {tactic>hyperarticulation}invite John Smith and Kelly Nelson{/tactic>hyperarticulation}
+
+{_time}0:11:33{/_time}
+DC: Ready to invite. Is that all?
+
+{_time}0:11:43{/_time}
+P: {speak_outloud}{tactic>settling}John smith�kelly� uh. I mean I guess that works.{/tactic>settling}{/speak_outloud}
+
+{_time}0:11:45{/_time}
+P: yes
+
+{_time}0:11:47{/_time}
+DC: Ok. Success. Calendar updated.
+
+
+�������������
+
+END OF TASK
+
+�������������
+
+BEGIN Q&A
+
+�������������
+
+
+I: So before I let you go, just a couple of quick questions. So what did you think of from today compared to last week if there was anything in the system that you learned how to do that you didn't know about before?
+
+P: I feel like ... I{mental_model_hard}{att>incorrect_mental_model} thought that doing it again and doing it more would be easier, and I would figure out what I needed to say but that didn't really happen.{/att>incorrect_mental_model}{/mental_model_hard} {att>frustrated}I feel like I got worse with what I had to do. {/att>frustrated}{learn_command}I did figure out ... I saw, you could just say yes, when he that's all. So, yeah, I got that down.{/learn_command} With changing from one Tuesday to every Tuesday, I had an issue with that, so I had to go out of it and go back in for it to know what to do.
+
+I: Okay. So when yo said that you figured out that you could say yes, was that something that you didn't see last time or was it something that you just-
+
+P: {menu_usage}Yeah it was in the menu, I just didn't see it.{/menu_usage}
+
+I: You didn't see it, okay. So what did you think of the system that didn't do well this time around or something that you felt that you thought was a limitation of the interface compared to last time?
+
+P: Yeah changing it from the one Tuesday to several Tuesdays. That seemed limited because you needed it right at the beginning, for it to know what to do. {obstacle>system_bug}Putting attendees in, I was trying to follow the menu but it didn't seem to work, okay, also at one point it said, "Undefined John Smith," and I'm not sure why.{/obstacle>system_bug} 
+
+I: Besides that, what would say from the first session until now is your understanding of the DiscoverCal works? 
+
+P: {got_harder}Probably the same, maybe worse.{/got_harder} 
+
+I: Okay.
+
+P: Yeah I'm not ...
+
+I: So how do you understand, or what are you understanding is the way the system is structured or how it functions?
+
+P: {tactic>simplification}It definitely wants you to say the command and then the information.{/tactic>simplification} It's something about making what you say the title, I forget, because it was on the menu, but I followed it more closely and the first one I tried to give it, it didn't put in a title for me? {att>blame_self}I did it right that time.
+{/att>blame_self}
+
+I: Okay.
+
+P: Yeah. But I did do it right the other times, I forget what I did. 
+
+I: Besides that, from your interaction here, I know that you haven't had a lot of experience with voice interaction, so from your interaction from these two sessions, is there anything that has mapped you of your understanding of the way that voice interaction in general works, not just DiscoverCal?
+
+P: {vui_inexperienced}I don't know, because I don't really use other ones so this is the only one I've used. {/vui_inexperienced}
+
+I: Is there anything that you would like, say we give you tomorrow to interact with, is there something that you would use the knowledge from here to apply with that, or would you interact with completely differently? Would you take a different approach, or would it be the same approach?
+
+P: {vui_same_approach}I would just take the same approach. {/vui_same_approach}
+
+I: Which is?
+
+P: {machine_language_fallback}Just saying what you want it to do and then the information, not the other way around.
+{/machine_language_fallback}
+
+{memo}**MEMO: Guessing changing from human convo to machine language as fallback. Maybe frustrated inexperienced user will ditch human falled too**
+{/memo}
+
+I: So that was your approach in this session, was that also the approach that you started off with or did you find yourself starting off with a different approach in session one? 
+
+P: {user_dont_detect_change_in_approach}I think I used the same approach, because that's where it has the menu.{/user_dont_detect_change_in_approach} It will have the bolded part and then the other part. 
+
+I: All right besides that, so compared to last session, how confident were you when you started out with DiscoverCal today and how were you when you ended?
+
+P: I started really confident because I thought because I had used it before, I would have a better grasp of it, but by the end I realized I don't. So I'm a lot less confident now. 
+
+I: Do you think that there is a system limitations that are causing that lack of confidence?
+
+P: {distrust_NLP}{att>blame_nlp}Yeah, just because it needs really specific order of things and the way you're saying things. {/att>blame_nlp}{/distrust_NLP}
+
+I: Is there anything else that you want to add? Any additional comments, anything about DiscoverCal, voice interaction, questions, concerns?
+
+P: No, I'm still not sure if I actually did
+
+

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parse Tags</title>
+
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      font-size: 18px;
+    }
+
+    .ob {
+      color: red;
+      padding-top: 10px;
+      margin-top: 20px;
+      border-top: 3px solid #888;
+      width: 100%;
+      display: inline-block;
+    }
+
+    .t {
+      color: blue;
+    }
+
+    .att {
+      color: purple;
+    }
+
+    .pattern {
+      min-width: 600px;
+      border: 5px solid #333;
+      margin: 30px 0;
+      background-color: #eee;
+      padding: 20px;
+      display: none;
+    }
+
+    .table {
+      border: 5px solid #333;
+      font-size: 22px;
+      width: 100%;
+    }
+
+    td, th {
+      padding: 10px;
+      border: 1px solid #eee;
+    }
+
+  </style>
+</head>
+<body>
+
+   <table class="table-sesOb">
+    <tr>
+      <th></th>
+      <th>OB1</th>
+      <th>OB2</th>
+      <th>OB3</th>
+      <th>OB4</th>
+    </tr>
+    
+  </table>
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src="obstacle.js"></script>
+  <script>
+
+    var tags = [
+    ["att>assimilation_bias", "assim_bias"],
+    ["att>blame_nlp", "blam_nlp"],
+    ["att>blame_self", "blame_self"],
+    ["att>confident", "confident"],
+    ["att>confident_back_to_long_command", "confident_long_command"],
+    ["att>confused", "confused"],
+    ["att>correct_mental_model", "correct_mental_model"],
+    ["att>delighted", "delighted"],
+    ["att>dislike_vui", "dislike_vui"],
+    ["att>faith_in_NLP", "faith_in_NLP"],
+    ["att>frustrated", "frustrated"],
+    ["att>gui_better_than_vui", "gui_over_vui"],
+    ["att>human_convo", "human_convo"],
+    ["att>incorrect_mental_model", "incorrect_mental_model"],
+    ["att>intial_command_long", "init_command_long"],
+    ["att>learning_system", "learning"],
+    ["att>unsure", "unsure"],
+    ["obstacle>feedback", "OB3"],
+    ["obstacle>NLP_error", "OB2"],
+    ["obstacle>system_bug", "OB4"],
+    ["obstacle>unfamiliar_commands", "OB1"],
+    ["tactic>desperation", "T8"],
+    ["tactic>guessing", "T3"],
+    ["tactic>hyperarticulation", "T1"],
+    ["tactic>quit", "T9"],
+    ["tactic>rely_on_gui", "T5"],
+    ["tactic>restart", "T7"],
+    ["tactic>settling", "T6"],
+    ["tactic>simplification", "T2"],
+    ["tactic>use_knowledge", "T10"],
+    ["tactic>use_more_info", "T4"]
+    ];
+
+    var data = ['santi.01.txt',
+    'santi.02.txt',
+    'santi.03.txt',
+    'lange.01.rtf',
+    'lange.02.txt',
+    'lange.03.txt',
+    'mia.01.rtf',
+    'mia.02.txt',
+    'mia.03.txt',
+    'mike.01.txt',
+    'mike.02.txt',
+    'mike.03.txt',
+    'nick.01.txt',
+    'nick.02.txt',
+    'nick.03.txt',
+    'andy.01.txt', 
+    'andy.02.txt',
+    'andy.03.txt',
+    'alexis.01.txt',
+    'alexis.02.txt',
+    'alexis.03.txt',
+    'fiona.01.txt',
+    'fiona.02.txt',
+    'fiona.03.txt',
+    'lauren.01.txt',
+    'lauren.02.txt',
+    'lauren.03.txt',
+    'axel.01.txt',
+    'axel.02.txt',
+    'axel.03.txt',
+    'deborah.01.txt',
+    'deborah.02.txt',
+    'deborah.03.txt',
+    'erin.01.txt',
+    'erin.02.txt',
+    'erin.03.txt'];
+
+    var S1 = {
+      OB1: 0,
+      OB2: 0,
+      OB3: 0,
+      OB4: 0
+    }
+
+    var S2 = {
+      OB1: 0,
+      OB2: 0,
+      OB3: 0,
+      OB4: 0
+    }
+
+    var S3 = {
+      OB1: 0,
+      OB2: 0,
+      OB3: 0,
+      OB4: 0
+    }
+
+
+
+
+
+
+    $(document).ready(function() {
+
+      data.forEach(function(session){
+        var sessionName = session.replace('.', '');
+        var sessionName = sessionName.replace('.txt', '');
+        var sessionName = sessionName.replace('.rtf', '');
+        var html = `<li><a href="#${sessionName}">${sessionName}</a></li>`;
+        $('.menu').append(html);
+
+        $('body').append(`<div class="pattern" id="${sessionName}"></div>`);
+
+        parseTxt(session,sessionName);
+
+      });
+
+
+     
+
+
+
+    });
+
+
+
+  function parseTxt(url,sessionName){
+
+    $.get("data/" + url, function(data) {
+
+      var lines = data.split('\n');
+        //console.log(lines);
+
+        lines.forEach(function(line){
+          // console.log(line);
+
+
+
+          tags.forEach(function(tag){
+
+
+            if(~line.indexOf(tag[0])) {
+             counter(url, tag[1]);
+
+  
+              
+            }
+
+          });
+
+
+
+        });
+
+      });
+
+  }
+
+
+
+  function counter(user, tag){
+
+    if(~tag.indexOf('OB')) {
+
+      if(~user.indexOf('01')) {
+        S1[tag]++;
+      } else if (~user.indexOf('02')) {
+        S2[tag]++;
+      } else if (~user.indexOf('03')) {
+        S3[tag]++;
+      }
+
+    }
+
+    
+  }
+
+
+
+
+  function createTable(){
+
+    var html;
+
+    $('.table-sesOb').append(`<tr class="sess-01"><th>Session 01</th></tr>`);
+    html = `<td>${S1.OB1}</td><td>${S1.OB2}</td><td>${S1.OB3}</td><td>${S1.OB4}</td>`;
+    $('.sess-01').append(html);
+
+    $('.table-sesOb').append(`<tr class="sess-02"><th>Session 02</th></tr>`);
+    html = `<td>${S2.OB1}</td><td>${S2.OB2}</td><td>${S2.OB3}</td><td>${S2.OB4}</td>`;
+    $('.sess-02').append(html);
+
+    $('.table-sesOb').append(`<tr class="sess-03"><th>Session 03</th></tr>`);
+    html = `<td>${S3.OB1}</td><td>${S3.OB3}</td><td>${S3.OB3}</td><td>${S3.OB4}</td>`;
+    $('.sess-03').append(html);
+
+
+ }
+
+ setTimeout(function(){ createTable(); }, 5000);
+
+
+
+
+</script>
+</body>
+</html>
+

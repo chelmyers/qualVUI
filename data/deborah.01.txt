@@ -1,0 +1,225 @@
+{!mediafile deborah.01.mp4.mini.mp4}
+
+Session 01
+ID 104
+Control
+
+**FIRST**
+{speak_outloud}P: So I have to add it orÉ.
+
+I: You have to figure out what you would do.
+
+I: Remember this is no mouse for this interface you just have to press to speak. And think outloud if there is something sort of, something that you are doing, just try to think outloud at you go.
+
+P: I am looking to schedule an event so I just say..
+{/speak_outloud}
+
+P: add an event on Wednesday {misheard}(may 17th){/misheard}
+
+DC: What is the title of this event?
+
+P: {obstacle>NLP_error}{misheard}Mac{/misheard} (math) group meeting{/obstacle>NLP_error}
+
+DC: Please include a time and date for the start of this event.
+
+P: change the title
+
+DC: What should be the title of this event?
+
+{tactic>hyperarticulation}P: math group meeting{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {obstacle>NLP_error}makes the day {misheard}(at){/misheard} Wednesday{/obstacle>NLP_error}
+
+DC:  Sorry but there is no event titled, ÒWednesday .Ó Please try again.
+
+P: {tactic>simplification}change the date{/tactic>simplification}
+
+**MEMO: If know it is misheard, they speak louder. If command it weird, try shorter command.**
+
+DC: Please include a time and date for the start of this event.
+
+P: Wednesday at 6 p.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: add the location
+
+DC: What is the new location of this event?
+
+P: Saxbys Cafe
+
+DC: Ready to set the location. Is that all?
+
+P: {obstacle>NLP_error}yes{/obstacle>NLP_error}
+
+DC: I couldnÕt hear you, could you say that again?
+
+P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}
+
+DC: I couldnÕt hear you, could you say that again?
+
+P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**SECOND**
+
+P: add an event
+
+DC: What day and time should I create this event?
+
+P: Thursday at 1 p.m.
+
+DC: What is the title of this event?
+
+P: {obstacle>NLP_error}study session for {misheard}your sister (us history){/misheard}{/obstacle>NLP_error}
+
+DC: Is that all?
+
+P: change the title
+
+DC: What should be the title of this event?
+
+P:{tactic>hyperarticulation} study session for US history{/tactic>hyperarticulation}
+
+DC: I couldnÕt hear you, could you say that again?
+
+P:{tactic>hyperarticulation}study session for US history{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**THIRD**
+
+
+
+P: {obstacle>NLP_error}edit events{misheard} mass (math) {/misheard}group meeting{/obstacle>NLP_error}
+
+DC: Sorry but there is no event titled, Òmass group meetingÓ. Please try again.
+
+P: edit event {tactic>hyperarticulation}math{/tactic>hyperarticulation} group meeting
+
+DC: What would you like to modify for this event?
+
+P: change the title
+
+DC: What should be the title of this event?
+
+P: math group meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: change the location
+
+{obstacle>feedback}{feedback_rely_on_voice}DC: What would you like to modify for this event?{/feedback_rely_on_voice}{/obstacle>feedback}
+
+P: {tactic>hyperarticulation}change the location{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>use_more_info}change the location to Hagerty Library{/tactic>use_more_info}
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**FOURTH**
+
+
+P: add a weekly event on Monday
+
+DC: What day and time should I create this event?
+
+P: Monday at 9 a.m.
+
+DC: Is that all?
+
+P: change the title
+
+DC: What should be the title of this event?
+
+P: workout
+
+DC: Ready to update the title of this event. Is that all?
+
+{obstacle>NLP_error}{misheard}P: yes{/misheard}{/obstacle>NLP_error}
+
+DC: I couldnÕt hear you, could you say that again?
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated.
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+I: So, based on your interaction today, how did you feel like your experience was?
+
+P:{menu_too_much} I thought it wasn't that hard, but when I first opened it, I thought, "There's a lot to read," which makes sense because you can only use certain commands. You should have to read them, but at the same time I felt that there's multiple ways to do all this separate, like add, delete, and update. I feel like, expecially under the schedule events I don't know if you'd really need to list all three of the different commands. It just looks like a lot more when you're reading, if you only need to do one thing. I don't know. Just look like there are three different ways to add things, but really you just need to change whether it really could É{/menu_too_much}
+
+I: Okay, that's great. It's great feedback. Based on your reaction right now, what did you understand that DiscoverCal is capable of doing? Like, what do you think that's possible to do?
+
+P: Like, list them?
+
+I: I mean, yeah. What is your understanding of what it can do for you?
+
+P: It can add events with a title, time, location, and you can invite people, I think. Then you can make them recurring, and then you can update or delete any of those things. 
+
+I: Okay. All right, good. What did you think were its limitations?
+
+P: Limitations?
+
+I: Mm-hmm (yes).
+
+P: I don't know if there is anything specifically. I mean, it felt like a pretty standard calendar ... application.
+
+I: All right, okay. Based on your experience, what is your understanding of how DiscoverCal functions? How does it take what you see, like what is your understanding of that?
+
+P: I guess when it takes the voice ... Like, the process of it?
+
+I: Mm-hmm (yes). Like, just to break that up, what do you think it does?
+
+P: {att>correct_mental_model}It's taking the recording and trying to translate it into text, and then it would pick out the keywords, like "add" or "modify" or "delete."{/att>correct_mental_model} I guess those go into a certain feature of it. After you say the feature, it tries to search your calendar for if it matches anything else. Maybe, other than this.
+
+I: What is your understanding of how other Voice User Interfaces that you may have used, like Siri for example? How does that work in your understanding?
+
+P: At least that's how I understand that Siri works. I know it sends your audio to Apple and then they do the AI stuff on their end, and then send the response back to you. I would guess there's just pre-set responses that they speak and they just fill in the actual titles.
+
+I: All right, cool. Based on the session, when was your approach with this interface, like how did you approach it?
+
+P: {menu_usage}{menu_useful}I relied on my left sidebar mostly{/menu_useful}{/menu_usage}. Even in the popup, there's also the left sidebar, I think. That's pretty much the only reference you have, but it was complete. I guess it makes sense, actually looking back, to have everything listed because you can't click on that help menu or anything. So, I guess to have everything there to refer to is a good thing. I was reading it the whole time.
+
+I: I know you mentioned that there's a lot of content and it's overbearing in some ways. Would you have preferred it if it was set up in a different way that was like less content and time, or something like that? What would you suggest or want in place of it?
+
+P: That's what I was saying. I would think, at first, that you could hide some of it and then have some kind of menu, help guide. But, because that'd take longer to access and just clicking on it. I feel like having everything just right there as a reference is helpful, but it just looks like a lot, so I don't know how you would declutter that. 
+
+P: I think it's a good thing to have everything out, because if you had a separate menu that you had to access with all the commands, it wouldn't always be there to refer to. I don't know.
+
+I: Say, if you had learned all of these at some point after frequent use, what would you want at that point?
+
+I: Okay, I'll ask you that in the third session. That's part of what we're doing, is we're seeing how it changes. I want you to just keep that in mind, so see whether that opinion changes at all in the third session. And if you have a suggestion that's more particular anything that we can improve in our system as well in the process. 
+
+
+

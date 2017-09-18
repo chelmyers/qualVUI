@@ -1,0 +1,53 @@
+{!mediafile lauren.03.mini.mp4}
+Session 03
+ID 82
+Control
+**FIRST**
+P: {learn_command}add event dentist appointment{/learn_command}
+DC: What day and time should I create this event?
+P: Friday at 10 a.m.
+DC: Is that all?
+P: yes
+DC: Ok. Success. Calendar updated. Sucess. Calendar updated.
+**SECOND**
+I: So it says ýÿHigh school pal, Mark Black.ýÿ Mark Black is his name.
+P: Mark Oh, ok. ok.
+P: add event Skype
+DC: What day and time should I create this event?
+P: {command_not_supported}Saturdays at 8{/command_not_supported}
+DC: Is that all?
+P: {att>unsure}.Set, add tendies (attendees) Mark black{/att>unsure}: Ready to invite. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: Based on your interaction today, did you think that your approach was any different from your session 1 or 2 interactions?
+P: I think mostly, I was more of the same with session 2, and{say_shorter} just thinking what's the name of the event? What's the date and time, and possible implications?
+{/say_shorter}
+I: All right. Overall, from your approach, session 1-3, what do you think made you change your approach? Starting with session 1 and 2 and how you ended?
+P: {say_shorter}I think I took the prompts, and smaller chunks, instead of doing the whole thing at once.{/say_shorter}
+I: How would you say, say you were entrapped with Siri or a different interface tomorrow, do you think your approach on any of those would change based on your experience here?
+P: {vui_inexperienced}Possibly. I'm trying to think, 'cause I don't use Siri that often. I think I would, I think it would make me think about using Siri more.{/vui_inexperienced}
+I: Okay.
+P: If that makes sense.
+I: So let's say you were thinking about using Siri more, how would you approach Siri, after this interaction?
+P: {assimilation_bias}Kinda similar to how this is set up saying the event, the time and date, kind of thing ýÿ{/assimilation_bias}
+I: Okay, so more back and forth.
+P: Yeah.
+I: All right. Do you think that previously when you've used Siri that was how you were going about it or was it different?
+{assimilation_bias}P: I think using Siri, I would just say the whole thing.
+I: And that works for you?
+P: Sometimes, yeah. Sometimes it would mess up like timing, and times and stuff.{/assimilation_bias}
+I: Okay. Cool. So besides that, as a general thing of how ... What did you think that discoverCal was really capable of doing. This session, previous sessions, was it any difference in that, like your understanding of what it's capabilities were?
+P: I think it's supposed to help you organize yourself more efficiently.
+I: Okay. And what about its limitations? Was there anything else that's more apparent now versus the entry sessions?
+P: Limitation wise? I don't know. {assimilation_bias}As someone who would use Siri if saying the whole event, time and date in one would ... It would take some adjustment to use this ýÿ in that way.{/assimilation_bias} But I think in some ways it's easier to break them down.
+I: Okay.
+P: Just as like, talking stand point. So you don't stumble over words.
+I: Okay. So based on your experience here, is there anything that you would want different in the interface, the way that menu and stuff is displayed to you.
+P: No, I think it's really clear and it's well organized and it's easy to read. I think it's ...
+I: Okay. All right.
+

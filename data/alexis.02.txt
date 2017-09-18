@@ -1,0 +1,409 @@
+{!mediafile alexis.02.mini.MP4}
+Session 02
+ID 56
+Experimental
+
+P: {att>confident}{learn_command}add a weekly event{/learn_command}{/att>confident}
+
+DC: What day and time should I create this event?
+
+P: {att>confident}edit title{/att>confident}
+
+DC: What should be the title of this event?
+
+P: {obstacle>NLP_error}weekly literature team project meeting{/obstacle>NLP_error}
+
+{speak_outloud}P: Oh no thatÕs not what that is.{/speak_outloud}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {tactic>rely_on_gui}{att>unsure}edit title{/att>unsure}{/tactic>rely_on_gui}
+
+DC: What should be the title of this event?
+
+P: {misheard}what Archer (literature) team project meeting{/misheard}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: edit title
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}{say_louder}{say_slower}literature team project meeting{/say_slower}{/say_louder}{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {obstacle>NLP_error}{say_louder}Tuesday's 3 o'clock to 5 o'clock p.m.{/say_louder}{/obstacle>NLP_error}
+
+{vui_error}DC: Your event ends before it begins, please adjust the date and time for this event.{/vui_error}
+
+{speak_outloud}P: Thatýÿs weird. I donýÿt know what it put saturday at 9 oclock.{/speak_outloud}
+
+P: {tactic>hyperarticulation}{say_louder}Tuesday's 3 o'clock to 5 o'clock p.m.{/say_louder}{/tactic>hyperarticulation}
+
+{vui_error}DC: Your event ends before it begins, please adjust the date and time for this event.{/vui_error}
+
+P: {tactic>simplification}change date and time{/tactic>simplification}
+
+{vui_error}DC: Your event ends before it begins, please adjust the date and time for this event.{/vui_error}
+
+P: {tactic>guessing}Tuesday May 23rd{/tactic>guessing}
+
+DC: Your event ends before it begins, please adjust the date and time for this event.
+
+P: {tactic>guessing}translocation (change location){/tactic>guessing}
+
+DC: {misheard}Your event ends before it begins, please adjust the date and time for this event.{/misheard}
+
+{tactic>desperation}{feedback_user_not_listening}P: Tuesday May 23rd{/feedback_user_not_listening}{/tactic>desperation}
+
+{date_and_time_error}DC: Your event ends before it begins, please adjust the date and time for this event.
+
+P: {tactic>desperation}make the date Tuesday{/tactic>desperation}
+
+DC: Your event ends before it begins, please adjust the date and time for this event.
+
+P: {tactic>guessing}3 o'clock{/tactic>guessing}
+
+DC: Your event ends before it begins, please adjust the date and time for this event.{/date_and_time_error}
+
+P: Tuesday 3 o'clock to 5 o'clock p.m.
+
+DC: Your event ends before it begins, please adjust the date and time for this event.
+
+{cancel_and_restart}P: cancel
+{/cancel_and_restart}
+
+{cutoff}
+DC: Cancelled changes. If you are stuckýÿ{/cutoff}
+
+P: {tactic>restart}add a weekly events{/tactic>restart}
+
+DC: What day and time should I create this event?
+
+P: Tuesday May 23rd
+
+DC: What is the title of this event?
+
+P: weekly literature team project meeting
+
+DC: Please include a time and date for the start of this event.
+
+P: Tuesday May 23rd 3 o'clock to 5 o'clock p.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: {obstacle>NLP_error}edit location{/obstacle>NLP_error}
+
+DC: Sorry, but there is no event titled location. Please try again.
+
+{memo}**MEMO: When VERY frustrated, the user tries it all. They do not keep track of what they do or do not try. They jump back and forth between talking like a human and talk like a machine. No mental model of the errors are made. **{/memo}
+
+P: {tactic>use_more_info}change the location to Summit{/tactic>use_more_info}
+{tactic>guessing}{/tactic>guessing}
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated. Sucess. Calendar updated.
+
+
+**SECOND**
+
+P: Oh boy. [Laughs] Okay, I am just going to cancel the event.
+
+P: {obstacle>feedback}cancel weekly literature team project{/obstacle>feedback}
+
+DC: There is no event titled ýÿweekly literature team projectýÿ. Please try again.
+
+P: {tactic>guessing}{guess_command}Tuesday May 23rd{/guess_command}{/tactic>guessing}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {tactic>restart}cancel{/tactic>restart}
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+P: This is what I had problems with last time. {att>incorrect_mental_model}It wonýÿt let me pick the date to view the event.{/
+att>incorrect_mental_model} But it doesnýÿt recognize the event.
+
+I: So it doesnýÿt work when you say the name either?
+
+{speak_outloud}
+P: weekly literature team project 
+
+DC: DC: There is no event titled ýÿweekly literature team projectýÿ. Please try again.
+
+I: Just so you know it is being croppped.
+
+P: So I have to say the whole thing? Oh.{/speak_outloud}
+
+P: weekly literature team project meeting
+
+DC: DC: There is no event titled ýÿteam project meettingýÿ. Please try again.
+
+P: {tactic>hyperarticulation}{say_slower}{say_louder}weekly literature team project meeting{/say_louder}{/say_slower}{/
+tactic>hyperarticulation}
+
+DC: DC: {misheard}There is no event titled ýÿweekly literature team projectýÿ. Please try again{/misheard}.
+
+P: {tactic>simplification}weekly literature{/tactic>simplification}
+
+DC: Sorry, I didnýÿt get that.
+
+P: {tactic>hyperarticulation}weekly literature team project meeting{/tactic>hyperarticulation}
+
+DC: {misheard}There is no event titled ýÿteam project meetingýÿ. Please try again.{/misheard}
+
+P: {say_more_info}{guess_command}{tactic>guessing}3 p.m. weekly literature team project meeting{/tactic>guessing}{/guess_command}{/say_more_info}
+
+{speak_outloud}P: I am trying to think of a different approach.
+{/speak_outloud}
+
+DC: DC: There is no event titled ýÿweekly literature team projectýÿ. Please try again.
+
+P: {tactic>guessing}edit recurring event{/tactic>guessing}
+
+DC: There is no event titled ýÿweekly literature team projectýÿ. Please try again.
+
+P: {tactic>use_more_info}edit weekly literature team project meeting{/tactic>use_more_info}
+
+DC: {misheard}There is no event titled ýÿedit weekly literature team projectýÿ. Please try again.{/misheard}
+
+P: weekly literature team project meeting
+
+DC: Sorry, but there is no event titled ýÿteam projectýÿ. Please try again.
+
+{frustation}{speak_outloud}P: Thatýÿs so weird.{att>frustrated}y it doesnýÿt recognize when I say team project meeting it only starts when I say team. But when I say edit weekly ýÿ it does register the team literature part but doesnýÿt.{/speak_outloud}{/frustation}
+
+P:{tactic>hyperarticulation}{misheard} Hansel (cancel){/misheard}{/att>frustrated}literature team project meeting{/tactic>hyperarticulation}
+
+DC: There is no event titled ýÿliterature team projectýÿ. Please try again.
+
+{quote}{mental_model_hard}{incorrect_mental_model}P: Wow,I donýÿt know why that worked.{/incorrect_mental_model}{/mental_model_hard}{/quote}
+
+{delete_and_restart}P: {tactic>hyperarticulation}cancel weekly literature team project meeting{/tactic>hyperarticulation}
+
+DC: Are you sure you want to cancel this event?
+{/delete_and_restart}
+
+P: {misheard}edit meditate (edit date){/misheard}
+
+DC: What would you like to modify for this event?
+
+{obstacle>NLP_error}{vui_error}{misheard}P: 10 o'clock a.m. to 11 o'clock a.m.{/misheard}{/vui_error}{/obstacle>NLP_error}
+
+P: Tuesday May 23rd 10 o'clock a.m. to 11 o'clock a.m.
+
+DC: Please include a time and date for the start of this event.
+{frustation}
+
+P: {impact>hyperarticulation}10 o'clock to 11 o'clock a.m. Tuesday May 23{/impact>hyperarticulation}r{att>frustrated}n}
+
+DC: Please include a time and date for the st{/att>frustrated}vent.
+
+P: cancel event{tactic>restart}{/tactic>restart}
+
+{cutoff}DC: Are you sure you want{/cutoff}
+
+{human_convo_fallback}{say_more_info}P: {misheard}yes cancel event{/misheard}{/say_more_info}{/human_convo_fallback}{tactic>hyperarticulation}{/tactic>hyperarticulation}
+
+**MEMO: Both human and machine fallback should be supported before both tactics are used.**
+
+DC: Are you sure you want to delete this event?
+
+P: yes
+
+{delete_and_restart}DC: Event deleted.{/delete_and_restart}
+
+P: Weekly literature team project meeting
+
+P: add event
+
+DC: What day and time should I create this event?
+
+P: Tuesday May 23rd 10 o'clock to 11 o'clock a.m.
+
+DC: Is that all?
+
+P: edit title
+
+DC: What should be the title of this event?
+
+P: literature team project meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {obstacle>NLP_error}{misheard}edit location{/misheard}{/obstacle>NLP_error}
+
+DC: sorry but there is no event titles ÒlocationÓ please try again.
+
+P: {tactic>hyperarticulation}edit location{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>guessing}location The Summit{/tactic>guessing}
+
+DC: Ready to set the location. Is that all?
+
+P: {obstacle>system_bug}recurring event{/obstacle>system_bug}
+
+DC: Sorry but there is no event titled ÒÓ to delete. Please try again.
+
+P: {tactic>hyperarticulation}recurring event{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled ÒÓ to delete. Please try again.
+
+P: {misheard}{tactic>guessing}make this weekly{/tactic>guessing}{/misheard}
+
+DC: Sorry, can you tell me again?
+
+P: {misheard}{tactic>guessing}weekly{/tactic>guessing}{/misheard}
+
+DC: Sorry, can you say that again?
+
+P: {tactic>hyperarticulation}{misheard}weekly{/misheard}{/tactic>hyperarticulation}
+
+DC: Sorry, I didnýÿt get that.
+
+{tactic>restart}P: cancel event{/tactic>restart}
+
+DC: Sorry but there is no event titled ÒeventÓ to delete. Please try again.
+
+P: {tactic>simplification}cancel{/tactic>simplification}
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+P: add weekly event
+
+DC: What day and time should I create this event?
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: literature team project meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: Tuesday May 23rd 10 o'clock to 11 o'clock a.m.
+
+DC: Is that all?
+
+P: location The Summit
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+P: {obstacle>NLP_error}{misheard}Hansel (cancel) weekly workout{/misheard}{/obstacle>NLP_error}
+
+DC: Sorry, I didnýÿt get that.
+
+P: {tactic>hyperarticulation}Hansel (cancel)weekly workout{/tactic>hyperarticulation}
+
+DC: Sorry, can you say that again?
+
+P: {tactic>use_more_info}cancel 9 o'clock a.m. weekly workout{/tactic>use_more_info}
+
+DC: Sorry but there is no event titled Ò9 oÕclock a.m. between workoutÓ to delete. Please try again.
+
+P: {misheard}{tactic>hyperarticulation}Hansel (cancel)weekly workout{/tactic>hyperarticulation}{/misheard}
+
+DC: Sorry, can you say that again?
+
+P: {tactic>hyperarticulation}cancel weekly workout{/tactic>hyperarticulation}
+
+DC: Are you sure you want to delete this event?
+
+P: yes
+
+DC: Event deleted.
+
+DC: Success. Calendar Updated.
+
+P: {obstacle>NLP_error}literature team project meeting{/obstacle>NLP_error}
+
+DC: Sorry but there is no event title, Òteam project meetingÓ. Please try again.
+
+P: {tactic>hyperarticulation}{misheard}literature team project meeting{/misheard}{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event title, Òteam project meetingÓ
+
+P: {tactic>guessing}{misheard}edit desks (guests) for event{/misheard}{/tactic>guessing}
+
+DC: Sorry but there is no event titled Òdesks for eventÓ Please try again.
+
+P: {tactic>hyperarticulation}{tactic>use_more_info}{misheard}edit death (guests) for literature team project meeting{/misheard}{/
+tactic>use_more_info}{/tactic>hyperarticulation}
+
+{tactic>desperation}{/tactic>desperation}DC: Sorry but there is no event titled Òdeath for literature team project meetingÓ Please try again.
+
+P: {tactic>hyperarticulation}{misheard}edit death (guests) 14 (for team) project meaning{/misheard}{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled Òdeath 14 team project meetingÓ Please try again.
+
+{tactic>desperation}{/tactic>desperation}P: {misheard}{tactic>guessing}modified S4 (modify guests for) literature team project meeting{/tactic>guessing}{/misheard}
+
+DC: Sorry but there is no event titled Òmodified S4 literature team project meetingÓ Please try again.
+
+{tactic>desperation}{/tactic>desperation}P: {tactic>hyperarticulation}{misheard}grass (guests) for literature team project meeting{/misheard}{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event title, Òteam project meetingÓ. Please try again.
+
+{tactic>desperation}{/tactic>desperation}P: {tactic>hyperarticulation}{misheard}edit Quests (guests) for literature team project meeting{/misheard}{/tactic>hyperarticulation}
+
+DC: I couldnÕt hear you, could you say that again?
+
+{tactic>desperation}{/tactic>desperation}P: {tactic>hyperarticulation}{misheard}modify grass (edit guests) for literature team project meeting{/misheard}{/
+tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled, Ògrass for literature team project meetingÓ. Please try again.
+
+P: {tactic>desperation}edit literature team project meeting{/tactic>desperation}
+
+DC: What would you like to modify for this event?
+
+P: attendees John Smith and Kelly Nelson
+
+DC: Ready to invite. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: All right, so a few follow up questions.
+P: Mmm-hmm.
+I: Some valuable stuff today from your sessions and thank you so much for sticking with everything.
+P: No problem. [Laughs]
+I: And seeing the way that you tried to overcome the obstacles is very valuable. I know ... I glad you didn't pull any of your hair out. We don't have that in our consent form, so thank you very much. Again, it seems to me it was a frustrating session, so ca you tell me what your new vision of what you think the capabilities and limitations are of DiscoverCal?
+P: {inconsistent}I feel like it's just really inconsistentwith what you can say.{/inconsistent} {mental_model_hard}For example, I definitely would say,"Edit location", and then it would say, "What was the location?", and I'd answer it. {/mental_model_hard}That's what I was doing yesterday, and then the first one today. But for some reason that stopped working, so I just started saying, "Location is".
+P: Then the left bar menu tells you to say one thing. It said ... {adaptive_mental_model_hard}The left bar menu options changed half way through. Not sure why. It said, {/adaptive_mental_model_hard}ýÿEdit/modify guest", so I was saying, "Edit/modify guest", but not realizing all I had to say was "Edit". I think I was assuming it was more complicated than it needed to be because in the past I tried to say, "Edit", and it didn't work.
+I: Yeah.
+P: Same with when I was trying to edit the time. I don't think I did anything different when it finally worked. It just all of a sudden on the 12th try it decided to work. I think it's just really inconsistent, and again the limitations are the ... It's not a natural ...
+I: Yeah.
+P: {natural_convo_desired}The voice commands don't come natural to a person.{/natural_convo_desired}
+I: I have to applaud you on that.
+P: You had to find me on that? I think it didn't hear me.
+I: It did. It knew you were saying yes. That was really speaking your language right there.
+P: I could kinda tell when it knew what I was saying right or wrong because, for example, when that time, I was saying "Guess", and it kept saying, "We don't know what ..."
+P: Then when I said, "Guest", it didn't say, "We didn't know what that was", it said, "We don't have a thing for ..." It skipped over that, so it's like, "Okay, I guess that's how I have to say it."
+I: That was fantastic.
+P: Thank you.
+I: A last question is, how did your interactions contribute to your understanding of the limitations of voice control, or the capabilities of voice control...?
+P:{distrust_NLP} I think there needs to be a wider range of words that ... Language that it understands. Both in pronunciation, and then also different ways of saying things.{/distrust_NLP} Like if you say, "Edit this event", it should take you to the same spot if you just name the event. Which would take you to the same spot if you say, "Add these people to this event." It shouldn't ... Because there's such a specific order and way to say everything, there's no way that people can know that.
+I: Yep.
+P: If you are gonna have that, the left menu should be a lot more descriptive on literally say these words. I was trying to follow the left, and it obviously wasn't working.
+I: Okay. All right, that's all that I have for you ...
+

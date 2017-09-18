@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parse Tags</title>
+
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      font-size: 18px;
+    }
+
+    .ob {
+      color: red;
+      padding-top: 10px;
+      margin-top: 20px;
+      border-top: 3px solid #888;
+      width: 100%;
+      display: inline-block;
+    }
+
+    .t {
+      color: blue;
+    }
+
+    .att {
+      color: purple;
+    }
+
+    .pattern {
+      min-width: 600px;
+      border: 5px solid #333;
+      margin: 30px 0;
+      background-color: #eee;
+      padding: 20px;
+      display: none;
+    }
+
+    .table {
+      border: 5px solid #333;
+      font-size: 22px;
+      width: 100%;
+    }
+
+    td, th {
+      padding: 10px;
+      border: 1px solid #eee;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h2>Obstacle 1</h2>
+  <table class="table-ob1">
+    <tr>
+      <th></th>
+      <th>T1</th>
+      <th>T2</th>
+      <th>T3</th>
+      <th>T4</th>
+      <th>T5</th>
+      <th>T6</th>
+      <th>T7</th>
+      <th>T8</th>
+      <th>T9</th>
+      <th>T10</th>
+    </tr>
+    
+  </table>
+
+  <h2>Obstacle 2</h2>
+  <table class="table-ob2">
+    <tr>
+      <th></th>
+      <th>T1</th>
+      <th>T2</th>
+      <th>T3</th>
+      <th>T4</th>
+      <th>T5</th>
+      <th>T6</th>
+      <th>T7</th>
+      <th>T8</th>
+      <th>T9</th>
+      <th>T10</th>
+    </tr>
+    
+  </table>
+
+
+  <h2>Obstacle 3</h2>
+  <table class="table-ob3">
+    <tr>
+      <th></th>
+      <th>T1</th>
+      <th>T2</th>
+      <th>T3</th>
+      <th>T4</th>
+      <th>T5</th>
+      <th>T6</th>
+      <th>T7</th>
+      <th>T8</th>
+      <th>T9</th>
+      <th>T10</th>
+    </tr>
+    
+  </table>
+
+  <h2>Obstacle 4</h2>
+  <table class="table-ob4">
+    <tr>
+      <th></th>
+      <th>T1</th>
+      <th>T2</th>
+      <th>T3</th>
+      <th>T4</th>
+      <th>T5</th>
+      <th>T6</th>
+      <th>T7</th>
+      <th>T8</th>
+      <th>T9</th>
+      <th>T10</th>
+    </tr>
+    
+  </table>
+
+
+
+
+  <script src="jquery.min.js"></script>
+  <script src="obstacle.js"></script>
+  <script>
+
+    var tags = [
+    ["att>assimilation_bias", "assim_bias"],
+    ["att>blame_nlp", "blam_nlp"],
+    ["att>blame_self", "blame_self"],
+    ["att>confident", "confident"],
+    ["att>confident_back_to_long_command", "confident_long_command"],
+    ["att>confused", "confused"],
+    ["att>correct_mental_model", "correct_mental_model"],
+    ["att>delighted", "delighted"],
+    ["att>dislike_vui", "dislike_vui"],
+    ["att>faith_in_NLP", "faith_in_NLP"],
+    ["att>frustrated", "frustrated"],
+    ["att>gui_better_than_vui", "gui_over_vui"],
+    ["att>human_convo", "human_convo"],
+    ["att>incorrect_mental_model", "incorrect_mental_model"],
+    ["att>intial_command_long", "init_command_long"],
+    ["att>learning_system", "learning"],
+    ["att>unsure", "unsure"],
+    ["obstacle>feedback", "OB3"],
+    ["obstacle>NLP_error", "OB2"],
+    ["obstacle>system_bug", "OB4"],
+    ["obstacle>unfamiliar_commands", "OB1"],
+    ["tactic>desperation", "T8"],
+    ["tactic>guessing", "T3"],
+    ["tactic>hyperarticulation", "T1"],
+    ["tactic>quit", "T9"],
+    ["tactic>rely_on_gui", "T5"],
+    ["tactic>restart", "T7"],
+    ["tactic>settling", "T6"],
+    ["tactic>simplification", "T2"],
+    ["tactic>use_knowledge", "T10"],
+    ["tactic>use_more_info", "T4"]
+    ];
+
+     var data = ['santi.01.txt',
+    'santi.02.txt',
+    'santi.03.txt',
+    'lange.01.rtf',
+    'lange.02.txt',
+    'lange.03.txt',
+    'mia.01.rtf',
+    'mia.02.txt',
+    'mia.03.txt',
+    'mike.01.txt',
+    'mike.02.txt',
+    'mike.03.txt',
+    'nick.01.txt',
+    'nick.02.txt',
+    'nick.03.txt',
+    'andy.01.txt', 
+    'andy.02.txt',
+    'andy.03.txt',
+    'alexis.01.txt',
+    'alexis.02.txt',
+    'alexis.03.txt',
+    'fiona.01.txt',
+    'fiona.02.txt',
+    'fiona.03.txt',
+    'lauren.01.txt',
+    'lauren.02.txt',
+    'lauren.03.txt'];
+
+    var curOB;
+
+    var prevTag = 'catch';
+
+    var ob1 = new Obstacle();
+    var ob2 = new Obstacle();
+    var ob3 = new Obstacle();
+    var ob4 = new Obstacle();
+
+ 
+
+
+    $(document).ready(function() {
+
+
+
+      data.forEach(function(session){
+        var sessionName = session.replace('.', '');
+        var sessionName = sessionName.replace('.txt', '');
+        var sessionName = sessionName.replace('.rtf', '');
+
+
+        parseTxt(session,sessionName);
+
+      });
+
+
+
+
+
+    });
+
+  //   function classesChecker(tag){
+  //     var classes;
+  //   //console.log(tag);
+
+  //   if(~tag.indexOf('OB')) {
+  //     classes = 'ob';
+  //   } else if(~tag.indexOf('T')) {
+  //     classes = 't';
+  //   } else {
+  //     classes = 'att';
+  //   }
+
+  //   return classes;
+  // }
+
+  function parseTxt(url,sessionName){
+    var target = '#' + sessionName;
+
+    $(target).append(`<h2>${sessionName}</h2>`);
+
+    $.get("data/" + url, function(data) {
+
+      var lines = data.split('\n');
+        //console.log(lines);
+
+        lines.forEach(function(line){
+          // console.log(line);
+
+          $(target).append("<p>");
+
+          tags.forEach(function(tag){
+
+
+            if(~line.indexOf(tag[0])) {
+              // counter(tag[1]);
+              obCount(tag[1]);
+
+              // var classes = classesChecker(tag[1]);
+
+              // $(target).append(`<span class="${classes}"> ${tag[1]} </span>`);
+              
+            }
+
+          });
+
+          $(target).append("</p>");
+
+        });
+
+      });
+
+  }
+
+ //  function counter(tag){
+
+ //    if(~tag.indexOf('OB')) {
+ //      curOB = tag;
+ //    }
+
+ //    if(~tag.indexOf('T')){
+ //      ob[curOB][tag]++;
+ //    }
+ //  }
+
+  function obCount(tag){
+    
+    if(~tag.indexOf('OB')) {
+      curOB = tag;
+    }
+
+    if(~tag.indexOf('T')){
+
+      if(curOB == 'OB1'){
+        ob1[prevTag][tag]++;
+      } else if(curOB == 'OB2'){
+        ob2[prevTag][tag]++;
+      } else if(curOB == 'OB3'){
+        ob3[prevTag][tag]++;
+      } else if(curOB == 'OB4'){
+        ob4[prevTag][tag]++;
+      }
+
+
+
+      prevTag = tag;
+
+    } 
+
+    // console.log(ob1);
+  }
+
+ //  function tCount(tag, session){
+    
+ //    if(~tag.indexOf('T')) {
+
+ //      if(!parT[session]){
+ //        parT[session] = {};
+ //      }
+
+ //      if(!parT[session][tag]){
+ //        parT[session][tag] = 0;
+ //      }
+ //      parT[session][tag]++;
+ //    }
+ //  }
+
+  function createTable(){
+
+      console.log(ob1);
+
+    $.each(ob1, function(Tkey,T){
+      var total = T.T1 + T.T2 +  T.T3 + T.T4 + T.T5 + T.T6 +  T.T7 +  T.T8 + T.T9 + T.T10;
+
+      if(Tkey != 'catch'){
+        $('.table-ob1').append(`<tr class="ob1-${Tkey}"><th>${Tkey}</th></tr>`);
+      }
+      
+
+      var row = ".ob1-" + Tkey;
+
+      $.each(T, function(TAmountKey,TAmount){
+        if(TAmount){
+          ob1[Tkey][TAmountKey] = (TAmount +1) / (total + 10);
+        }  
+
+        var color = getColor(ob1[Tkey][TAmountKey]);
+        $(row).append(`<td style="background-color: ${color};">${ob1[Tkey][TAmountKey].toFixed(2)}</td>`);
+      });
+
+     
+    });
+
+   
+    $.each(ob2, function(Tkey,T){
+      var total = T.T1 + T.T2 +  T.T3 + T.T4 + T.T5 + T.T6 +  T.T7 +  T.T8 + T.T9 + T.T10;
+
+      if(Tkey != 'catch'){
+        $('.table-ob2').append(`<tr class="ob2-${Tkey}"><th>${Tkey}</th></tr>`);
+      }
+      
+
+      var row = ".ob2-" + Tkey;
+
+      $.each(T, function(TAmountKey,TAmount){
+        if(TAmount){
+          ob2[Tkey][TAmountKey] = (TAmount +1) / (total + 10);
+
+        }  
+        var color = getColor(ob2[Tkey][TAmountKey]);
+        $(row).append(`<td style="background-color: ${color};">${ob2[Tkey][TAmountKey].toFixed(2)}</td>`);
+      });
+
+     
+    });
+
+
+    $.each(ob3, function(Tkey,T){
+      var total = T.T1 + T.T2 +  T.T3 + T.T4 + T.T5 + T.T6 +  T.T7 +  T.T8 + T.T9 + T.T10;
+
+      if(Tkey != 'catch'){
+        $('.table-ob3').append(`<tr class="ob3-${Tkey}"><th>${Tkey}</th></tr>`);
+      }
+      
+
+      var row = ".ob3-" + Tkey;
+
+      $.each(T, function(TAmountKey,TAmount){
+        if(TAmount){
+          ob3[Tkey][TAmountKey] = (TAmount +1) / (total + 10);
+        }  
+        
+        var color = getColor(ob3[Tkey][TAmountKey]);
+        $(row).append(`<td style="background-color: ${color};">${ob3[Tkey][TAmountKey].toFixed(2)}</td>`);
+      });
+
+     
+    });
+
+    $.each(ob4, function(Tkey,T){
+      var total = T.T1 + T.T2 +  T.T3 + T.T4 + T.T5 + T.T6 +  T.T7 +  T.T8 + T.T9 + T.T10;
+
+      if(Tkey != 'catch'){
+        $('.table-ob4').append(`<tr class="ob4-${Tkey}"><th>${Tkey}</th></tr>`);
+      }
+      
+
+      var row = ".ob4-" + Tkey;
+
+      $.each(T, function(TAmountKey,TAmount){
+        if(TAmount){
+          ob4[Tkey][TAmountKey] = (TAmount +1) / (total + 10);
+
+
+
+        }  
+        var color = getColor(ob4[Tkey][TAmountKey]);
+        $(row).append(`<td style="background-color: ${color};">${ob4[Tkey][TAmountKey].toFixed(2)}</td>`);
+      });
+
+     
+    });
+
+
+  
+
+ }
+
+ setTimeout(function(){ createTable(); }, 5000);
+
+function getColor(amount){
+  var colors = ['#ffffe0','#fff6cf','#ffedbf','#ffe5b2','#ffdca5','#ffd399','#ffc98f','#ffbf86','#ffb57e','#ffac77','#ffa072','#ff956d','#fd8c69','#fa8266','#f67863','#f26f60','#ed655d','#e85b59','#e35256','#dd4852','#d7404e','#d03649','#c92e43','#c1253d','#b91c35','#b1142d','#a80c25','#9e051b','#960110','#8b0000'];
+
+  // console.log(Math.floor((amount * 2.5));
+  return colors[Math.floor(amount * 30)];
+
+
+}
+
+
+
+</script>
+</body>
+</html>

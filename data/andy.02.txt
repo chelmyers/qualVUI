@@ -1,0 +1,212 @@
+{!mediafile andy.02.mini.mp4}
+
+Session 02
+ID 36
+Experimental
+
+{impact>simplification}P: {att>unsure}add{/att>unsure} weekly event{/impact>simplification}
+
+DC: What day and time should I create this event?
+
+P: Tuesdays from 3 to 5 p.m.
+
+DC: Is that all?
+
+{command_not_supported}P: No.{/command_not_supported}
+
+DC: I couldnÕt hear you, could you say that again?
+
+{impact>simplification}{/impact>simplification}P: change the title
+
+DC: What should be the title of this event?
+
+P: weekly literature {obstacle>NLP_error}teen (team){/obstacle>NLP_error} project meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}{command_not_supported}change title event{/command_not_supported}
+
+DC: Sorry but there is not event titled, ýÿTitle eventýÿ
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}change weekly literature teen project meeting title
+
+DC: Sorry but there is not event titled, ýÿ change weekly literature teen project meeting titleýÿ
+
+P: {speak_outloud}Right{/speak_outloud}.
+
+P: {tactic>simplification}{/tactic>simplification}change the title
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}weekly literature teamproject meeting
+
+{memo}**MEMO: What we find matches with hyperarticulation**{/memo}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {obstacle>system_bug}{/obstacle>system_bug}change location
+
+DC: Sorry but there is not event titled, ýÿlocation.ýÿ Please try again.
+
+P: {tactic>guessing}{/tactic>guessing}add location of event
+
+DC: Sorry but there is not event titled, ýÿlocation.ýÿ Please try again.
+
+P: {obstacle>system_bug}{/obstacle>system_bug}change location
+
+DC: {tactic>use_more_info}{/tactic>use_more_info}{change_to_modify_bug}Sorry but there is not event titled, ýÿlocation.ýÿ Please try again. {/change_to_modify_bug}
+
+P: {say_more_info}change location to The Summit{/say_more_info}
+
+{memo}**MEMO: Decreases information then adds it all back in**{/memo}
+
+DC: Ready to set the location. Is that all?
+
+P: yes.
+
+DC: Ok. Success. Calendar updated.
+
+{speak_outloud}I: BeforeI give you the second prompt, do you mind telling me what your though process was.
+
+
+P: {att>blame_self}Yes, sorry. I thought it wasýÿ I guess I have a slightly weird way of speaking. I understood it didnýÿt quite gras that I was asking to change the title at the end. It just tagged it on to the title that I was changing. It didnýÿt quite understand what I was asking. I guess the right format would have been ýÿChange ***ýÿ and not say it is the title.
+{/att>blame_self}
+
+I: How did you figure it out?
+
+P: Well when I set it the way that I set it, it came back and said, ýÿSorry but there is no event title blah blah blahýÿ and it said title at the end. Then it clicked, I shouldnýÿt be saying the title at the end I shouldnýÿt even refer to the title I should say the actual thing and have it change that way.
+
+I: Ok and what about changing the location you had about three event to do that.
+
+P: It was the same thing as the title. Oh I canýÿt say location because its going to add location to the actual, so I just need to say the location or whereýÿs it at and change it that way.
+
+I: OK. Alright.{/speak_outloud}
+
+
+
+**SECOND PROMPT**
+
+
+
+
+P: change weekly literature {obstacle>NLP_error}teen (team){/obstacle>NLP_error} project meeting
+
+DC: Sorry but there is not event titled, ýÿweekly literature teen project meetingýÿ Please try again.
+
+I: It heard teen.
+
+{speak_outloud}P: Oh it heard, teen, right.{/speak_outloud}
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}change weekly literature team project meeting
+
+DC: What would you like to modify for this event?
+
+P: change the date
+
+DC: Please include a time and date for the start of this event.
+
+P: Tuesdays from 10 to 11 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**THIRD PROMPT**
+
+
+
+
+P: {impact>simplification}{/impact>simplification}change weekly workout
+
+DC: What would you like to modify for this event?
+
+P: stop activity
+
+DC: Are you sure you want to delete this event?
+
+P: yes
+
+DC: Ok. Success. Event deleted.
+
+
+
+**FOURTH PROMPT***
+
+
+
+P: {obstacle>unfamiliar_commands}(add) guess (guests) for events{/obstacle>unfamiliar_commands}
+
+DC: Sorry but there is no event titled, Òguess for events.Ó Please try again.
+
+P: {speak_outloud}I dont know, I, I guess it cuts out that middle man. Of like, asking for a speicifc event.
+Instead of asking for guess you are suppose to say, ýÿHey add these people.ýÿ And it will automatically add them as guests. And so, thatýÿs what I should have done. Used common sense there. {/speak_outloud}
+
+P:{tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>hyperarticulation}{/tactic>hyperarticulation} invite invite the weekly literature team meeting with John Smith and Kelly Nelson
+
+DC: Sorry but there is not event titled, ýÿinvite the weekly literature team meeting with John Smith and Kelly Nelsonýÿ Please try again.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}invites to the weekly literature team meeting John Smith and Kelly Nelson
+
+DC: Sorry but there is not event titled, ýÿinvite the weekly literature team meeting with John Smith and Kelly Nelsonýÿ Please try again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>hyperarticulation}{/tactic>hyperarticulation}invite weekly literature team project meeting with John Smith and Kelly Nelson
+
+DC: Event attendees has been updated. Is that all?
+
+P: yeah
+
+{obstacle>NLP_error}DC: {cutoff}I couldnýÿt hear youýÿ{/cutoff}{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated. Success
+
+
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+
+
+I: All right. Okay, before we let you go, just a couple of quick questions. Remember what we discussed last week, was what do you think ... What systems capabilities this time around?
+
+P: I thought it was ... They were improved upon which is nice and that with the weekly format it expanded a lot of things. I think it just needs a tiny bit of fine tuning with that. When you have weekly, it should be able to recognize that when you're saying, "{nlp_want_more}Weekly," you mean the timeframe that's you're scheduling it for, not that, that's the title.
+{/nlp_want_more}
+
+I: Okay.
+
+P: Of the thing. Also, when it came to adding people, I know it makes sense for the logic of the system to do the event first and then add the people. The only thing is that grammatically that fits a little weird because you're going event first and then you're inviting {att>incorrect_mental_model} but I understand that, that's just a lot to get the system. That's how it has to run it.
+
+I: Okay, and what would you say changed in terms of your understanding of voice interviews as a general without losin{/att>incorrect_mental_model} There wasn't a whole lot that changed, honestly.{distrust_NLP} I've kept the same thing where it's a great new, blooming technology, but it still has it's little kinks like, "N," and "M," sounds are a little weird for it.{/distrust_NLP}
+
+I: Would you say that after you interact with DiscoverCal, would you say that you would be more comfortable or less comfortable interacting with the different voice interface?
+
+P: {assimilation_bias}Iýÿd probably be more comfortable just because it's ... These voice interfaces are like riding a bike. You're just changing bikes. If you understand one, you understand the basics of every one so you can use it to some degree of success.{/assimilation_bias}
+
+I: Okay. That's really helpful. Also ... Yeah, I think that's all I have to ask you. I'll send you on your way.
+
+P: Okay.
+
+I: Yeah, you can stop.
+
+P: Okay.
+
+I: Again, if I was to ask you to, say, quantify on a scale of one to five, whether you agree strongly or disagree with it, would you say that you are now more comfortable with interacting with the voice interface? Or sorry-
+
+P: This specific voice interface or ...
+
+I: Well, let's just ... Let me rephrase that. Just say you ... Do you feel comfortable interacting with voice interface in general on a scale of one to five after, say, your first session. What would be your rank with that and after this session what would be rank with that?
+
+P: Before it was a three or four. I was pretty comfortable with the ideas. Afterwards it's definitely a confident four, even possibly a five. It's nice to have almost this informal training as it were for voice interface, but I don't know. I understood the technologies and I understand their benefits. I think it's really cool to expand upon it.
+
+I: All right. Okay, that's really helpful. Thank you so much for your help.
+
+P: Awesome.
+
+I: Thank you, Andy.
+

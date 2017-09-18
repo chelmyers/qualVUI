@@ -1,0 +1,127 @@
+{!mediafile lauren.01.mini.mp4}
+Session 01
+ID 82
+Control
+**FIRST**
+{menu_usage}{memo}**MEMO: Looks at menu to start.**{/memo}{/menu_usage}
+P: {obstacle>NLP_error}{att>intial_command_long}add a meeting math group meeting on Wednesday 6 to 7 at {misheard}Saxbys cafe{/misheard}{/att>intial_command_long}{/obstacle>NLP_error}
+DC: What day and time should I create this event?
+P: {tactic>simplification}Wednesday 6 to 7{/tactic>simplification}
+DC: Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+{memo}{feedback_visual_ignored}**MEMO: Did not see title was wrong and had too much informaton**{/feedback_visual_ignored}{/memo}
+**SECOND**
+P: {say_shorter}add a study session{/say_shorter}
+{memo}
+**MEMO: Says shorter even though it works perfectly first time. Hard to say it all at once. Fallback is shorter commands**{/memo}
+DC: What day and time should I create this event?
+P: Thursday 1 to 2 p.m.
+DC: What is the title of this event?
+P: US History test
+DC: Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+**THIRD**
+{memo}**MEMO: cannot select meeting because did not see what whole title was when created**{/memo}
+{memo}MEMO: Day 01 task 03 is a good example to check it people actually paid attention to the title made in task 01.{/memo}
+P: {obstacle>feedback}modified math group meeting{/obstacle>feedback}
+{day01_task01_titled_ignored}DC: Sorry there is no meeting called ýÿMath group meetingýÿ{/day01_task01_titled_ignored}
+{memo}
+**MEMO: Maybe people would listen more if VUI SAID information? Maybe that is what they are expecting?**{/memo}
+P: {tactic>use_more_info}modified group meeting on Wednesday{/tactic>use_more_info}
+DC: {ui_error}Sorry there is not meeting called ýÿgroup meeting on wednesdayýÿ{/ui_error}
+P: {att>confused}{speak_outloud}[laughs] How do I like, figure out, the name, of the group. If I want to change it.
+{/speak_outloud}{/att>confused}
+I: Yeah, so it only shows a small snippet, so if it is longer than that, you will have to remember what you named it.
+P: Ok. But I think itÕs.. Ok.
+I: The whole thing.
+P: {speak_outloud}Ok, so I have to say the whole thing. But I said.. ok.{/speak_outloud}
+P: {tactic>use_more_info}group meeting on Wednesday 6 to 7 p.m. at Saxbys Cafe{/tactic>use_more_info}
+DC: {misheard}What day and time should I create this event?{/misheard}
+P: Ummmm.
+P: Wednesday 6 to 7
+DC: Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+{att>confused}{speak_outloud}P: Was that likeýÿ Should I redo that?{/speak_outloud}{/att>confused}
+I: Whatever you would do if this was your normal calendar.
+P: {tactic>restart}Ok. Got you. I am going to delete event then.{/tactic>restart}
+P: {delete_and_restart}{menu_usage}delete Wednesday 6 to 7 p.m. at Saxbys Cafe{/menu_usage}{/delete_and_restart}
+DC: Are you sure you want to delete this event?
+P: yes
+DC: Event deleted. Success. Calendar updated.
+P: add event math group meeting
+DC: What day and time should I create this event?
+P: Wednesday 6 to 7
+DC: Is that all?
+P: add location Hagerty Library
+DC: Ready to set the location. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+**FOURTH**
+P: add event weekly workout
+DC: What day and time should I create this event?
+P: {obstacle>NLP_error}Monday 9 to 10{/obstacle>NLP_error}
+DC: Is that all?
+P: {tactic>guessing}change date to Monday{/tactic>guessing}
+{vui_error}DC: Sorry, but there is not event titled ýÿchange ot mondayýÿ. Please try again.{/vui_error}
+P: {tactic>rely_on_gui}{menu_usage}make the date Monday 9 to 10{/menu_usage}{/tactic>rely_on_gui}
+**MEMO:
+DC: Ready to modify the start time. Is that all?
+P: {tactic>guessing}{human_convo_fallback}stop activity{/human_convo_fallback}{/tactic>guessing}
+DC: Sorry there is not event title ýÿactivityýÿ to delete. Please try again.
+P: {tactic>desperation}{command_not_supported}change the date for Monday{/command_not_supported}{/tactic>desperation}
+DC: Sorry, but there is no event titled Òdate for MondayÓ. Please try again.
+P: {tactic>use_more_info}{vui_error}change the event weekly workout for Monday at 9 to 10{/vui_error}{/tactic>use_more_info}
+DC: Sorry but there is not event titled weekly workout for monday at 9:10. Please try again.
+P: {human_convo_fallback}{cancel_and_restart}{tactic>restart}exit event{/tactic>restart}{/cancel_and_restart}{/human_convo_fallback}
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+P: {tactic>guessing}add event weekly workout{/tactic>guessing}
+DC: What day and time should I create this event?
+P: {tactic>simplification}Monday from 9 to 10{/tactic>simplification}
+DC: Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+{memo}**MEMO: When stuck, she does not fall back to plain machine language right away**
+{/memo}
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: Awesome. So I do have a few questions for you. Actually, let me stop this. I guess we don't need a recorder. Data.
+Okay, so some final questions for you. Based off of what you did say, what do you think DiscoverCal is capable of?
+P: I think mostly just helping you manage your events. Kind of like what calendars do now, {vui_easier}but I guess in an easier way, you don't have to type things out.
+{/vui_easier}
+I: And what are the limitations of DiscoverCal?
+P: {distrust_NLP}Well if you can't pronounce things well, I think that can be a huge thing for DiscoverCal, also if you have accents maybe, I'm not sure how that would pick it up.{/distrust_NLP}
+I: Based off your tasks today, did the system perform as you expected it to?
+P: I think so. I think it performed well. {confusion}I was a little confused on some parts.{/confusion} I was like, wait, how to go back. But, yeah.
+I: What was the most confusing parts for you?
+P: I think naming the events. I was like, "Oh, let's name the whole event." Instead of just the actual name and adding the date and time as the name of event.
+I: Did you notice that it put the whole thing in the title?
+P: Yeah, after I did it. I was like, "Wait." And then I was trying to read the whole title and it was like, oh.
+I: Based off of your work today, has your understanding of voice control changed your mind?
+P: No, I don't think so.
+I: Just a question about your background. What major are you in right now?
+P: Graphic design.
+I: Graphic design, okay. Who's class are you in?
+P: Eric's.
+I: Oh okay.
+P: Yeah. I'm like-
+I: So here in CGI too? That's where a lot of our students are coming from. You have 3D graphic design here?
+P: I'd like to be but-
+I: How would you rate your technical expertise? Like-
+P: In what-
+I: Like how comfortable are you with using the latest technology?
+P: Not too super-technical savvy. I can work my way around some things, but I'm not like super tech savvy kind of person.
+I: Do you do any web development as a graphic designer?
+P: Actually I'm learning about web and coding.
+I: Yeah? Oh awesome. How do you like it?
+P: It's a lot. It's a lot to digest.
+I: Yeah. I'm a web developer. So this isn't part of ýÿ, I'm a web developer.
+P: It's really cool going from coding to an actual website and stuff, but it's a lot.
+I: It is.
+
+

@@ -1,0 +1,159 @@
+{!mediafile fiona 01.mp4}
+Session 01
+ID 84
+Control
+
+I: So whenever you are ready press the button to start. So your first prompt is this.
+
+P: is there anyone there?
+
+I: Thats just what youve already filled your calendar with. So its already been updated. What you have to do now is use this prompt to figure out what you have to do with it.
+P: Ok.
+
+P: {att>intial_command_long}{/att>intial_command_long}schedule an event on {att>unsure}Wednesday at{/att>unsure}
+DC: ready to update the title of this event. Is that all?
+P: {speak_outloud}{/speak_outloud}{obstacle>feedback}You give the title first.{/obstacle>feedback}
+P: {att>unsure}Edit event.{/att>unsure}
+DC: What date an time should I create this event?
+P: Wednesday from 6 to 7 PM
+DC: What is the title of this event?
+P: Math group meeting
+DC: Is that all?
+P: {tactic>guessing}Edit event{/tactic>guessing}
+DC: {misheard}Sorry but there is no event titled. Please try again.{/misheard}
+P: {speak_outloud}I just need to, um, change the title.{/speak_outloud}
+P: {tactic>guessing}Change title{/tactic>guessing}
+DC:What should be the title of this event?
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}{misheard}Math group meeting{/misheard}
+DC: ready to update the title of this event. Is that all?
+P: {tactic>hyperarticulation}Change Title{/tactic>hyperarticulation}
+DC: What should be the title of this event?
+P: {tactic>hyperarticulation}Math group meeting{/tactic>hyperarticulation}
+DC: Ready to update the title of this event. Is that all?
+P: {obstacle>NLP_error}{att>intial_command_long}Set the location to Saxbys cafe.{/att>intial_command_long}{/obstacle>NLP_error}Sorry
+DC: Ready to set the location. Is that all?
+P: {tactic>simplification}Change location{/tactic>simplification}
+DC: What is the new location of this event?
+P: {misheard}Saxbys cafe.{/misheard}
+DC: Ready to set the location, is that all?
+P: Change location
+DC: What is the new location of this event?
+P: {tactic>hyperarticulation}Saxbys Cafe{/tactic>hyperarticulation}
+DC: Ready to set the location. Is that all?
+P: {obstacle>unfamiliar_commands}{command_not_supported}yes thats all{/command_not_supported}{/obstacle>unfamiliar_commands}
+DC: Ok, what else?
+P: {command_not_supported}{att>confused}{tactic>simplification}nothing{/tactic>simplification}{/att>confused}{/command_not_supported}
+DC: Ok, what else?
+P: {att>confused}What do you mean, what else? {/att>confused}{att>incorrect_mental_model}{speak_outloud}Is there something else I need to put on here?{/speak_outloud}{/att>incorrect_mental_model}
+{memo}MEMO: She is not sure if it is her fault OR the VUIs{/memo}
+P: {tactic>guessing}Im done{/tactic>guessing}
+DC: Ok. Success. Calendar updated.
+**SECOND PROMPT**
+I: Ok, here is your second prompt.
+P: {obstacle>unfamiliar_commands}schedule study session{/obstacle>unfamiliar_commands}
+DC: Im afraid I dont understand.
+P:{tactic>use_more_info} {command_not_supported}schedule event for {/command_not_supported}Thursday from 1 to 2 p.m.{/tactic>use_more_info}
+DC: Ready to update the title of this event. Is that all?
+I: What are you thinking?
+P: {speak_outloud}{att>incorrect_mental_model}Well, cause I thought, I thought the, cause the first time I set the time first then it put its has the title so this time I set the title first and it didnt know what to do.{/att>incorrect_mental_model}{/speak_outloud}
+{memo}**MEMO: User is trying to make a correct mental model, but is confused. Errors are caused by not using the correct commands listed in the menu**{/memo}
+P: {tactic>simplification}change title{/tactic>simplification}
+DC: What should be the title of this event?
+P: study session
+DC: Ready to update the title of this event. Is that all?
+P: {tactic>simplification}set time{/tactic>simplification}
+DC: What day and time should I create this event?
+P: Thursday from 1 to 2 p.m.
+DC: {feedback_user_not_listening}{misheard}What is the title of this event?{/misheard}{/feedback_user_not_listening}
+I: What are you thinking?
+P: {speak_outloud}I guess I dont need a location{/speak_outloud}
+P: {tactic>settling}thats all{/tactic>settling}
+DC: I couldnt hear you, could you say that again?
+P: {tactic>hyperarticulation}Thats all.{/tactic>hyperarticulation}
+DC: Is that all?
+P:{att>frustrated} Mmmm, ok. Well I thought that wouldnt be the title but ok. {/att>frustrated}
+{memo}**MEMO: She did not listen to the question. Questions that map whatever information given to them as the answer can be a trap and ignored. User ignores VUI questions. This is unlike human conversation. They still expect to do whatever they want.***{/memo}
+P: {tactic>guessing}change the title{/tactic>guessing}
+DC: What should be the title of this event?
+P: study session
+DC: Ready to update the title of this event. Is that all?
+P: {command_not_supported}thats all{/command_not_supported}
+DC: Ok, what else?
+P: {tactic>hyperarticulation}{command_not_supported}{repeat_command}thats all{/repeat_command}{/command_not_supported}{/tactic>hyperarticulation}
+DC: Ok, what else?
+P:{tactic>use_knowledge}{learn_command}Im done{/learn_command}{/tactic>use_knowledge}
+DC: Ok. Success. Calendar updated. Success, calendar updated.
+I: Okay here is your next prompt.
+**THIRD PROMPT**
+P: {obstacle>system_bug}{command_not_supported}modify event{/command_not_supported}{/obstacle>system_bug}
+DC: Sorry, but there is no event titled " " please try again.
+P: {tactic>use_more_info}{misheard}modify math group meeting{/misheard}{/tactic>use_more_info}
+DC: DC: Sorry, but there is no event titlle modify math group meeting, please try again.
+P: {tactic>simplification}{command_not_supported}Math group meeting{/command_not_supported}{/tactic>simplification}
+{obstacle>unfamiliar_command}{/obstacle>unfamiliar_command}
+DC: Sorry, I didnt get that.
+P: {tactic>hyperarticulation}{command_not_supported}Math group meeting{/command_not_supported}{/tactic>hyperarticulation}
+DC: Sorry, can you say that again?
+P: {att>confused}{speak_outloud}{menu_usage}Uhh, I am not sure how to ask this{/menu_usage}.{/speak_outloud}{/att>confused}
+P: {tactic>rely_on_gui}edit math group meeting{/tactic>rely_on_gui}
+DC: What would you like to modify for this event?
+P: change location
+DC: What is the new location of this event?
+P: {misheard}Hagerty Library{/misheard}
+DC: Ready to set the location. Is that all?
+P: change location
+DC: What is the new location of this event?
+P: {impact>hyperarticulation}Hagerty Library{/impact>hyperarticulation}
+DC: Ready to set the location. Is that all?
+P: {learn_command}Im done{/learn_command}
+DC: Ok. Success. Calendar updated. Success, calendar updated.
+I: Your last prompt for today.
+***FOURTH PROMPT***
+P: {speak_outloud}It says weekly, do you want it on every week?{/speak_outloud}
+I: mmmhmm
+P: Ok, all right.
+P: {menu_usage}I am trying to figure out how to make it for everyweek. Oh, ok.{/menu_usage}
+I: What are you thinking?
+P: {menu_usage}yeah I think if I just say, make itevery weekok{/menu_usage}
+P: add event
+DC: What day and time should I create this event?
+P: {att>unsure}ummm, every Monday from 9 to 10 a.m.{/att>unsure}
+DC: Is that all?
+P: {surprise}It say weekly, great.{/surprise}
+P: change title
+DC: What should be the title of this event?
+P: weekly workout
+DC: Ready to update the title of this event. Is that all?
+P: {obstacle>NLP_error}{learn_command}Im done{/learn_command}{/obstacle>NLP_error}
+DC: I couldnt hear you, could you say that again?
+P: {tactic>hyperarticulation}Im done.{/tactic>hyperarticulation}
+DC: Ok. Success. Calendar updated. Success. Clalendar updated.
+END OF TASK
+BEGIN Q&A
+I: okay so just a couple of quick questions before I had to go so what did you think were the capabilities of DiscoverCal after interacting with it right now and why do you think theyre do I know two
+P. I know if can do recurring events and then and it can do not just location and time but also who is attending and it can, it can reschedule things change things. edit delete.
+I: okay so what what gave you all that information besides just the prompts. Is there somethings like adding people like you said
+P: Yeah, um, like yeah I mean it said like a {mental_model_from_menu}{mental_model_UI}box for attendees{/mental_model_UI}{/mental_model_from_menu}, it had. And it also had like a menu on the side that said somethings.
+I: Okay, did you look at the menu often or did you find like youre pretty comfortable without it?
+P: I looked at the menu to make sure I was getting it right because it had like {att>incorrect_mental_model}Add event but then it made the title the event which seemed odd that it always whatever I said first it would make it the title even if it was the time {/att>incorrect_mental_model}
+I: okay and okay. what else do you think were the limitations, you mentioned on thing, what else do you think were the limitations of the interface?
+P: it would say is that all?, and I would say yes, thats all, and it wouldnt know what to do with that. So I said Im done and it knew what to do then.
+I: How would you say um this compared to like your previous experience with voice interaction? Would you say that it has in any way inform your understanding of how a voice interface works? like how early Siri works or any other sort of voice interaction?
+P: {vui_differ}I mean, I assume it works a bit differently because they all work a bit differently.{/vui_differ}
+I: So, let me rephrase. Do you think that the approach you took here to get things to work for you is different from the approach that you would take with Siri or another voice interaction system?
+P: {menu_useful_for_beginners}{menu_useful}Yeah because usually Im just kind of grabbing at straws, but this one has a menu that I can look at. To figure out what I need to say, and I, like eventually if I use this a lot I wouldnt need it anymore. {/menu_useful}{/menu_useful_for_beginners}{menu_too_much}Im not sure if it can be minimized but if I were using it a lot I would want to eventually be about to minimize it. If I didnt need it I can have more space.{/menu_too_much}
+I: Okay, what did you think about having a lot of stuff together in one place as well
+P: what do you mean?
+I: like a lot of the commands together in one space?
+P: {menu_useful}Yeah, I like that because its, its one place to look you dont have to open another window or something{/menu_useful}
+I: All right, and besides that, so, what would you say about, how confindenet would you feel, like interacting with DiscoverCal in the same context as Siri? How would you compare?
+P: {distrust_NLP}yeah its the same, that I have with any voice interface. That after I say something, its like, Ohhh, it is actually doing to know what I say?{/distrust_NLP} And then sometimes it does and sometimes it doesnt.
+I: Did DiscoverCal prefrom as you expected it to?
+P: mmhmmm
+I: Okay, and how would, does this in any way like sort of um, what is your understanding of voice interface right now like what do you think is for the general capability and limitation? Like generally with voice interface, what are they able to do and not do for you
+P:{distrust_NLP} Well they cant understand every like command. {/distrust_NLP}Because I though, I{human_convo_fallback}{att>faith_in_NLP} {guess_command}just kind of guessing with Im done and that worked. I though, like, because it gave the prompt is that all? then thats all works, but it didnt because it doesnt have that command.{/guess_command}{/att>faith_in_NLP}{/human_convo_fallback}
+I: Is something like DiscoverCal informing how other interfaces, voice interfaces would work, in a similar situation for you? What do you think Siri would be different in that situation?
+P: Um, I dont know.
+I: Ok, alright, thats totally fine! I guess we can see in the second session or after interaction with it more if there is a difference in your perception towards how voice interaction in general, like your understanding of the interface, if it changes at all or it not. Do you have any other questions about DiscoverCal? About voice interaction? Allright so that all we need from you today!
+
+

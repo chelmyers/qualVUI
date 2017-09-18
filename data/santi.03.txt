@@ -1,0 +1,323 @@
+{!mediafile santi.03.MP4.mini.mp4}{!name “santi.03.txt”}
+
+
+**FIRST**
+
+P: {impact>simplification}{/impact>simplification}add an event on Friday at 10 a.m.
+
+DC: What is the title of this event?
+
+P:{obstacle>NLP_error} make a (the title) dentist appointment{/obstacle>NLP_error}
+
+DC: Is that all?
+
+P: {tactic>guessing}{/tactic>guessing}{tactic>hyperarticulation}{/tactic>hyperarticulation}change the title to dentist appointment
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+{obstacle>NLP_error}DC: I couldn’t hear you, could you say that again?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar Updated.
+
+
+
+**SECOND**
+
+{speak_outloud}P: I was wondering if there was a way to make a weekly event but I am just going to add it to saturday and then try to make it recurring.
+
+I: Ok.{/speak_outloud}
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}add an event on Saturday at 8 p.m.
+
+DC: What is the title of this event?
+
+P: {obstacle>NLP_error}meet (make){/obstacle>NLP_error} the title weekly Skype
+
+DC: Is that all?
+
+{speak_outloud}P: Damn it. I actually, he asked me for the title, and I said the ting, and it read the command. This happen in the other thing but now I just realized.{/speak_outloud}
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}make the title weekly sky
+
+DC: Ready to update the title of this event. Is that all?
+
+P: change the time (title) we {tactic>hyperarticulation}{/tactic>hyperarticulation}Skype {obstacle>NLP_error}{/obstacle>NLP_error}
+
+DC: Sorry but there is no event titled, “ the time we Skype .” Please try again.
+
+P: {tactic>hyperarticulation}make the title weekly Skype{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: Ok, I want to make this recursive. So can I make this recursive. Location. Invite. So I dont know hw to amek this recursize. Oh, I should have made recuring event.
+
+P: cancel
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+P: add a recurring event on Saturday at 8 p.m.
+
+DC: What day and time should I create this event?
+
+P: Saturday at 8 p.m.
+
+DC: Is that all?
+
+{obstacle>system_bug}P: change the title Whitley Skype{/obstacle>system_bug}
+
+DC: Sorry but there is no event titled, “ title Whitley Skype.” Please try again.
+
+P: {tactic>hyperarticulation}change the title to Whitney Skype{/tactic>hyperarticulation}
+
+
+{obstacle>NLP_error}{/obstacle>NLP_error}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {tactic>hyperarticulation}change the title to weekly Skype{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar Updated.
+
+
+
+**THIRD**
+
+
+
+P: {impact>simplification}{/impact>simplification}{impact>hyperarticulation}{/impact>hyperarticulation}modify event weekly Skype
+
+DC: What would you like to modify for this event?
+
+P: {misheard}bite{/misheard} mark{obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}Actually he was called Mark black. I am worried if I add mark black it will be mark and mark black. Ah, so I can delete.
+
+DC: Ready to invite. Is that all?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}delete mark
+
+DC: I removed the attendees. Is that all?
+
+P: remind Mark black
+
+DC: Ready to invite. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar Updated.
+
+
+
+ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+
+END OF TASK
+
+ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+
+BEGIN Q&A
+
+ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+
+
+
+P: Alright.
+
+I: Okay. So again, I have some follow-up questions for you. Based off of your session today, has anything changed about your understanding of the capabilities and limitations of DiscoverCal?
+
+P: So, the big change for me was, at the very end of session one, from session one to session two.{quote}  And, I think session two to three, nothing much changed, because ... So, the big learning point was as I was saying in the feedback for session two, t{att>assimilation_bias}hat at the beginning I was trying to use it using just freeform language.And then, when I realized there was these patterns in the left. And I didn't notice that until actually the end of session one. {/att>assimilation_bias}I was very clumsy in session one. Then, everything started going smoothly. And, I thought session two went smoothly, and the same thing for three. I just had the mishap for the recurring. But, once I made ... I realized that, I think everything else-
+{/quote}
+
+I: Awesome. And today, did DiscoverCal perform as you expected it to?
+
+P: Yeah. Actually, there was only one time where they did something a little bit weird.  Which, I'm trying to remember. 
+
+I: Was it-
+
+P: It said that ... I said, I'm gonna have a recurring event on Saturday something, and it took Saturday something as the title instead of the date. And I thought the pattern is that I should say the title. But, I could change that easily, so it was not a problem. And, of course it's sometimes misunderstands some words but, I'm used to that because I'm not a native english speaker. So, that is not something that I was not expecting. 
+
+I: Yeah. 
+
+P: {att>delighted}And I was surprised that it actually got Skype. At the beginning, it thought Skype. And then I thought oh, Skype is not a word in the dictionary so, it's not gonna get it. So I tried again, and actually got it. So, I was surprised about that. {/att>delighted}
+
+I: Awesome. Yeah, there's a lot of times too, where I'm like oh-
+
+P: Yeah.
+
+I: It got that! And that's for me and other people testing as well. So, how does interacting with DiscoverCal if at all, contribute to your understanding of voice control in general?
+
+P: Of voice control in general? 
+
+I: Mm-hmm (Yes).
+
+P: Well, I don't know actually. That's a hard question, let me think. {att>faith_in_NLP}Voice control in general.{/att>faith_in_NLP}
+
+I: You don't necessarily have to answer if you don't have an answer to it. It's just-
+
+P: I'm just trying to think. I don't know. {att>faith_in_NLP}So, I feel that this voice interface is good when I'm actually doing something, and I don't want to take my hands off what I'm doing. Like, at home we started using some of these voice interfaces one of these Alexa things. {/att>faith_in_NLP}
+
+I: Yeah.
+
+{att>faith_in_NLP}P: And it's very convenient too, while you're in the kitchen that you're actually doing things, so you cannot actually take your hands off.{/att>faith_in_NLP}
+
+I: Yeah.
+
+{att>faith_in_NLP}P: And, I'm imagining if I'm in my office doing something like, maybe reading and I can just turn around. That would be convenient. If I'm in the keyboard, most likely I would do it with the keyboard.
+{/att>faith_in_NLP}
+
+I: Yeah.
+
+P: But I can see where the voice interface would be very convenient. 
+
+I: And, my final question for you is, when you met an obstacle, something where the system wasn't doing what you wanted. Or, you weren't sure how to do something, what knowledge or skills did you use to get around that obstacle?
+
+P:{att>learning_system} Right, right, okay. So, what I did is ... Once I understood that there was actually a set of commands that the system would understand, and there was these patterns in the left that I could use to refer to those commands what I looked to see if there was any command that would get me out of there. And then, I looked from the things in the left. Then, if there was nothing that could make it out of there, which happened once I just canceled out and restarted.{machine_language_fallback}{/machine_language_fallback} Which I guess, is the usual computer science way.{/att>learning_system}
+
+I: Reboot, yeah. Restart.
+
+P: Yeah, restart. So, that was my strategy. Just look for the commands that would do what I wanted and say it at the beginning. The first day I was trying to set the event all at once. Like, set an event called this, at this time-
+
+I: Yeah.
+
+P: And that wouldn't work. So, I saw that what worked is, save just the time and then, set the title. And, basically that's about my strategy. You just look for the commands in the left. And, I guess ... At the beginning I ... I still think the beginning of ... Because, there was only three sessions.  I need to look at the left all the time, and I said that in the questionnaire. But I'm assuming that if I use this regularly, I would not need to look at the left and I would just naturally-
+
+I: Yeah. You had a pattern, you said you would set the date-
+
+P: Yeah.
+
+I: Then you would set title. 
+
+P: Yeah, exactly.
+
+I: So, for those things you don't need ... You kind of automatically knew-
+
+P: Right, right.
+
+I: Well, not automatically-
+
+P: Yeah. I ... So, I actually read the pattern just in case, but I knew that it was the pattern on the top left. So, I immediately went there when I read that pattern. But yeah. So, that ... I fell into that pattern of set an event with the time, and then wait for-
+
+I: Were you-
+
+P: I just wait for the-
+
+I: Were you reading it while you were saying it or, did you read it and then say it?
+
+P: I read it and then said it.
+
+I: Read then said, okay. Alright. So that's all the questions I have for you. 
+
+P: Alright.
+
+I: Thank you so much for participating in our study.
+
+P: No problem.
+
+I: Wasn't too bad, right?
+
+P: No, not at all. No problem. Actually fine.
+
+I: Do you have any questions for me?
+
+P: No, not really. I'm just curious if you guys are gonna work in an…or, something. I remember-
+
+I: I am. 
+
+P: Okay. So, I had some feedback. I gave..the previous-
+
+I: Yeah. 
+
+P: In session two that I guess, I can repeat. It's recorded too…
+
+I: Yeah. 
+
+P: The one thing that it was a little bit confusing to me is ... So there was no visual feedback in this-
+
+I: Yeah.
+
+P: Or in the screen. There was visual feedback in the other one but, 
+
+I: Yeah.
+
+P: Not in this one. So when a new event appeared, I can actually see-
+
+I: Yes.
+
+P: The new event. So, that was a little bit confusing to me. Especially ... As I was saying, I'm used to see the calendar in week views but, in month views its very confusing to me.
+
+I: Yeah.
+
+P: I've never understood it.
+
+I: Yeah.
+
+P: So, I never saw where the event was-
+
+I: No.
+
+P: Created. So, that visual feedback would be very helpful. 
+
+I: Okay, alright. Awesome. Thank you so much for the-
+
+P: Alright.
+
+I: Advice there. 
+
+P: No problem.
+
+I: Okay. Well, I have nothing else for you.
+
+P: Oh, and one more thing, one more thing.
+
+I: Oh yeah.
+
+P: So, I already said that again but, I got in myself into all the trouble in the first session-
+
+I: Yeah.
+
+P: Because I created an event with a that was this long, and it was not wait for me to say it again. 
+
+I: Yeah.
+
+P: And, I took to remove it, so it was-
+
+I: It's there forever.
+
+P: Yeah. So, it would be very good to be able to refer to the event on Wednesday at 6pm for example.
+
+I: Yeah.
+
+P: That would be great.
+
+I: The one thing I have to say that I saw on your study session that was so nice, is that you actually check the event before you submitted it. You looked through it and you went like this, which now I can talk to you about this because study session is over.
+
+P: Alright.
+
+I: But there's a lot of people who do crazy titles, and then send it away. And then, they would modify the next one, they'd be like, I have no idea what I set it as. I didn't even look at it. And I'm like, do whatever you do in this situation-
+
+P: Right, right.
+
+I: I can't really help you out.
+
+P: But I know because, that happened to me in the first-
+
+I: Yeah.
+
+P: Session. And I heard that make sure it doesn't happen again.
+
+I: Yeah, that was ... When you went like this, I was like he's double-checking. Wow. He's so thorough. Anyway. 
+
+P: Alright.
+
+I: Okay, thank you so much for your help.
+
+P: That's no problem. Alright. Yeah, see you guys.
+
+I: See you.

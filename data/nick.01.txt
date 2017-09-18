@@ -1,0 +1,211 @@
+{!mediafile nick.01.MP4.mini.MP4}
+
+Session 01
+ID 32
+Experimental
+
+**FIRST**
+
+P: {long_command_initial}{obstacle>NLP_error}mass (math){/obstacle>NLP_error} group meeting on Wednesday 6 to 7 p.m. at Saxbys Cafe{/long_command_initial}
+
+DC: DC: Sorry but there is no event titled, Òmass group meeting on Wednesday 6 to 7 p.m. at Saxbys Cafe.Ó Please try again.
+
+P: {att>confused}{/att>confused}{tactic>hyperarticulation}{/tactic>hyperarticulation}add math fruit meeting on Wednesday 6 to 7 p.m. at Saxbys Cafe
+
+DC: What day and time should I create this event?
+
+P: Wednesday 6 to 7 p.m.
+
+DC: Is that all?
+
+P: {att>human_convo}{/att>human_convo}{tactic>use_more_info}{/tactic>use_more_info}it's at Saxbys Cafe
+
+DC: Ready to set the location. Is that all?
+
+P: {att>human_convo}{/att>human_convo}yep
+
+DC: Ok. Success. Calendar updated. 
+
+{speak_outloud}P: ThatÕs a pretty messy title but I will let it slide.{/speak_outloud}{tactic>settling}{/tactic>settling}
+
+**SECOND**
+
+P: add study session on Thursday
+
+DC: What day and time should I create this event?
+
+P: Thursday from 1 to 2 p.m.
+
+DC: Is that all?
+
+P: {att>human_convo}{/att>human_convo}sure
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+{obstacle>feedback}P: modify Master meeting{/obstacle>feedback}
+
+DC: Sorry but there is no event titled, ÒMaster meeting.Ó Please try again.
+
+P: modify {tactic>hyperarticulation}math{/tactic>hyperarticulation} groups reading meeting
+
+{speak_outloud}P: ThatÕs going to confuse it.{/speak_outloud}
+
+DC: Sorry but there is no event titled, Òmath groups reading meeting.Ó Please try again.
+
+{speak_outloud}P: What would that be. {tactic>rely_on_gui}{/tactic>rely_on_gui} ThatÕs because I messed up. {personification}He read it as math fruit meeting on wednesday blah blah blah blah blah. Son of a gun. My math fruit meeting.{/personification}{/speak_outloud}
+
+P: modify math {tactic>hyperarticulation}fruit{/tactic>hyperarticulation} meeting on Wednesday
+
+DC: Sorry but there is no event titled, Òmath fruit meeting on WednesdayÓ Please try again.
+
+{speak_outloud}I: So the whole title you used was math fruit meeting on Wednesday 6 to 7 p.m. at Saxbys Cafe. ThatÕs the title you left is as.{/speak_outloud}
+
+P:{tactic>hyperarticulation} modify math fruit meeting on Wednesday 6 to 7 p.m. at Saxbys Cafe{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: change the location
+
+DC: {obstacle>feedback}What would you like to modify for this event?{/obstacle>feedback}
+
+P: {tactic>use_more_info}{/tactic>use_more_info}{tactic>hyperarticulation}change the location to Hagerty Library{/tactic>hyperarticulation}
+
+DC: Ready to set the location. Is that all?
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}{att>human_convo}yes that's all{/att>human_convo}
+
+DC: Ok, what else?
+
+P: nothing
+
+DC: Ok, what else?
+
+P: {tactic>simplification}yes{/tactic>simplification}
+
+DC: Ok. Success. Calendar updated.
+
+
+**FOURTH**
+
+
+P: {obstacle>unfamiliar_commands}create a recurring event weekly crap forget that{/obstacle>unfamiliar_commands}
+
+DC: What day and time should I create this event?
+
+P: Mondays at 9 to 10 a.m.
+
+DC: Is that all?
+
+P: {tactic>settling}yes{/tactic>settling}
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+I: Oh yeah, after a while I start using the left menu. I realized how useful it was. 
+
+P: Good. So all right, so, before I let you go, just a couple of quick questions. You marked that your confidence on what to say was, low so ... 
+
+I: Yeah.
+
+P: What, what made you say that?
+
+I: It's just like, there's a prompt provided. It's not like in my head already. Like I- in my head I would al- if you read that you know. Maybe, especially like a prompt like for US history test I would have liked to say study session for US history test and then stop talking, and then say, "On Thursday," I would prefer if we said ...
+
+P: The prompts are just prompts.
+
+I: Yeah.
+
+P: You don't have to follow, like a sequence of ...
+
+I: Yeah I know, I know. It's just, it's just the way I read it. I would mess myself up. But I think, honestly if it was probably if it was more in my head like if it was actually things I was gonna, be putting into it I think it would be a little easier.
+
+P: Okay. 
+
+I: I think this is probably like variable that ...
+
+P: Okay. 
+
+I: Was my control at least.
+
+P: Okay. 
+
+I: All right, so based on your attraction can you tell me what your approach seeing these things wasÉOkay so, what is yo- what is your approach towards the interface?
+
+P: {quote}{att>assimilation_bias}Well first I started treating it like I do with Google.{/att>assimilation_bias} Cause it detects when you are saying like if you say, "Study session on Thursday from 1 till 2pm." It'll detect the word "On" and it'll know that's, where I was saying the date and time. So it will separate that and say "Study session" And it will already put the date in. That's how I approach this. And then more and more I realized that, "oh, okay I need a readjust because this isn't what I'm used to." So then I started using the side menu, it became easier.{/quote}
+
+I: Okay.
+
+P:{quote}{att>assimilation_bias} I just ignored this side bar menu right there. It was too many words at first, I was like, "I'm just going to start saying stuff.Ó{/att>assimilation_bias}{/quote}
+
+I: Okay. All right, so, what did you think of the system was capable of? What do you understand is capable as a being able to do, in general? Or like how it works in general?
+
+P: Seems like it could just by voice kind of manage your day, you know? It's just like, does it tell you reminders? Like, "Hey you got a meeting right now." What's this all about?
+
+I: Well not right now, but that isÉ interactions UI. You don't have to worry about that. So, okay my question is more like, What do you understand of how DiscoverCal functions? Like, what is it capable of? What does it ... ?
+
+P: {att>correct_mental_model}So it takes, interprets the words I say, and then it plugs them into a form, and then it pretty much asks for a confirmation. So based on like side commands, it starts create, either creating modifying, canceling, or stopping, specific titled events.{/att>correct_mental_model} 
+
+I: Okay. All right. So based on your interaction with this, does it in any way affect your approach towards other voice interfaces? Does it influence what you think of other voice interfaces? And how do you setup or work in any way? So what do you, how do you understand your .. group will be setup? What do you think is the ... ?
+
+P: I just kinda talk to it. I think its all right. 
+
+I: Sorry?
+
+P: I just kinda talk to it. It's just a ... so it doesn't have like, all the set commands are just like synonyms for already existing things like, add or create, synthesize it probably has a library of a ton of similar words that you like, if you say it'll probably interpret, "okay, he means create a thing or ..."
+
+I: Okay.
+
+P: {personification}He means editing an existing one. {/personification}Or if it doesn't recognize that the things already existing, it'll probably ask, "Is that something you want to create?" The things already existing. It'll probably ask, "Is that something you want to create?" Cause that already doesn't exist.
+
+I: Okay. 
+
+P: But, so how I interact with Google is just, I just talk to it.
+
+I: Okay. How does that usually go for you?
+
+P: I don't often use the voice for my calendar. I normally, especially when it comes to dates, I'm pretty bad with dates. I very visual where I need to see a calendar in order to choose a date and stuff. Cause I'll be like ... cause things like, October 12th. That means nothing to me I need to see it at that is 3 Thursdays from now or something, that sort of thing. So, I don't really use speech for my calendar, but when I do, which I do sometimes, normally with memo's and like events. It'll be a thing like ... What was the question? I just ranted.
+
+I: No I mean just like sort of how you currently use your ...
+
+P: So like for an event on a memo, I would be like, "OK Google, remind me that blah blah blah." I don't want, and it'll be like when do you want me to remind you? Just tomorrow. It'll be like, "Tomorrow morning?" Yeah. 
+
+I: Okay. 
+
+P: Now I'll be like, "OK Google, add an event on Thursday, I gotta meet with my math group." It's kinda annoying cause then I'll fill out the form, "I gotta meet with my math group." I wish it would understand the syntax of, "I have to ... " [crosstalk 00:05:46] No I just google, the one I always use with. It doesn't, it's not very good at determining what just your speech, and what actually needs to go into the phone, so ... And I really OCD so when I see like I have to meet with my group instead of, "Meet with group." Kinda annoys me. 
+
+I: So what do you, what do you take from your understanding of how OK Google is set up in that case? Do you think it has a certain number of things it can take or do you think that it's just like a conversational thing?
+
+P: Oh it's definitely not conversational. It's very limited. It's pretty crappy. It's like, it's fleshed out you know? Like if this was 10 years ago it would totally be ahead of it's time.
+
+I: Okay.
+
+P: {att>faith_in_NLP}It would be so impressive.{/att>faith_in_NLP} But by today's standards I don't think there Googles voice recognition is going fast enough. 
+
+I: Okay, so what would you compare it to a product that is better than that? If anything?
+
+P: I don't know. 
+
+I: Okay.
+
+P: I haven't found anything that is better.
+
+I: Okay. All right. So that ...
+
+

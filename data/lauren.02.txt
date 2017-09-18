@@ -1,0 +1,82 @@
+{!mediafile lauren.02.mini.mp4}
+Session 02
+ID 82
+Control
+**FIRST**
+P: {misheard}{learn_command}add event literature theme (team) project{/learn_command}{/misheard}
+DC: What day and time should I create this event?
+P: {misheard}{vui_error}Tuesdays 3:05 (3 to 5) weekly.{/vui_error}{/misheard}
+DC: Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+**SECOND**
+P: {obstacle>feedback}edit literature team project{/obstacle>feedback}
+DC: Sorry, but there is not event titled ýÿliterature team projectýÿ. Please try agian.
+I: Sorry I- try now.
+P: {tactic>hyperarticulation}edit literature team project{/tactic>hyperarticulation}
+I: [Points] It is-
+{memo}MEMO: Interviewer points to screen which shows the title says THEME and not TEAM.{/memo}
+DC: Sorry, but there is not event titled ýÿliterature team projectýÿ. Please try agian.
+P: {tactic>hyperarticulation}{say_louder}{misheard}edit literature's beam (theme) project{/misheard}{/say_louder}{/tactic>hyperarticulation}
+DC: Sorry, but there is not event titled ýÿliterature beam projectýÿ. Please try agian.
+P: Okýÿ.
+P: {tactic>hyperarticulation}edit literature {say_louder}{say_slower}theme{/say_slower}{/say_louder} project{/tactic>hyperarticulation}
+DC: What would you like to modify for this event?
+P: {tactic>simplification}the date{/tactic>simplification}
+DC: Please include a time and date for the start of this event.
+P: Tuesdays from 10 to 11 a.m.
+DC: Ready to modify the start time. Is that all?
+P: {tactic>hyperarticulation}{say_slower}set location{/say_slower}{/tactic>hyperarticulation}
+DC: What is the new location of this event?
+P: The Summit
+DC: Ready to set the location. Is that all?
+P: {misheard}yes{/misheard}
+DC: I couldnýÿt hear you, could you say that again:
+P: {tactic>hyperarticulation}Yes{/tactic>hyperarticulation}
+DC: Ok. Success. Calendar updated.
+**THIRD**
+P:{say_slower} delete weekly workout{/say_slower}
+DC: Are you sure you want to delete this event?
+P: {att>unsure}{hesitation}yes{/hesitation}{/att>unsure}
+{memo}**MEMO: hesitation when deleting something.**{/memo}
+DC: Event deleted.
+**FOURTH*
+P: edit literature {say_slower}theme{/say_slower} project
+DC: What would you like to modify for this event?
+P: {say_louder}{say_slower}add John Smith and Kelly Nelson
+{/say_slower}{/say_louder}
+DC: Ready to invite. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated. Sucess. Calendar updated.
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: All right, so based on your previous experience, I know I wasn't here, so based on your first session to now, did you think your approach towards the interface changed at all, and what was the approach you took?
+P: {learn_command}{say_shorter}Yeah, I think it was easier cause originally I said the whole date and time of it in the first sentence. And so I said just the event name and then add the date and time.{/say_shorter}{/learn_command}
+I: Okay.
+P: And I think it was just a little bit easier to use around the second time.
+I: Okay. And so what made you change that approach in the session that you used previous session and then you realized that you should do it this way?
+{memo}MEMO: Say shorter because errors.{/memo}
+P: Well, it was just like in the whole event thing it said, "The event", and "Wednesday", and it didn't add the actual date into the event.
+I: Okay. All right, so based on your interaction today, did you feel like DiscoverCal performed as you expected it to?
+P: Yeah, I think so. I mean, there was a few word pronunciations that might just be just because how I speak, but yeah, I think so.
+I: {vui_inexperienced}Okay. And so, you said that you don't use voice interaction as much. You have used Siri a bit, though. So, based on your experience with Siri and your experience here, do you think that there's something that from DiscoverCal maps your understanding of how voice interaction in general works?{/vui_inexperienced}
+P: Okay, could you repeat that question?
+I: So, does your understanding of how DiscoverCal works in any way contribute to your understanding of how other voice interfaces work?
+P: {vui_same_approach}Yeah, I think so. I think the basics are there, you know. You talk about the date and the name of the event, and I think it's very similar to all the other-
+{/vui_same_approach}
+I: Okay. So, what is your understanding of how DiscoverCal works? How does it function, how does it take what you say and respond, you know?
+P: {correct_mental_model}So, I think it takes my main words that {keywords}I say as the event nam{att>correct_mental_model}o listen for dates and times and the key words.{/keywords} Is that good enough?{/correct_mental_model}
+I: {keywords}Yeah, that's great. Okay, and do you think Siri also wor{/att>correct_mental_model} do you think that's somewhat different?{/keywords}
+P: I think, yeah, definitely works. It has trigger words.
+I: Okay. All right. That's great. So, is there anything else that you want to add about your interaction? Anything that you were thinking during your process, things that you were thinking about as you were going, anything at all?
+P: I{say_slower}{say_louder} think mostly I was just trying to pronunciate my words clearly, because I have a softer voice, so it's hard for people sometimes to pick up on that. So, that's mainly-{/say_louder}{/say_slower}
+I: Okay. And how confident did you feel about this interaction?
+P: Better this time.
+I: Better this time? Great. Okay, so yeah I think that's about pretty much most of the questions that I have to ask you. Did you think that there was something that DiscoverCal was more capable of doing this session that it wasn't capable of doing previous session? Did you think there was some more functionality, anything of that sort?
+P: {vui_error}Yeah, I mean, modifying events definitely, I didn't think it could do it as much. Editing things.{/vui_error}
+I: All right. And what about its limitations, to ýÿ. limitations?
+P: I don't know, maybe. Not sure.
+

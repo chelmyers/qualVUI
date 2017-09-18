@@ -1,0 +1,223 @@
+{!mediafile mike.02.MP4.mini.MP4}
+
+
+Session 02
+ID 96
+Experimental
+
+
+P: {impact>simplification}{/impact>simplification}{obstacle>NLP_error}Craig weekly ad (create weekly event){/obstacle>NLP_error}
+
+DC: I didn't get that. Can you say it again?
+
+P: {tactic>use_more_info}{/tactic>use_more_info}{tactic>hyperarticulation}create a weekly event{/tactic>hyperarticulation}
+
+DC: What day and time should I create this event?
+
+P: Tuesdays from 3 to 5 p.m.
+
+DC: What is the title of this event?
+
+P: {impact>hyperarticulation}literature team project meeting{/impact>hyperarticulation}
+
+DC: Is that all?
+
+P: set location to The Summit
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+
+
+P: edit literature team project meeting
+
+DC: What would you like to modify for this event?
+
+P: {obstacle>system_bug}change time to Tuesdays 10 to 11 a.m.{/obstacle>system_bug}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {tactic>simplification}{/tactic>simplification}{tactic>hyperarticulation}{/tactic>hyperarticulation}change start time to Tuesday 10:10 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: {att>confused}{/att>confused}{att>frustrated}change in time to Tuesday's 11 a.m.{/att>frustrated}
+
+DC: Your event ends before it begins. Please adjust the time and date for this event.
+
+P: {tactic>use_more_info}change and time to Tuesday June 10th or June{/tactic>use_more_info}
+
+DC: Your event ends before it begins. Please adjust the time and date for this event.
+
+P: set the date to this Tuesday
+
+DC: Your event ends before it begins. Please adjust the time and date for this event.
+
+P: {tactic>simplification}set start date to this Tuesday{/tactic>simplification}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {tactic>use_more_info}set start date to May 16th{/tactic>use_more_info}{att>confused}{/att>confused}
+
+DC: What date and time should this event start?
+
+P: {tactic>use_more_info}send text to Tuesday May 16th 10 a.m. to Tuesday May 16th 11 a.m.{/tactic>use_more_info}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {tactic>settling}that is all{/tactic>settling}
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+{obstacle>unfamiliar_commands}P: remove this Monday's weekly workout{/obstacle>unfamiliar_commands}
+
+DC: Sorry but there is no event titled, ÒMonday's weekly workoutÓ to delete. Please try again.
+
+P: -
+
+DC: I couldn't hear you could you say that again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}remove weekly 
+{obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}workout this Monday
+
+DC: Sorry but there is no event titled, weekly workout this mondayÓ to delete. Please try again.
+
+{tactic>rely_on_gui}P: ok.{/tactic>rely_on_gui}
+
+P: remove weekly workout
+
+DC: Are you sure you want to delete this event?
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}yeah
+
+DC: Event deleted. Success. Calendar updated.
+
+
+
+**FOURTH**
+
+
+P: {obstacle>feedback}{/obstacle>feedback}edit that's way to edit literature (thatÕs weirdÉliterature) meeting
+
+DC: Sorry but there is no event titled, Òthat's way to edit literature meeting.Ó Please try again.
+
+P: edit literature meeting
+
+DC: Sorry but there is no event titled, Òliterature meeting.Ó Please try again.
+
+P: {tactic>simplification}edit literature{/tactic>simplification}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}edit literature team project meeting
+
+DC: What would you like to modify for this event?
+
+P: {misheard}all (add){/misheard} {tactic>rely_on_gui}attendees{/tactic>rely_on_gui} John Smith and Kelly Nelson
+
+DC: Ready to invite. Is that all?
+
+{speak_outloud}{att>delighted}P: nice{/att>delighted}{/speak_outloud}
+
+P: yeah
+
+DC: I couldnÕt hear you, could you say that again?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+
+I: Based on your interaction this session, what was your approach toward things? How did you approach doing your task?
+
+P: {quote}I tried to figure out what command the computer would expect to work with it, so remove or edit or change, trying to precept the computer and breaking it down from a complex thing into something simple. Although, I was surprised that it had added the attendees in exactly that way that I expected it to. {att>delighted}I wasn't sure if that was going to work.{/att>delighted}{/quote}
+
+I: Why weren't you sure if that was going to work?
+
+P: I might have accidentally created the attendee, John Nelson and Kelly. 
+
+I: How was this approach that you took this session different from what you did last session?
+
+P: It wasn't that different.{att>learning_system} I knew more about what would work and what wouldn't. So I built on that.{/att>learning_system}
+
+I: What was the approach that you took when you first interacted with this...?
+
+{att>correct_mental_model}P: Pretty much what I said, knowing that the computer is going to expect certain buzz words, so to use them.{/att>correct_mental_model}
+
+I: What was making you arrive at figuring out what those buzz words are, what to use, what to say?
+
+P: Either basic logic or left menu. Lots of Star Trek.
+
+I: This session you did have to do some stuff like creating an event and reading an event Things that weren't necessarily still present on the menu, at the time that you were doing it. So how did you go about figuring out how to do that?
+
+P: Creating an event is always going to be add or create. In the event it actually helps if you are looking at the right event. That shook me up for a second. If it's not there then it doesn't make sense to delete it and stuff like that.
+
+I: No I meant ... sort of the keywords that you were using, they were gone for some of the things that you had to do. So how did you go about figuring out what those words where once ...
+
+P: Some basic logic, if there are people who are on the project and has a field for attendees, I could probably guess that it wants me to add that. Relying on the system to interpret what I trying to say as well.
+
+I: Was any of it working memory or anything of that sort. Or was it mostly you relying on basic logic?
+
+P: Some of it was basic memory. Some knowing that I can say create a weekly event and it will know that the title should be weekly and that it should be a weekly event.
+
+I: So did the system preform as you expected it to this session?
+
+P: For the most part. For changing the start date, it got tripped up pretty hard. I think it actually messed up the state that it was in. It popped up a question forum and then quickly removed it.
+
+I: Besides that, what did you think that the system was capable of doing of this session that you didn't know about in previous sessions? 
+
+P: Adding the attendees. I would suspect that it would be able to add a list of names but I hadn't done it in the last session, so I didn't have any proof that it worked.
+
+I: Any limitations that you found?
+
+P: Yeah, the changing the times is a little rough.
+
+I: I wasn't here in your previous session, I know that you mentioned to Chelsea that you don't have a lot of experience with voices and interfaces, but you have some? What was your ... What is your impression of how voice interaction in general after this interaction?
+
+I: Or if there's any sort of change in presection.
+
+P: It hasn't really changed it's still ... What I said to Chelsea that it works fantastically for an expert system like this. So my experiences has always been Siri and what ever the new Amazon one is, so it is like trying new everything and now you end up using one or two commands. This is like you can use it to it's full extent because that is what the system is there for. 
+
+I: What is your understanding of how Discover Count functions? What is taking it back? What is your mental model of it?
+
+P: Well, I'm a Computer Science major, so I can ...
+
+I: That's why I used the word mental model. Because you actually understand it.
+
+P: So I know that it is trying to take what I say, break it up into words, interpret what actions need to be done through that and what perimeters need to be set. That's pretty much ... It's how I would have built if I...
+
+I: What is your understanding of how Siri and Alexa works as opposed to ... 
+
+P: I imagine that they either work somewhat the same? That at the end of the day you're trying to figure out what someone is saying and how to do it. So breaking it up, I'm certain that grammar comes into it a lot. The English language is terrible.
+
+I: That's pretty much it, is there anything else that you want to add about your interaction today about the two sessions that you had, voice control, Discover Count, anything else?
+
+P: I was actually surprised at how difficult it was to change the times. Part of that is, obviously there's block word, the end time can't be before the start time. But, I am not sure what can be done about that, except maybe if it knew that it was an event that was starting at the same day and had the same duration then if you added the end time it would make sense that the start time would also edit. That's weird because how does it know when to change the duration versus changing the time.
+
+I: Is there anything else that you noticed about what was necessary in terms of input for that specific task? For changing the date, was there something that you felt I need to do this in order for it to be done correctly or where you just ... I'm not sure ...
+
+P: I ended up having just to ... It has the date in a specific formate so I just followed this formate, do exactly what it would be the easiest path for it. Maybe changing the start time before you change the end time.
+

@@ -1,0 +1,126 @@
+{!mediafile axel.01a.mp4.mini.mp4}
+
+
+Session 01
+ID 102
+Control
+
+P: {obstacle>NLP_error}{misheard}adanac{/misheard} (add a math) group meeting on Wednesday from 6 to 7 p.m. at Saxbys Cafe{/obstacle>NLP_error}
+{feedback_user_not_listening}DC: Sorry but there is no event title, ýÿadanac group meeting on Wednesday from 6 to 7 p.m. at Saxbys Cafe.ýÿ Please try again. {/feedback_user_not_listening}
+P: {menu_usage}I need to read the schedule events more carefully. I thought that would would.{/menu_usage}
+P: {tactic>simplification}{say_shorter}{say_shorter}add an event on Wednesday from 6 to 7 p.m.{/say_shorter}{/say_shorter}{/tactic>simplification}
+DC: What is the title of this event?
+{misheard}P: mask (math) group meeting{/misheard}
+DC: Is that all?
+I: What are you thinking?
+{speak_outloud}P: It says mask group meeting instead of math group meeting. So I am reading my options over here{/speak_outloud}.
+P: change the title
+DC: What should be the title of this event?
+P: {say_slower}{say_louder}{tactic>hyperarticulation}math group meeting{/tactic>hyperarticulation}
+{/say_louder}{/say_slower}
+DC: Ready to update the title of this event. Is that all?
+P: add the location to Saxbys Cafe
+DC: Ready to set the location. Is that all?
+{memo}**MEMO: Hyperarticulation seeps into other commands**{/memo}
+P: yes
+DC: Ok. Success. Calendar updated.
+**SECOND**
+P: add study session on Thursday
+{speak_outloud}P: Oh that is not how it works.
+{/speak_outloud}
+DC: What day and time should I create this event?
+{surprise}{speak_outloud}P: oh it did.{/speak_outloud}{/surprise}
+P: change the title to study session
+DC: Ready to update the title of this event. Is that all?
+P: change the date to Thursday from 1 to 2 p.m.
+DC: Is that all?
+P: change the title to study session for US History test
+DC: Ready to update the title of this event. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+**THIRD**
+P: add math group meeting
+DC: What day and time should I create this event?
+P: Oh I should read more.
+P: cancel
+DC: Okay, cancelled.
+{cancel_bug}P: exit{/cancel_bug}
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+P: {obstacle>NLP_error}modify {misheard}mask{/misheard} group meeting{/obstacle>NLP_error}
+DC: Sorry but there is no event titled Òmask group meetingÓ. Please try again.
+P: {tactic>guessing}{change_command}edit math group meeting{/change_command}{/tactic>guessing}
+DC: What would you like to modify for this event?
+P: change location to Hagerty Library
+DC: Ready to set the location. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated. Succes. Calendar updated.
+**THIRD**
+P: add a recurring event on Monday from 9 to 10 a.m.
+DC: What day and time should I create this event?
+P: change title to weekly workout
+DC: Ready to update the title of this event. Is that all?
+P: {obstacle>NLP_error}change date to Monday at 9 to 10 a.m.{/obstacle>NLP_error}
+DC: Is that all?
+P: {tactic>hyperarticulation}change date to Monday at 9 to 10 a.m.{/tactic>hyperarticulation}
+DC: Sorry, but there is not event titled, ýÿdate to Monday at 9 to 10 a.m.ýÿ Please try again.
+{speak_outloud}P: I feel like i said 9 to 10 before with an hour increment but now I am wondering if that was a mistake.
+{/speak_outloud}
+P: {tactic>simplification}{say_shorter}change the date{/say_shorter}{/tactic>simplification}
+DC: Please include a time and date for the start of this event.
+P: {tactic>use_more_info}change the date to Monday at 9 a.m.{/tactic>use_more_info}
+DC: Ready to modify the start time, is that all?
+P: {tactic>use_more_info}{misheard}change the date to Monday at 9 to 10 a.m.{/misheard}{/tactic>use_more_info}
+DC: Sorry, but there is not event titled, ýÿdate to Monday at 9 to 10 a.m.ýÿ Please try again.
+P: {tactic>use_more_info}{say_more_info}change the date to Monday at 9 a.m. to 10 a.m.{/say_more_info}{/tactic>use_more_info}
+DC:DC: Sorry, but there is not event titled, ýÿdate to Monday at 9 a.m to 10 a.m.ýÿ Please try again.
+{change_command}P: I am not exactly sure how to change the second date because it says 9 to 9:59 am. Um, Iýÿve feel like iýÿve thrown most possible combinations at it. I donýÿt know if itýÿs just mishearing me orýÿ
+{/change_command}
+I: What would you do if you were with this interface in real life?
+P: Assuming I donýÿt have the option to type it in, I would probably delete the event and try again. Ok, and this time just set to 9 am and not touch the ending one. Thatýÿs pretty much it. Or I just would not schedule it or try to remember it.
+{accept_flaws}P: {tactic>settling}yes{/tactic>settling}{/accept_flaws}
+DC: Ok. Success. Calendar updated.
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: Okay. Just a quick thing is, before your basic interaction to be with DiscoverCal, what do you understand to be what the system is capable of doing for you? What is DiscoverCal capable of doing?
+P: I thought it was capable of setting like basic calendar events. I{distrust_vuis}t wouldn't be able to handle a complex event, with a lot of information.{/distrust_vuis} I don't know if I'd be able to put the same information I might type into Google calendar on to here.
+I: For example?
+P: If I was scheduling a recurring event for a class, I guess, for one word that I haven't put in the root number ... Usually what I do is put in the room number, teacher number, not teacher number, teacher name, and what section I'm in in the class. I put all of that information in, so I don't really think I'd feel efficient doing that in there. Yeah, that's essentially it.
+P: I also wouldn't know, although I didn't try it, I don't know if I'd be able to put in complex recurring schedulings, too. I'd have to, like with Google calendar, I'd have to set different dates and I could change the time, on a certain one. So I address the rest of them. I don't know if this could handle ... I know it could handle recurring events per week, but I wasn't sure if it could handle Monday, Wednesday, Friday, but Wednesday is three hours later than it is on Monday and Friday.
+I: Okay. So what did you understand about the voice interface and it's capabilities and innovations?
+P: {distrust_NLP}I guess I felt like it can handle basic tasks, but it couldn't handle keywords, but it couldn't handle fluent conversationalist commands. So I couldn't say one sentence to it and it would auto-generate the thing. I had to break it apart into multiple steps.{/distrust_NLP}
+I: Okay. All right. And so, based on your interaction here, what do you think ... how do you think DiscoverCal functions? What do you think it does in order to work and give you a response and things like that?
+P: Sorry. Can you repeat the question?
+I: So, how do you think DiscoverCal functions? What is your understanding of the way it works?
+P:{mental_model_from_menu}{correct_mental_model} I assume it's listening for keywords like the ones you have on the left list. And then it{att>correct_mental_model} whatever I am saying after that, and filling in the form.{/correct_mental_model}{/mental_model_from_menu}
+I: What is your understanding of how Alexa, or Google, what yo{/att>correct_mental_model} differently, for example? And how they failed.
+{assimilation_bias}P: Both of those things can function in two ways, cause sometimes it does do the same exact thing where it listens for keywords, as obviously Alexa, or Echo, listens for Alexa all the time. But those there are features that I can say it in a conversationalist style, so I speak to it less structured than I have to with this. And that way, it feels a little less ... I guess it's easier to use because of that cause I don't have to worry as much if ... Do I need to say add? Do I need to say create? I can say "Make this event" and it has all those different options in it and can piece together contextually what you're saying.{/assimilation_bias}
+I: What was your approach with the interface when you started interacting DiscoverCal? How did you decide what you want to do, and what you want to say? Things like that.
+P: My initial response to it opening was just to start speaking to it. {assimilation_bias}I did not realize ... I am not used to having a command list anymore. {/assimilation_bias}So I had to go to the left side first. I assumed everyone can use Siri off the bat, with some trial and error. So, I was thinking, we'll do the same here. Then I realized, no, it's keyword-based thing. I have to say these commands specifically. And set in that order.
+I: Okay. Is that something that you didn't like? Is that something that you ... What is your ...
+P:{att>gui_better_than_vui} It felt very ... The downside of something like this, compared to ... Essentially I still wouldn't choose this over typing it out. It'd be a cool add-on to how I usually use calendars, but as it is right now, it's still ... I have to say this command and I have to say this. And then I have to say this. Where it's easier for me just to type it all out.
+{/att>gui_better_than_vui}
+I: I don't want you to compare to Google calendar in the typing aspect, but more so Alexa or Cortana or Google assistant, like the voice aspect.
+P: Even in that same vein, when I do use Google calendar, I can still say all in one sentence. And it tries, at least, to do something, whereas, here I have to say this command. Then once I've said that command and opened it up again, I have to say another command. Then I'll have to look back at another menu for more commands. So I think that back and forth process felt like it slowed down the process for me. And, which is why I think the Google calendar thing is relevant in that sense, because if I have to keep going back and forth, I feel like the process is slowed, then I'm probably not as likely to try and figure it out.
+{memo}**MEMO: prefer all at once commands instead of back and forth**{/memo}
+I: So you mentioned that with Google assistant that you do use. And sometimes you give it a full string and it does work for the calendar for you?
+P: Actually, I don't know if I tried it with Google assistant. I used it whenever in the past for Google now, the past version of it, connoted that I haven't tried it with Google assistant.
+I: And so, besides that, your approach towards this, do you think that it influences in any way the course that you would take if you were to do similar tasks with another voice interface?
+P: Sorry. Can you repeat that?
+I: The approach that you took here, which was to look for the keywords, and then go back and forth, does that influence in any way the interaction that you would have with similar tasks?
+I: With another voice interface?
+P: I'm still not sure if I'm misunderstanding your question, but I don't think soýÿ. I'm interpreting it as, are you asking if the way I use other voice interfaces now would be changed by the way- Because I use this?
+I: For similar tasks.
+P: For similar tasks. No, because I don't feel like ... first, like Google doesn't throw commands out at me, or other voice ... interfaces, so I don't think so. Or at least, if it doesn't throw comments out at me, it makes it more subtle as to where it is. How do you say it?
+I: So, if you had to sort of have it be more subtle, what would sort of be what you would like it to be?
+P: First of all, I think there's a lot of- It has like three things that says, "Add and create" that are in bold, and the function of it is kind of not bolded, and it's hard to just visually, from the start, differentiate kind of what command it goes to. Thus which ...
+I: So, there's a lot of content is what you ...?
+P: {menu_too_much}Yeah, and I think it would be better if there was just like scheduled events. If you want to schedule an event, then there just ýÿ, kind of one add and create. And then there's like if you want to add ... Will that doesn't solve the content issue? I'm not really sure. But I get confused looking- When I go back to look at the commands I get confused. Like I got confused looking for- All right, like there's two modify/edit things now. Which one is going to do what I need it to do?
+{/menu_too_much}
+I: Okay.
+P:{nlp_want_more} And I guess if it could handle a full sentence worth of context, that would be a big improvement, so I don't have to, say, make this event and then it pops on the screen where then I have to talk about adding information. {/nlp_want_more}
+I: Okay. Any other comments that you have about voice control, ýÿ, your experience to the- Anything that you want to add in general?
+P: I thought the voice itself was a little jarring. Yeah, I don't know if there's a solution to that problem, but it felt very robotic. And actually, I don't know if the robotic part of it even bothered me. I think it was more I just couldn't ... Sometimes I just couldn't hear what it was saying. That might be my poor hearing, but it sounded a little broken up at times and a little like static was in there, so I don't ... That was about it, though.
+

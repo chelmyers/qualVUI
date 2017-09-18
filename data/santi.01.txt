@@ -1,0 +1,259 @@
+{!mediafile santi.01.a.MP4.mini.mp4}{!name Òsanti.01.txtÓ}
+
+
+Session 01
+ID 92
+Control 
+
+{speak_outloud}{att>assimilation_bias}P: Do I have to refer to is as discovercal like when you say alexa?{/att>assimilation_bias}
+
+I: Nope.
+
+P: ok.{/speak_outloud}
+
+P: {att>intial_command_long}new event{misheard} (math group){/misheard} meeting on Wednesday 6th 7 PM location Saxbys Cafe{/att>intial_command_long}
+
+DC: What day and time should I create this event?
+
+P: {misheard}Dave's (day is) {/misheard}Wednesday time 6 to 7 p.m.{obstacle>feedback}{/obstacle>feedback}
+
+DC: Please include a time and date for this event.
+
+{tactic>simplification}P: day is Wednesday{/tactic>simplification}
+{att>confused}{/att>confused}
+DC: Sorry but there is no event titled, ÒDay is wednesday.Ó Please try again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>use_more_info}{misheard}Penn State {/misheard}Wednesday 6 to 7 p.m.{/tactic>use_more_info}
+
+DC: Sorry but there is no event titled, ÒWednesday 6 to 7 p.m.Ó Please try again.
+{att>incorrect_mental_model}{/att>incorrect_mental_model}
+{tactic>rely_on_gui}{/tactic>rely_on_gui}
+
+P: change title group meeting on Wednesday
+
+DC: Sorry but there is no event titled, Òtitle group meeting on Wednesday.Ó Please try again.
+
+P: {misheard}Filipina{/misheard}
+
+DC: Sorry, tell me one more time?
+
+P: delete event meeting on Wednesday 6th 7 PM location Saxbys Cafe
+
+DC: Sorry but there is no event titled, Òevent meeting on Wednesday 6th 7 PM location Saxbys CafeÓ to delete. Please try again.
+
+{tactic>restart}P: cancel{/tactic>restart}
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+
+
+P: {obstacle>NLP_error}Ativan{/obstacle>NLP_error} mask group meeting
+
+DC: What would you like to modify for this event?
+
+P: {tactic>guessing}add an event on Wednesday 6 to 7 p.m.{/tactic>guessing}{tactic>use_more_info}{/tactic>use_more_info}
+
+DC: What is the title of this event?
+
+P: math meeting
+
+DC: Is that all?
+
+P: {obstacle>NLP_error}{misheard}application{/misheard} Saxbys Cafe{/obstacle>NLP_error}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}add location to Saxbys Cafe
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: I couldnÕt hear you, could you say that again?
+
+P: yes
+
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**SECOND**
+
+{speak_outloud}P: I think I am going to get better at this but the first was very clever.{/speak_outloud}
+
+{impact>simplification}P: add event on Thursday from 1 to 2 p.m.{/impact>simplification}
+
+DC: What is the title of this event?
+
+P: study session for history test
+
+DC: Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**THIRD**
+
+
+
+P: modify event math meeting
+
+DC: What would you like to modify for this event?
+
+P: change the location to Hagerty Library
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+{obstacle>NLP_error}DC: I couldnÕt hear you, could you say that again?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+
+{obstacle>NLP_error}DC: I couldnÕt hear you, could you say that again?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated.
+
+
+**FOURTH***
+
+
+P: {impact>simplification}add an event on Monday 9 to 10 a.m.{/impact>simplification}{impact>hyperarticulation}{/impact>hyperarticulation}
+
+DC: What is the title of this event?
+
+P: weekly workout
+
+DC: Is that all?
+
+P: {obstacle>NLP_error}can't do  ( change the date to) {/obstacle>NLP_error} Monday at 9 to 10 a.m.
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>hyperarticulation}change the date to Monday at 9 to 10 a.m.{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled, Òthe date to Monday at 9 to 10 a.m..Ó Please try again.
+
+{tactic>restart}P: cancel{/tactic>restart}
+
+{obstacle>NLP_error}DC: I couldnÕt hear you, could you say that again?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: yes{/tactic>hyperarticulation}
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+{speak_outloud}
+P: So is this for every monday or just this coming monday. 
+
+I: ItÕs every monday.
+
+P: Oh i see.
+{/speak_outloud}
+
+
+P: {obstacle>NLP_error}I have a current (add a recurring) {/obstacle>NLP_error}event on Monday
+
+DC: Sorry but there is no event titled, Òon Monday.Ó Please try again.
+
+P:{tactic>hyperarticulation} iconic event on Monday at 9 to 10 a.m.{/tactic>hyperarticulation}
+
+DC: What is the title of this event?
+
+P: weekly workouts
+
+DC: Please include a time and date for this event.
+
+P: {obstacle>system_bug}change the date to Monday at 9 to 10 a.m.{/obstacle>system_bug}
+
+DC: Sorry but there is no event titled, Òmonday at 9 to 10 a.m.Ó Please try again
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>hyperarticulation}{/tactic>hyperarticulation}{tactic>guessing}make{/tactic>guessing} the date to Monday at 9 to 10 a.m.
+
+DC: Please include a time and date for the start event.
+
+I: It might have heard me in that process.
+
+P: So I tried ÒchangeÓ but I thought wait a minute that not date. So I also tried- ÒChangeÓ is not going to work so that is why I tried make. So I am going to try make again.
+
+{tactic>guessing}P: make the date on Mondays from 9 to 10 a.m.{/tactic>guessing}
+
+DC: Please include a time and date for the start of this event.
+{tactic>rely_on_gui}{/tactic>rely_on_gui}
+
+{speak_outloud}P: alright, I said from instead of add.{/speak_outloud}
+
+P: {tactic>hyperarticulation}/tactic>hyperarticulation}make the date Mondays at 9 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+{speak_outloud}P: Now I see, it doesnÕt like when I say 9-10. Now I see. And I realize. I never checkeed when the events were created. Math meeting, it wednesday 6th. I didnÕt realize this. {/speak_outloud}
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+
+I: Okay, so before I let you go, just some quick questions. 
+
+P: Okay.
+
+I: What was your approach? Like what did you start off ...
+
+{att>assimilation_bias}P: At the beginning, I used it as if I was using Alexa, just trying to say like a natural language sentence, like a freeform sentence. Then the first event ... Oh, sorry ...
+
+I: No, it's fine, you can keep talking. 
+
+P: The first event was a bit bumpy, because I was trying to do that, and then I got myself into a corner that I created that event with a very long name, and I couldn't get out of that. When I realized that, when I canceled everything went better. Then I think it was maybe in the third event, when I realized that these patterns were actually working, so these patterns were with fillers that I could just change, like the date, the time, and then when I used that for the last, I think it was the two last ones, then everything worked fine.{/att>assimilation_bias}
+
+I: Okay. What was your understanding of how DiscoverCal works or what it's capabilities were?
+
+P: Well, I only had to add and modify events, did I really? Yeah, I ... No, I did not.
+
+I: Yeah, just from this session and your understanding of what you've done so far.
+
+P: {att>faith_in_NLP}It would let me create and modify event in my calendar without me having to use a keyboard or a mouse, something like that. I guess the main advantage of this voice interface is, in general, to me, what I see, when I'm in front of the computer, I might never use it, but I see it as very useful at home, when you are actually doing things.{/att>faith_in_NLP}
+
+I: Yeah, DiscoverCal is actually made for wall mount display at home, we're testing in a lab because of our limitations. My question is more, what is your understanding of what is your mental model of what this interface is doing, or what it does?
+
+P: What is my mental model?
+
+I: Or how it works? I'm using that phrase because I know you'll understand.
+
+P: {att>correct_mental_model}Right. What I see, or what I think it does now is, so there's a set of commands that I can give, and each one has a pattern. Basically, if I say a sentence that matches any of these patterns, then that command will be executed. At the beginning I was trying to be more freeform, and then that didn't work. If I follow these commands, and I guess if I were to use this for several days and I memorized these commands, it would be, I think, fairly intuitive and very easy to use.{/att>correct_mental_model}
+
+I: You mentioned that if you were to memorize the commands, so would you want it to always be their nature as well?
+
+P: Most likely, once you've used it enough you don't need it, so that should be optional. It should be something that is easy to pull, because at least in my first session it was. When I realized that I had to use them, then it was extremely useful.
+
+I: Okay. Besides that, what did you think were the limitations of the interface?
+
+P: The limitations of the interface ... There's a couple of limitations that I can think of because of the template manner. I don't know if there's any way to get around it with the current thing. For example, imagine that I made a little typo in the name and I wanted to change the name, I would not be able to say, "Change that T to an R," because it would not understand that command. Those kind of things that with a keyboard, I would do very quickly. Let's see, any other ... Then there was that problem I had in the first event, that I drove myself into a corner because I created an event with an enormous title that I would never be able to reproduce to refer to that event. I wonder if there would be any way to refer to events, to delete the event of Wednesday at 6:00 without having to use the title of the event, because I set a ridiculous title that I would never be able to change.
+
+I: Okay. 
+
+I: My last question is does this in any way sort of influence or inform your understanding of how voice interfaces themselves work? Like generally voice interaction?
+
+P: {att>assimilation_bias}I'm actually quite familiar with how like Siri and Alexa and those things work internally, so I have to say I don't think so, because I do know that they work with this kind of templates except they Alexa and Siri, they have like thousands, or potential thousands of patterns. And this one had like, I don't, 12 or 10, right. So I did know that it worked like that, and what I was wondering if you guys were tapping into some of those services and that's why at the beginning I was freeform, but it just confirms.{/att>assimilation_bias}
+
+I: Okay. Okay. Cool, yeah. 
+

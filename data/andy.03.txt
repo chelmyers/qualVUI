@@ -1,0 +1,203 @@
+{!mediafile andy.03.mini.mp4}
+
+Session 03
+ID 36
+Experimental
+
+
+P: {impact>simplification}{/impact>simplification}add {misheard}app (uh){/misheard} add event
+
+DC: What day and time should I create this event?
+
+{att>learning_system}
+P: Friday at 10 a.m.
+
+DC: Is that all?
+
+{impact>simplification}{/impact>simplification}P: change the title
+{/att>learning_system}
+
+DC: What should be the title of this event?
+
+P: dentist appointment
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+
+
+{att>confident_back_to_long_command}{/att>confident_back_to_long_command}P: {obstacle>NLP_error}add{/obstacle>NLP_error} weekly Skype with high school Palmar black
+
+{memo}**MEMO: A lot of times they will revert back to more complex. Their confidence is shot but they still try out of laziness or courage, not sure**{/memo}
+
+DC: Who would you like to add to this event?
+
+P: {tactic>simplification}{/tactic>simplification}add event
+
+DC: What day and time should I create this event?
+
+P: Saturday is at 8 p.m.
+
+DC: Please include a time and date for this event.
+
+{obstacle>unfamiliar_commands}P: misheard}change the (to) weekly{/misheard}{/obstacle>unfamiliar_commands}
+
+DC: What would you like to modify for this event?
+
+{tactic>restart}P: cancel{/tactic>restart}
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+P: add weekly event
+
+DC: What day and time should I create this event?
+
+P: Saturdays at 8 p.m.
+
+DC: What is the title of this event?
+
+P: {obstacle>NLP_error}we could Skype with high school pound like black{/obstacle>NLP_error}
+
+DC: Is that all?
+
+P: {misheard}King title{/misheard}
+
+DC: Sorry, but there is no event tited, ýÿtitled.ýÿ Please try again.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}change  {misheard}we could (weekly){/misheard} Skype with high school pound like black
+
+DC: Sorry, but there is no event tited, ýÿwe could Skype with high school pound like black.ýÿ Please try again.
+
+P: edit title
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}weekly Skype with school {misheard}call{/misheard} Mike Black{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: edit title
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}weekly Skype with high school {misheard}Palomar{/misheard} black{/tactic>hyperarticulation}{tactic>settling}{/tactic>settling}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes that's all
+
+DC: Ok, what else?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+P: invite Mark to weekly Skype with high school {obstacle>NLP_error}{misheard}Palomar plaque (black){/misheard}{/obstacle>NLP_error}
+
+DC: Event attendees has been updated. Is that all?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}invite Mark to weekly Skype with high school Palomar black
+
+DC: Event attendees has been updated. Is that all?
+
+{speak_outloud}P: Why is there an undefinded there. When it gets the invite command does it hear that and also adds it, it knows it is the invite command and adds it as undefined?
+{/speak_outloud}
+I: Yes.
+
+P: Cool.
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+
+
+
+I: All right, so ... The normal questions. All right, now after your last final session done, after this you get your sweet, sweet extra credit, what do you believe ... Is anything changed. or what do you believe that DiscoverCal is capable of?
+
+P: I really like where the system is headed, I like how, for example this test had a little more grammatical consistency with how English works. {distrust_NLP} I think there are still a few hiccups, like some words are just hard for voice recognition software to truly understand.{/distrust_NLP}
+
+I: Mm-hmmýÿ, pal.
+
+P: Pal.
+
+I: Ethics.
+
+P: Ethics, yeah. They're just tiny little things like that but honestly I think ... I don't think the system needs to be expanded anymore. I think for the calendar app that it is, it works and it works great. {att>faith_in_NLP}I think what needs to happen now is there just needs to be a lot of time dedicated to tweaking out those little things. Like a lot of time, because I know it's going to take a lot of time to rewrite code to have it distinguish different sounds. And it's gonna require a lot of rewriting for it to take that undefined and remove that, 'cause I know that's gonna be something that if consumers saw it on the market they'd be like, "Well that's weird, I didn't say undefined", and then they'll continually try it over and over and over again. But if the system already knows that it's a command it's not supposed to have there, it should I guess return like a null value or something so that nothing pops up. But I guess-
+{/att>faith_in_NLP}
+
+I: -Sorry, I launched my pen across the room.
+
+P: It's fine. But I guess, if it does return that null that's why the undefined pops up. But I guess that could be replaced with white spaceýÿor something.
+
+I: So you're satisfied with the features, but the language processing needs improvement?
+
+P: {quote}{att>gui_better_than_vui}Yeah, and that's the thing that's always gonna keep VUI behind a GUI in all honesty; because a GUI has instant feedback and a 99.99999 percentage accuracy rating. Because when you click on something, the computer knows what you've clicked on, and it will go and do whatever you clicked on. So even if you made a mistake, it's mistake on the user not a mistake on the system. VUI has this hard component where the feedback is not instant, because the processor needs time to interpret the request, and it needs time to think of all these words and all the different combinations of sounds you made. Then run through its databases and find what matches best, and then work with that. So that in itself has a lower accuracy rating, and a lower ... I almost want to say reaction time. But a lower processing time than a typical GUI. So I think everyone wants to focus on like, what a VUI can do, when I don't think we're done de-bugging it and fully making it a software capable of doing what we want it to do.{/att>gui_better_than_vui}{/quote}
+
+I: Mm-hmm... Do you want to write my thesis paper for me? No, yes, those are some really great points. I would like to go back to something you said, where you like how today things that ... Was more lenient with the way you feel comfortable saying things grammatically ... What specifically are you referring to?
+
+P: Specifically referring to the event ... The attendee situation, because I realized that last time it was doing event first and then the person, but it was still using the correct linking verb to that. So it was saying like, "Invite event to person", instead of, "Invite person to event".
+
+I: Mm-hmmýÿ
+
+P: And there's no grammatical way to fix that other than switching the two nouns. So today's system had the nouns switched and it made it a lot easier to grasp upon first viewing it, rather than in the old system, which took a tiny bit to get used to.
+
+I: Awesome. So I think we already discussed what you believe are the current limitations of the system ... Today, did it perform how you expected it to?
+
+P: Yeah it did well. It performed everything, I mean, other than the palomark thing, which-
+
+I: -Why did you choose to have the title so specific? Is that normally how you would do it?
+
+P: That's how I would do it, is I wanted it to ... So the thing is I have a horrible memory; so if my events aren't exactly named the way they're supposed to be, or at least something extremely close, then I'm afraid that I will forget the event, or the event won't hold such a precedent in my mind. So I'll say, "Oh I can skip that 'cause I don't really care about that, 'cause I didn't take the time to put the right name in".
+
+I: Ah, okay. That's good to know. And how does interacting with DiscoverCal today, did it contribute or alter your understanding of VUIs at all?
+
+P: Yes, but I honestly don't think it did anything that I wouldn't be able to do from like just sitting alone in my room with my voiceýÿsystem for 15 minutes {att>correct_mental_model}. Just to understand that; hey this process works because first it's identifying the words, then it's identifying the common processes that it can do, then it's linking those words to those processes and doing what it sees as best for the system{/att>correct_mental_model}
+
+I: And then what about ýÿ DiscoverCal, so did anything today change your understanding of DiscoverCal?
+
+P: Just that ... Not really with DiscoverCal itself, but more with the work that you guys do with it. The fact that you have all this, like you take this feedback and you have the changes, and then you also test those but you test what you originally had, because you want to see how it holds up to the new stuff. And it's a really nice controlled experiment, and so I think you guys did great.
+
+I: Thank you.
+
+P: The system's good.
+
+I: I have that recorded, I'll play that to my advisor. Awesome, okay so I have some more broader, general off script questions for you. And my first one is, what do you think is your process when you're hitting a wall? How did you get around that wall and actuallyýÿ from the system?
+
+P: {att>blame_nlp}So I tried to ... So I stopped for a second and thought about the words that it was having trouble with, and what specifically it was having trouble with, with that word. So with the whole ethics thing, it was the problem of the "TH" sound versus the "S" sound. And so I took a second to make sure the next time I did it I really enunciated the "TH" sound so that it tried to do something a little better. And then today with the palomark, it was the fact that I think I was saying palomark too fast, so it wasn't registering the "K", so it was completely ignoring that. So it was going with words that sounded similar, so I needed to enunciate the hard consonants. So like the "P", the "M" and the "K", to make sure that it hit those three points so that it had something to reference when it looked through all its words.{/att>blame_nlp}
+
+I: Okay. And was there anything in the system that would also help you so that you know what's wrong and what's right?
+
+P: There was ... So do you mean like the feedback system where like I would say something and ...
+
+I: So whatever guide helped guide you.
+
+P: Ah, okay.
+
+I: Or whatever, it could be feedback if you really ... It's a very open question.
+
+P: {feedback_liked}I really liked how it read back the thing to you if you did it wrong. So if you said something and then it was like, "Sorry, this event that you had said wasn't there". Not because it told me that there wasn't an event there, but because it told me what it heard. So I knew what to change ... It's the same with the titles like how it shows the titles and then it reads them, and you read it and you say, "Okay it messed up on this word so I have to go back and I have to make sure I enunciate this word better. Or make sure I clarify a little bit, and make it clearer for the system to understand".{/feedback_liked}
+
+I: Awesome. I heard that ... 'Cause I was thinking about taking that out 'cause a lot of people talk over it, but someone likes it. 'Cause when you're doing it, it's like, "There is no event for palomar", and it goes on forever. Sometimes it can be annoying but-
+
+P: -No I understand that.
+
+I: My initial ... But you can talk over it if you don't want it. Okay, those are the only-
+

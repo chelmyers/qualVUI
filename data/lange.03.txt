@@ -1,0 +1,240 @@
+{!mediafile lange.03.MP4.mini.MP4}
+
+Session 03
+ID 91
+Experimental
+
+
+P: -
+
+DC: I couldnÕt hear you, could you say that again?
+
+{impact>simplification}{/impact>simplification}P: add an event
+
+{att>learning_system}DC: What day and time should I create this event?
+
+P: Friday at 10 a.m.
+
+DC: What is the title of this event?
+
+P: dentist appointment
+
+DC: Is that all?
+
+P: that is all
+
+DC: Ok. Success. Calendar updated.{/att>learning_system}
+
+
+**SECOND**
+
+
+P: create an event
+
+DC: What day and time should I create this event?
+
+P: Saturday at 8 in the morning and afternoon
+
+DC: Ready to modify the start time. Is that all?
+
+P: modified date
+
+{obstacle>system_bug}DC: Sorry but there is no event titled, Òdate .Ó Please try again{/obstacle>system_bug}.
+
+{tactic>restart}P: exit{/tactic>restart}
+
+DC: Cancelled cha-{cutoff}{/cutoff}
+
+{impact>simplification}{/impact>simplification}P: create an event
+
+DC: What day and time should I create this event?
+
+P: Saturday at 8 p.m.
+
+DC: What is the title of this event?
+
+P: bigley Skype
+
+DC: Is that all?
+
+{obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}P: modify event name
+
+DC: Sorry but there is no event titled, Ò name.Ó Please try again.
+
+P: {tactic>guessing}{/tactic>guessing}modifying event title
+
+DC: Sorry but there is no event titled, Òtitle.Ó Please try again.
+
+P: {tactic>restart}{/tactic>restart}exit
+
+DC: Cancelled chan-{cutoff}{/cutoff}
+
+P: create an event
+
+DC: What day and time should I create this event?
+
+P: Saturday at 8 p.m.
+
+DC: What is the title of this event?
+
+P: weekly Skype
+
+DC: Is that all?
+
+P: {obstacle>NLP_error}and people{/obstacle>NLP_error}
+
+DC: Please include a time and date for the end of this event.
+
+P: {tactic>hyperarticulation}invite guest{/tactic>hyperarticulation}
+
+DC: Please include a time and date for this event.
+
+P: {tactic>use_more_info}{/tactic>use_more_info}invite Mark black
+
+DC: Ready to invite. Is that all?
+
+P: that is all
+
+{obstacle>NLP_error}DC: I couldnÕt hear you, could you say that again?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: that is all{/tactic>hyperarticulation}
+
+{obstacle>NLP_error}DC: Ok, what else?{/obstacle>NLP_error}
+
+{tactic>hyperarticulation}P: that is all{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+P: {obstacle>NLP_error}modified cast (guests){/obstacle>NLP_error}
+
+
+DC: What would you like to modify for this event?
+
+{speak_outloud}
+I: Now I have a question for you real quick, um, did you already do that?
+
+P: I did that there. But I am jsut double checking i guess.
+
+I: Fine by me.
+{/speak_outloud}
+
+{tactic>hyperarticulation}P: modify weekly Skype{/tactic>hyperarticulation}
+
+DC: What would you like to modify for this event?
+
+P: that is all
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+END OF TASK
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+BEGIN Q&A
+
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+
+
+P: Okay.
+
+I: All right. Awesome. Same thing as always. Based off your session today, what do you think DiscoverCal is capable of?
+
+P: DiscoverCal is capable of being your personal voice-controlled calendar. I think I would put it simply, like that.
+
+I: Any new capabilities used today?
+
+P: Not that I see from past sessions. {menu_useful}However, I did notice that there were less of a menu in past sessions, and I did kind of expect to have most if not all the menu options to help guide my words better.{/menu_useful}
+
+I: You were missing those menu items. Do you know, which ones specifically you missed? 
+
+P: Specifically I would say, for one, create event. Although, in that specific case, I would say that if one was familiar with the use of DiscoverCal they wouldn't need that specific menu option as much. {menu_useful_for_beginners}However, if someone was pretty new to it and didn't know what they were doing, then it would be pretty useful to have it.{/menu_useful_for_beginners}
+
+I: Anything else change in the menu?
+
+P: I want to say I felt like ...Or I didn't feel like ... I noticed that when ... This was after creating or modifying an event, in the specific ... In that particular menu screen, some menu options, which I've encountered in past sessions as separate options, were combined in this sessions. I would like to say, perhaps it's a bit too ... I want to say too inefficient, I want to say.
+
+I: The tasks ... The prompts required you to use combinations of the menu items. Is that what you're saying?
+
+P: I'm sorry, could you say that again?
+
+I: The prompts, theses little index cards, required you to do a different combination of them, or-
+
+P: Oh, no. Not the cards themselves-
+
+I: Oh, okay.
+
+P: It was the menu options, the left menu that I felt were combined from past previous session. For example, modifying and event with just the time and just the guests. However, in this session I would see modifying the time with the guests. 
+
+I: Okay.
+
+P: I think it would be efficient if they were separate, rather than together.
+
+I: Small pieces.
+
+P: Yes.
+
+I: All right. Did this session unveil any further limitations of the system, that you're now aware of?
+
+P: Limitations.
+
+I: Things you now know the system can't do, or that you wouldn't want to do with it. 
+
+P: Can't do. I would say there is missing ... Besides weekly, there is missing a monthly and a yearly option, in case one needed to use monthly and yearly. Maybe bi-weekly as well.
+
+I: Okay. Based on what you asked DiscoverCal to do today, did it function the way you expected it to?
+
+P: With regards to some changes in words, I think yeah. I think it functioned the way I wanted ... I expected it to.
+
+I: By that do you mean the commands that you needed to use, the words changed?
+
+P: Yes. Sorry, if I wasn't clear.
+
+I: No, it's ... First of all I want to know ... I talk funny all the time. I mush my words together, so no one has to apologize to me about being clear. I also ask things in the most complicated way. It's like I sit here and I like, "What's the complicated way to say this?" And then I say that. Don't ever apologize for that. 
+
+I: Let me write that down real quick. 
+
+I: Okay. The final question, how did discovering with DiscoverCal today contribute to your overall understanding of voice-control?
+
+P: Would I be allowed to give a comparison, or?
+
+I: Yeah, whatever you want.
+
+P: Sure. In my experience with voice-control, DiscoverCal, I would say is much more primitive. Though it's primitive, that doesn't mean it's bad. It's just easy, direct, done what it's supposed to do and it's simple. I would say that there are sometimes where it's inefficient. However, achieves this goal the same. 
+
+I: So, it doesn't ... Because of the way the system is, you still are aware of the capabilities that voice-control can do in general, outside of DiscoverCal?
+
+P: {att>faith_in_NLP}I am aware that voice-control can go farther, than what it has achieved so far. {/att>faith_in_NLP}
+
+I: Did any of your testing today make you reconsider using voice-control, or change your trust in it, or your openness to it?
+
+P: I don't believe so. If anything these past three voice-control sessions helped me open up to voice-control more, since I didn't use it as frequently as I used to ... Or as I never did.
+
+I: Yeah. I think we wrote you down as never used it, which is perfect, because we need people who are experts and people who don't use it that much. So many times when I'm doing a voice-control study, people are like, "I don't use voice-control." I'm like, "Perfect." 
+
+P: I do use voice-control, very rarely though.
+
+I: Yeah.
+
+P: Whenever I just don't feel like typing. I just say whatever I want.
+
+I: Yeah. 
+
+P: Google search, I'm like, "Google, bird", or something like that.
+
+I: And it's always ... Sometimes a little measurement of how lazy you are. How many times, if it gets it wrong, will you re-say it, because you just don't feel like going to a keyboard, or open ... Or typing?
+
+P: If this helps, I would say, the more times I get frustrated with voice-control, the more likely I am to type it out on a screen.
+
+I: Yeah, because why go back to something if you know it's unreliable? 
+
+P: Yeah.
+
+

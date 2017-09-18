@@ -1,0 +1,314 @@
+{!mediafile alexis.01.mp4}
+
+Session 01
+ID 56
+Experimental
+
+{confidence}{confidence_lacking}{novelty}{vui_dislike}{visual_desired}{personal_assistant}{distrust_vuis}{broad_fallback}{menu_not_enough}{menu_too_much}{/menu_too_much}{/menu_not_enough}{/broad_fallback}{/distrust_vuis}{/personal_assistant}{/visual_desired}{/vui_dislike}{/novelty}{/confidence_lacking}{/confidence}
+I: Any questions so far? Are you ready for your first prompt?
+
+P:{speak_outloud} {menu_usage}Ok, so I am looking at the prompts on the left to make it work. So I am trying to add a group meeting.
+{/menu_usage}{/speak_outloud}
+P:{obstacle>NLP_error}{att>intial_command_long} Add math group meeting Wednesday 6 to 7 p.m. at Saxbys Cafe{/att>intial_command_long}{/obstacle>NLP_error}
+
+DC: {vui_error}Sorry, but there is no event titled Wednesday 6 to 7 p.m. at Saxbys Cafe. Please try again.{/vui_error}
+
+P: {guess_command}Let me try to say add.{/guess_command}
+
+P: {tactic>hyperarticulation}{command_not_supported}Add {hesitation}{/hesitation} Wednesday 6 to 7 p.m. Saxbys Cafe{/command_not_supported}{/tactic>hyperarticulation}
+
+DC: {misheard}Sorry, but there is no event titled 7 p.m. at Saxbys Cafe. Please try again.{/misheard}
+
+P: {tactic>simplification}{say_shorter}add event{/say_shorter}{/tactic>simplification}
+
+DC: What day and time should I create this event?
+
+P:{speak_outloud} I realize you cant do it all at once you got to do add event. {/speak_outloud}
+
+P: {tactic>use_knowledge}edit event title{/tactic>use_knowledge}
+
+DC: {vui_error}Sorry, but there is no event titled title. Please try again. {/vui_error}
+
+P: {tactic>hyperarticulation}Wednesday 6 to 7 p.m.{/tactic>hyperarticulation}
+
+DC: {misheard}Ready to modify the start time, is that all?{/misheard}
+
+P: {speak_outloud}{blame_vui}{frustation}Oh it go the wrong date. This is frustrating.{/frustation}{/blame_vui} This is ummm may 15th.{/speak_outloud}
+
+P: {tactic>guessing}Wednesday May 15th{/tactic>guessing}
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>hyperarticulation}{command_not_supported}Wednesday 6 p.m. to 7 p.m.{/command_not_supported}{/tactic>hyperarticulation}
+
+DC: Ready to modify the start time. Is that all?
+
+P: {tactic>rely_on_gui}change the title{/tactic>rely_on_gui}
+
+DC: What should be the title of this event?
+
+P: math group meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: change location
+
+DC: What is the new location of this event?
+
+P: Saxbys Cafe
+
+DC: Ready to set the location. Is that all?
+
+P: {misheard}yes{/misheard}
+
+DC: I couldnt hear you, could you say that again.
+
+P: {tactic>hyperarticulation}Yes{/tactic>hyperarticulation}
+
+DC: Ok. Success. Calendar updated.
+
+**SECOND**
+
+{learn_command}{speak_outloud}P: Ok so, I have a little bit better of a vibe of how this works so..{/speak_outloud}{/learn_command}
+
+P: {tactic>use_knowledge}add event{/tactic>use_knowledge}
+
+DC: What day and time should I create this event?
+
+P: {obstacle>NLP_error}Thursday 1 oclock to 2 oclock p.m.{/obstacle>NLP_error}
+
+DC: Is that all?
+
+P: That one did not know what day I meant.
+
+P: {tactic>use_more_info}{date_and_time_error}Thursday May 18th{/date_and_time_error}{/tactic>use_more_info}
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>use_more_info}Thursday May 18th 1 oclock p.m. to 2 oclock p.m.{/tactic>use_more_info}
+
+DC: Ready to modify the start time. Is that all?
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}{say_slower}{say_louder}study session for US History test{/say_louder}{/say_slower}{/tactic>hyperarticulation}
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+**THIRD**
+
+P: {obstacle>unfamiliar_commands}{hesitation}modify event{/hesitation}{/obstacle>unfamiliar_commands}
+
+DC: Sorry but there is no event titled . Please try again.
+
+{vui_error}P: {tactic>use_more_info}modify math group meeting{/tactic>use_more_info}
+
+DC: Sorry but there is no event titled modify math group meeting. Please try again.
+
+P: {tactic>simplification}math group meeting{/tactic>simplification}
+
+DC: {misheard}Sorry but there is no event titled meeting. Please try again.{/vui_error}{/misheard}
+
+P: {tactic>hyperarticulation}my group meeting{/tactic>hyperarticulation}
+
+DC: Sorry, say that again?
+
+P: {tactic>hyperarticulation}{say_louder}{say_slower}{frustation}{att>frustrated}math group meeting
+{/att>frustrated}{/frustation}{/say_slower}{/say_louder}{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled meeting. Please try again.
+
+P: {tactic>simplification}math{/tactic>simplification}
+
+DC: Im afraid I dont understand.
+
+P:{tactic>guessing} {guess_command}Wednesday May 17th{/guess_command}{/tactic>guessing}
+
+DC: Please include a time and date for the start of this event.
+
+P: cancel
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+P: {tactic>guessing}modify events{/tactic>guessing}
+
+{vui_error}DC: Sorry but there is no event titled . Please try again.
+
+P: {tactic>desperation}edit event{/tactic>desperation}
+
+DC: Sorry but there is no event titled . Please try again.
+
+P: {tactic>desperation}edit math group meeting{/tactic>desperation}
+
+DC: Sorry but there is no event titled edit modify math group meeting. Please try again.
+
+P: {tactic>desperation}math group meeting{/tactic>desperation}
+
+DC: I didnt get that. Can you say it again?
+
+P: {tactic>hyperarticulation}{say_slower}math group meeting{/say_slower}{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled meeting. Please try again.{/vui_error}
+
+**MEMO: VUI is encoutnering an error. This normally works, but is not for the particpant. ***
+
+{speak_outloud}{blame_vui}{frustation}P: I am going to cancel the event and add a new one because I dont know how to do this.  I actually dont even know if I can cancel it because I dont know if I can get to it. Going to create a new event first.{/frustation}{/blame_vui}
+{/speak_outloud}
+
+P: {tactic>restart}{vui_error}add event {misheard}Wednesday May 17th{/misheard}{/vui_error}{/tactic>restart}
+
+DC: What day and time should I create this event?
+
+P: {tactic>hyperarticulation}{say_louder}Wednesday May 17th 6 to 8 p.m.{/say_louder}{/tactic>hyperarticulation}
+
+DC: Is that all?
+
+P: Wednesday May 17th 6 to 7 p.m.
+
+DC: Ready to modify the start time. Is that all?
+
+{speak_outloud}{confusion}P: Why does it say 6:45PM? What?{/confusion}{/speak_outloud}
+
+{human_convo_fallback}P: {tactic>use_more_info}Wednesday May 17th 6 oclock p.m. to 7 oclock p.m.{/tactic>use_more_info}{/human_convo_fallback}
+
+{cutoff}DC: Ready to modify the start time{/cutoff}
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: new math group meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: set location
+
+DC: What is the new location of this event?
+
+P: Hagerty Library
+
+DC: Ready to set the location. Is that all?
+
+P: {misheard}yes{/misheard}
+
+{cutoff}DC: I couldnt hear you
+{/cutoff}
+
+{say_louder}{say_slower}P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}{/say_slower}{/say_louder}
+
+{cutoff}DC: I couldnt hear you
+{/cutoff}
+
+{say_slower}P: {tactic>hyperarticulation}yes{/tactic>hyperarticulation}{/say_slower}
+
+DC: Ok. Success. Calendar updated.
+
+P: Ah, it didnt show up.
+
+**Intervewer refreshes**
+
+P: Ah, there is it.
+
+**FOURTH**
+
+P: {obstacle>feedback}new event{/obstacle>feedback}
+
+DC: What day and time should I create this event?
+
+P: {tactic>restart}cancel{/tactic>restart}
+
+{vui_error}DC: Sure, cancelling.{/vui_error}
+
+{menu_usage}{speak_outloud}P: As I did that I saw there is a recurring event in the menu.{/speak_outloud}{/menu_usage}
+
+P: cancel
+
+DC: Cancelled changes. If you are stuck, look to the left menu for help.
+
+P: add a weekly event on Mondays from 9 to 10 a.m.
+
+DC: What day and time should I create this event?
+
+{speak_outloud}
+P: Oh goodness, it always does that.{/speak_outloud}
+
+{human_convo_fallback}P: {tactic>use_more_info}Mondays from 9 oclock a.m. to 10 oclock a.m.{/tactic>use_more_info}{/human_convo_fallback}
+
+DC: Is that all?
+
+P: change title
+
+DC: What should be the title of this event?
+
+P: weekly workout
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+END OF TASK
+
+
+
+BEGIN Q&A
+
+
+
+
+I: Okay awesome, so I just have a few questions for you and then were done.
+
+P: Okay.
+
+I: First question is, based off your usage today what do you think DiscoverCal is capable of?
+
+P: I think its capable of ... just like generally like its purpose?
+
+I: Yes.
+
+P: Okay, allowing people to input events in their calendar based on what the event is, where it is, what day and what time, and youre also able to do recurring events. And then you can view your calendar.
+
+I: Awesome, and again based on your session today what do you think the limitations of DiscoverCal are?
+
+P: Limitations are that its really hard to use. Its hard to use. [laughs] {learn_command}I got the hang of creating a new event, its still a lot more difficult than it could be{/learn_command}, but changing event, I didnt even successfully do that.
+
+I: Yeah.
+
+P: So, I dont even know how you would do that, {distrust_NLP}because it couldnt understand{/distrust_NLP}. So, I think its limitations are definitely usability overall, really tough and then if you cannot use ... {does_not_like_ui}I dont know how that would work to like to go to different months, or different years. Whether you want like a weekly view, or yearly view, I dont really know how you would flip through{/does_not_like_ui}, cause it didnt really show that on the left bar. So, I think its limitations are just being very selective in what language you can use.{vui_differ}{faith_in_NLP} A lot of other voice control things Ive used have been a lot more lenient, so it like kind of understands what youre saying even if you dont word it like verbatim how they want you to.{/faith_in_NLP}{/vui_differ}
+
+I: Yeah. Awesome, you were fantastic at voicing out your thoughts the whole entire time.
+
+P: Okay.
+
+I: It is-
+
+P: Really? Okay.
+
+I: Super valid.
+
+P: Okay I was like Oh my am I not saying enough.
+
+I: No, no, no, you were doing good. Also the facial expressions were my favorite.
+
+P: I was gonna say my facial expressions were probably giving me away.
+
+I: But its perfect, its perfect. Cause we have a vide recording, so we have that, so we can go like ...
+
+P: I was laughing. I was like, "Oh my God."
+
+I: No, no its wonderful. So, I ... lets go back to the issue we were having with modify.
+
+P: Yes.
+
+I: What do you think was the main problem the system was having there?
+
+P: It didnt ... it kept not recognizing what event I was talking about, so I would say, "Edit math meeting." And so theres no event called

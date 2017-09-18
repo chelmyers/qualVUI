@@ -1,0 +1,151 @@
+{!mediafile erin.02.mp4.mini.mp4}
+
+Session 02
+ID 11
+Experimental
+
+
+{impact>simplification}P: add recurring event
+
+DC: What day and time should I create this event?
+
+P: Tuesday 3 p.m. to 5 p.m.
+
+DC: What is the title of this event?
+
+P: literature team project
+
+DC: Is that all?
+
+P: set location
+
+DC: What is the new location of this event?
+
+P: The Summit
+
+DC: Ready to set the location. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.{/impact>simplification}
+
+
+**SEONCD**
+
+
+P: {obstacle>NLP_error}modify Little Richard ({misheard}literature{/misheard}) team project{/obstacle>NLP_error}
+
+DC:Sorry but there is no event titled, “Little Richard team project.” Please try again.
+
+P: modify {tactic>hyperarticulation}literature{/tactic>hyperarticulation} team project
+
+DC: What would you like to modify for this event?
+
+P: time
+
+DC: What date and time should this event start?
+
+P: Tuesdays from 10 a.m. to 11 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+P: {obstacle>NLP_error}the {misheard}(delete) {/misheard}week weekly workout{/obstacle>NLP_error}
+
+DC: Sorry, say that again?
+
+P: {tactic>simplification}delete weekly workout{/tactic>simplification}
+
+DC: Are you sure you want to delete this event?
+
+P: yes
+
+DC: Event deleted. Success. Calendar updated.
+
+
+***FOURTH***
+
+
+P: {obstacle>unfamiliar_commands}edit guests for literature team project{/obstacle>unfamiliar_commands}
+
+DC: Sorry but there is no event titled, “guests for literature team project.” Please try again.
+
+P: {tactic>use_knowledge}modify literature team project{/tactic>use_knowledge}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>guessing}{command_not_supported}attendees and guest list{/command_not_supported}{/tactic>guessing}
+
+DC: What would you like to modify for this event?
+
+P: {tactic>guessing}invite guests{/tactic>guessing}
+
+DC: I removed the attendees. Is that all?
+
+{tactic>rely_on_gui}{menu_usage}P: invite John Smith{/menu_usage}{/tactic>rely_on_gui}
+
+DC: Ready to invite. Is that all?
+
+P: invite Kelly Nelson
+
+DC: Ready to invite. Is that all?
+
+P: {tactic>settling}yes{/tactic>settling}
+
+DC: Ok. Success. Calendar updated.
+
+
+
+ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+
+END OF TASK
+
+ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+
+BEGIN Q&A
+
+ÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩÔøΩ
+
+
+I: All right, so did you feel like ... In the session today did you feel like DiscoverCal was capable of doing anything more than you knew last session?
+
+P: Yeah, I didn't know that inviting guests was something that I could do.
+
+I: Okay.
+
+P: So, adding a guest list. And adding a recurring activity just by stating it, is something I wasn't able to do last week.
+
+I: Okay. So, based on your interaction today, what was your approach with the interface? Was it different from what you did last time, or was it, like-
+
+P: I knew enough to start out with the bolded words on the left hand side, which made it a little more intuitive-feeling, because instead of just kind of guessing at what I was supposed to say, I knew that I had to start with that and then work my way from there.
+
+I: All right. So, what was your overall experience, what did you feel like right now?
+
+P:{att>confident} I felt pretty confident for the most part.{/att>confident} The only thing I was a little confused about was modifying the recurring event, because it looks like it only got modified for one week rather than for all the weeks. And, so some kind of feedback to indicate that I'm changing all of the events rather than just the one.
+
+I: Okay. All right, that's pretty good feedback. Okay, so besides that, what about your understanding of the functionality of DiscoverCal? Is it the same sort of model in your head the way that it works or has that changed in any way from that session to now?
+
+P: I think what I learned the last session really shaped what I did this time, because now I knew enough to come in and be like, "All right, it's going to respond to the words in bold, so those are the words that I need to use." {att>correct_mental_model}{learn_command}And then, I need to add everything in steps rather than all at once, and so I was kind of able to break it down in my head like that rather than like, "This is an event with all these things," it's like, "This is an event, this is the time, this is the date", and so on and so forth, kind of breaking that into parts made a little bit more sense.
+{/learn_command}{/att>correct_mental_model}
+
+{memo}MEMO: Quick to pick up limitations{/memo}
+
+I: Okay, all right that's great. Anything else to…in terms of a change in your confidence from last session to now? Or change in your approach, change in your understanding of DiscoverCal, or voice interaction in general?
+
+P: It was definitely easier to use the second time around-
+
+I: Okay.
+
+P: -which I think just as a practice thing, because this ... I made all the mistakes last time that now I know not to make this time.
+
+I: Okay, great. All right, anything else that you wanna add about your interaction to the ... About DiscoverCal or what you learned from the last session to now?
+
+P: Don’t think so.
+

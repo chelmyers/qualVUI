@@ -1,0 +1,54 @@
+{!mediafile fiona.03.mini.MP4}
+Session 03
+ID 84
+Control
+I: So we have three short tasks today and we can basically just begin whenever you are ready. Ok, here is your first prompt.
+P: {att>intial_command_long}add an event on Friday at 10 a.m.{/att>intial_command_long}
+DC: What is the title of this event?
+P: dentist appointment
+DC: Is that all?
+P: {learn_command}yes{/learn_command}
+DC: Ok. Success. Calendar updated.
+{surprise}P: That went very smoothly.{/surprise}
+**SECOND**
+P: {obstacle>NLP_error}{att>confident_back_to_long_command}add a weekly event on Saturdays at 8 p.m.{/att>confident_back_to_long_command}{/obstacle>NLP_error}
+DC: What day and time should I create this event?
+P: {vui_error}There it is in the title again.{/vui_error}
+P: {tactic>simplification}Saturdays at 8 p.m.{/tactic>simplification}
+DC: Is that all?
+P: {tactic>simplification}change title{/tactic>simplification}
+DC: What should be the title of this event?
+P: Skype with high school pal
+DC: Ready to update the title of this event. Is that all?
+P: {tactic>use_knowledge}{learn_command}invite Mark black{/learn_command}{/tactic>use_knowledge}
+DC: Ready to invite. Is that all?
+P: yes
+DC: Ok. Success. Calendar updated.
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+END OF TASK
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+BEGIN Q&A
+ýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿýÿ
+I: Based on your interaction in this session, did you think that there was anything new in the system, that it was capable of doing or not capable of doing different from what you've done previously?
+P: No, I've seen the same thing.
+I: Okay. Based on your interaction over the past three sessions, did you feel like your approach towards the interface was any different between session one, two, to three, or do you think that you used the same approach throughout? Can you talk a little bit about that?
+P: Well, before I was kind of{menu_usage} skimming the menu, but over the three sessions{rely_on_menu_more} I was looking at it more closely{/rely_on_menu_more} and remembering also what worked and what didn't. {/menu_usage}Yeah, so this time I just read the menu closer.
+I: Okay. Do you think there was a reason why you just wanted to skim and not really focus on the menu? Was it anything to do with the interface?
+P: {faith_in_NLP}{assume_vui_should_be_easy_and_smarter}Maybe. I mean, because it's voice, I felt like I didn't want to read it, but I probably should have.{/assume_vui_should_be_easy_and_smarter}{/faith_in_NLP} {menu_useful}{menu_useful_for_beginners}Because when you start out, the menu is really helpful. {/menu_useful_for_beginners}{/menu_useful}{menu_too_much}But I imagine, after using this a long time, I wouldn't need it anymore. {/menu_too_much}{impatient}But I wanted to skip to not needing it, rather than reading it at first. {/impatient}
+I: Okay. Sorry, I'm trying to ... Okay. What would you think would be a good way to approach that or to achieve what you want from the interface?
+P: I mean, {menu_usage}I just read the menu closer. {/menu_usage}It reminded me of ... A lot of games will start out with a tutorial that you have to do. Each step, a box will come and be like, "If you want this to happen, say this." And it will feed it to you really closely, and that kind of makes you slow down and actually pay attention. And then later you can know what you're doing, instead of doing what I did was just skipping to, {confidence}ýÿOh, I know what I'm doing." But I really didnýÿt.{/confidence}
+I: All right. Okay. That's pretty cool. Besides that, what is your understanding of how DiscoverCal actually works?
+P: I'm just not sure how to answer that.
+I: Okay. What is your understanding of the way that the interaction happens between you and the interface?
+P: You mean, how to know what I'm saying?
+I: Yes, but how does it also respond to you, and the basis of that, and things like that.
+P: {correct_mental_model}Oh. I mean, I imagine it has a set of commands that it can t{att>correct_mental_model}lds are left open, and a list of what I said. For example, it knows that, "Invite person" and it will invite someone, but the person- That's not something it has in its system. That's just something it heard me say.{/correct_mental_model}
+I: Okay. Okay. All right. Does this in any way influence {/att>correct_mental_model}oice control in general? How that works? Would you change the way that you interact with Siri or Alexa or any other interface like that?
+P: Probably not.
+I: Okay. Did the system perform as you expected it to?
+P: Yeah.
+I: All right. Okay. That's pretty much it from us. Is there anything else that you want to add about your overall experience over these three sessions about your understanding of DiscoverCal, voice interaction, anything else?
+P: Yeah. I kind of saw a dip. Because over the three sessions- The first one, I kind of- It went okay, but not great. The second time went terrible. And then this time was really smooth. I don't know what that means, but that's what happened.
+I: What do you think was the reason behind that?
+P: I don't know. Because the first time it was new to me.{confidence} And maybe the second time I was too cocky? {/confidence}I thought I knew what I was doing already, so I didn't pay attention and I didn't try as hard. {high_cognitive_load}And then this time I actually kind of knew what I was doing, but I was also trying a little harder at the same time. So together, it worked out. {/high_cognitive_load}
+

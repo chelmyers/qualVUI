@@ -1,0 +1,138 @@
+{!mediafile mike.03.MP4.mini.MP4}
+
+
+Session 02
+ID 96
+Experimental
+
+
+{quote}P: {att>confident_back_to_long_command}add dentist appointment on Friday at 10 a.m.{/
+
+DC: What day and time should I create this event?
+
+P: Ah, I was hoping that would work.att>confident_back_to_long_command}{/quote}
+
+P: set time to Friday at 10 a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: set title to dentist appointment
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yeah
+
+DC: Ok. Success. Calendar updated.
+
+
+**SECOND**
+
+
+P: {impact>simplification}add weekly event{/impact>simplification}
+
+DC: What day and time should I create this event?
+
+P: {impact>simplification}Saturday {obstacle>NLP_error}is{/obstacle>NLP_error} at 8 p.m.{/impact>simplification}
+
+DC: What is the title of this event?
+
+P: Skype with high school Powell
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}Saturday at 8 p.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: add attendee Mark black
+
+DC: Ready to invite. Is that all?{obstacle>NLP_error}{/obstacle>NLP_error}
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}set title to Skype with high school pal
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+�������������
+
+END OF TASK
+
+�������������
+
+BEGIN Q&A
+
+�������������
+
+
+I: Okay. Let's talk a little bit more about that. {att>learning_system}You said you didn't use the left menu as much. Is there a reason why you felt like you didn't need to?{/att>learning_system}
+
+{quote}P: Practice. I know what words to use. I've already ... I'll glance at it if I don't remember something, but for the most part, the more you practice, the less you need to use the menu.{/quote}
+
+I: Mm-hmm (yes), all right. Cool. Would you have like a recommendation for how you would want that information presented to you now that you sort of feel like you learned certain things that you can now remember them and use what you've sort of used on practice? Do you have like a preference for how that information should be presented or do you think this way of sort of having some information at the time present for you is ...
+
+P: Maybe if you could like minimize it to the right? Yeah, if you could minimize it to the right, that would be good, because then you'd have more space for the calendar.
+
+I: All right, cool. Besides that, do you want to talk a little bit about your approach? Was there any difference in sort of like from where you started to now? Did you feel like your approach changed? Did you feel like how you approached it changed?
+
+P: {att>correct_mental_model}Yeah, now I know exactly what works for the most part. {/att>correct_mental_model}{quote}Like I know that I, for example, with that first one I know I can't just do it all at once.{/quote} For the recurring events I know exactly how it expects me to say that. Although, we only did weeklies, so that could be interesting if that were to change. Yeah, so I know, again, I know more. I know what works now. 
+
+I: Cool. All right, so besides that was there anything that you noticed about the functionality, how DiscoverCal functions, is your understanding of that any different from first session to now?
+
+P: Yeah, I'd say so just because I know, for example, that when you set a start time it automatically sets the end time to an hour later, so like if that needs to change I know how to change that.
+
+I: Okay
+
+P: Basic stuff like that.
+
+I: Anything specific to the interface itself? Is there anything that you understand of how it works that are different now versus before?
+
+P: Not really.
+
+I: Okay, great. All right. Besides that, does it performance as you expected it to, this session?
+
+P: Pretty much.
+
+I: All right.
+
+P: I didn't really expect saying the full event at once to work, but it was a nice try.
+
+I: All right. Besides that, how do you think that, and I know that you have little experience with voice interfaces-
+
+P: Yeah.
+
+I: Yeah. How do you think that this, if in any way, effects how you would say approach, like say tomorrow you had to be just like, "I'm going to start using Siri or I'm going to start using my phone's voice interface," do you think that sort of anything from this interaction would influence how you interact with that?
+
+P: I would probably use the same commands that I've used here. 
+
+I: Okay. 
+
+P: I would expect Siri and whatever to you know, be able to work with the same commands and to manage the same tasks.
+
+I: Okay. What about sort of like your approach in general ... I mean, you were saying that you sort of learned these commands and so you would just map them over there. What about the approach to sort of doing just anything with the interface, or let's say similar tasks with the interface? I think our previous thing was your approach in this session was not like sort of say the entire event and stuff like that. Would that change between here and there, or would you try that with that as well?
+
+P: I would probably try it with that as well. Yeah.
+
+I: Okay. Anything else that you want to add about sort of how this contributes to your understanding of voice interaction in general?
+
+P: It would be cool if there were macros that you could make-
+
+I: If there were what?
+
+P: For yourself.
+
+I: Okay.
+
+P: If you, to say, I want to say ... If you want to say like create a event that happens three times a week, stuff like that. Your own custom thing where it's like, okay, saying add three day class, would add a work-recurring event that happens three times each week. Stuff like that.
+
+I: All right. That's great feedback. You're saying sort of like a customized view of how to say those things that are more specialized ... Is that kind of?
+
+P: Mm-hmm (yes).
+
+I: Yeah, cool. All right. Noted. We 
+
+
