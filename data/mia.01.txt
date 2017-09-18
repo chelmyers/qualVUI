@@ -1,0 +1,147 @@
+!mediafile mia.01.mini.mov}{!name “mia.01.txt”}
+
+
+Session 01
+ID 51
+Control
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}{att>unsure}add {/att>unsure}{misheard}Master (math group){/misheard} {att>intial_command_long}meeting on Wednesday from 6 to 7 p.m. at Saxbys Cafe{/att>intial_command_long}
+
+DC: What day and time should I create this event?
+
+P: {tactic>hyperarticulation}Wednesday from 6 to 7 p.m.{/tactic>hyperarticulation}
+
+DC: Is that all?
+
+P: {tactic>simplification}{/tactic>simplification}{tactic>hyperarticulation}{/tactic>hyperarticulation}{att>human_convo}it's located at Saxbys Cafe{/att>human_convo}
+
+DC: Ready to set the location. Is that all?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**SECOND**
+
+
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}{impact>simplification}{/impact>simplification}create an event on Thursday from 1 to 2 p.m.
+DC: What is the title of this event?
+
+P: US History test
+
+DC: Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+{speak_outloud}P: It’s study session, oh, ok. I didn’t read it correctly.
+
+I: Are you okay with this result? 
+
+P: Actually, let me edit it. I can see I can edit it. {/speak_outloud}
+
+
+
+P: {obstacle>unfamiliar_commands}edit event on {att>unsure}{/att>unsure}Thursday{/obstacle>unfamiliar_commands}
+
+DC: Sorry but there is no event titled, “on thursday.” Please try- {cutoff}{/cutoff}
+
+P: edit event {misheard}hit{/misheard} US History test
+
+DC: Sorry but there is no event titled, “hit - {cutoff}{/cutoff}
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}edit event US History test
+
+DC: What would you like to modify for this event?
+
+P: {tactic>simplification}{/tactic>simplification}{tactic>hyperarticulation}{/tactic>hyperarticulation}title
+
+DC: What should be the title of this event?
+
+P: study session for US History test
+
+DC: Ready to update the title of this event. Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+P: modify {obstacle>NLP_error}Nat root (math group){/obstacle>NLP_error} meeting
+
+DC: {day01_task01_titled_ignored}{/day01_task01_titled_ignored}Sorry but there is no event titled, “Nat root meeting.” Please try again.
+
+{memo}**MEMO: When is it clear that the vui misheard, hyperarticulation first response. Maybe only even if there were multiple errors**{/memo}
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}modify 
+{obstacle>NLP_error}math (group){/obstacle>NLP_error} meeting
+
+DC: Sorry but there is no event titled, “math meeting.” Please try again.
+
+{speak_outloud}P: Oh, I see.{/speak_outloud}{tactic>rely_on_gui}{/tactic>rely_on_gui}
+
+P: modifry (modify) Master meeting
+
+DC: Sorry, can you tell me again?
+
+P: {obstacle>feedback}modify Master meeting on Wednesday{/obstacle>feedback}
+
+DC: Sorry but there is no event titled, “modify Master meeting on Wednesday.” Please try again.
+
+P: {tactic>rely_on_gui}modify Master meeting on Wednesday{/tactic>rely_on_gui}
+
+DC: Sorry but there is no event titled, “modify Master meeting on Wednesday.” Please try again.
+
+{speak_outloud}P: Ok, I have seem to broken it. Ok.{/speak_outloud}
+
+{tactic>hyperarticulation}P: edit Master meeting on Wednesday{/tactic>hyperarticulation}
+
+DC: Sorry but there is no{cutoff}{/cutoff}
+
+P: {tactic>use_more_info}modify event Master meeting on Wednesday{/tactic>use_more_info}
+
+DC: Sorry but there is no event titled, “modify Master meeting on Wednesday.” Please try again.
+
+{att>blame_self}P: I’m sorry but I think I broke it by accident. Because I made the event titled weird by accident I can’t acces it.{/att>blame_self}
+
+I: What I can tell you is the the event titles do get cropped off.
+
+P: Oh, so it is probably called something extra.
+
+I: What would you do in this instance if you couldn’t delete that event. 
+
+P: I would probably, if there is not way to edit manually, I would probably be a little annoyed. I would just rather just, I like the ease, but if I can’t locate the event, because I didn’t realize I changed the name to something weird, it would be a little frustrating.
+
+I: Now would you like to do anything further with this? Or would you like to move on to the next one? 
+
+{tactic>quit}P: I would like to move on to the next one.{/tactic>quit}
+
+
+**FOURTH**
+
+
+P: {impact>hyperarticulation}create event weekly workout{/impact>hyperarticulation}{impact>simplification}{/impact>simplification}
+
+DC: What day and time should I create this event?
+
+P: {impact>simplification}Monday at 9 to 10 a.m.{/impact>simplification}
+
+DC: Is that all?
+
+P: yes
+
+DC: Ok. Success. Calendar updated.
+
+
+
+
+

@@ -1,0 +1,165 @@
+{!mediafile lange.01.mini.mov}{!name “lange.01.txt”}
+
+Session 01
+ID 91
+Experimental
+
+
+{att>intial_command_long}{att>human_convo}{/att>human_convo}P: {obstacle>NLP_error}an (create a){/obstacle>NLP_error} event for me I have a mass group meeting on Wednesday 6 to 7 p.m. at Saxbys Cafee{/att>intial_command_long}
+
+{tactic>restart}{/tactic>restart}DC: Ready to update the title of this event. Is that all?
+
+{speak_outloud}
+P: Can I try multiple times?
+
+I: Yes, you can try as many times are you want to get that information.
+{/speak_outloud}
+
+P: {att>intial_command_long}create an event math group meeting on Wednesday 6 to 7 p.m. at Saxbys Caf{/att>intial_command_long}
+
+DC: What day and time should I create this event?
+
+{tactic>hyperarticulation}P: Wednesday, 6 to 7 PM.{/tactic>hyperarticulation}
+
+P: Please include a time and date for this event
+
+DC: Is that all?
+
+P: {tactic>use_more_info}Wednesday 6 o'clock to 7 o'clock p.m.{/tactic>use_more_info}
+
+DC: Ready to modify the start time. Is that all?
+
+P: that is all
+
+DC: Ok. Success. Calendar updated.
+
+
+
+**SECOND**
+
+
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}{impact>simplification}create an event{/impact>simplification}
+
+DC: What day and time should I create this event?
+
+P: the event is study session the time is Thursday from 1 o'clock to 2 o'clock p.m. for US History test
+
+DC: What is the title of this event?
+
+P: {obstacle>NLP_error}Eternal of Isabella{/obstacle>NLP_error}(the title is) study session for US History test
+
+DC: Is that all?
+
+P: {tactic>hyperarticulation}study session for US History test{/tactic>hyperarticulation}
+
+DC: Sorry but there is no event titled, “for US History test.” Please try again.
+
+P: {tactic>guessing}{/tactic>guessing}{tactic>hyperarticulation}{/tactic>hyperarticulation}delete the title
+
+DC: Sorry but there is no event titled, “title.” Please try again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>hyperarticulation}{/tactic>hyperarticulation}change the title
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}study session for US History test
+
+DC: Ready to update the title of this event. Is that all?
+
+P: that is all
+
+DC: Ok. Success. Calendar updated.
+
+
+**THIRD**
+
+
+
+P: {obstacle>system_bug}{/obstacle>system_bug}modify event
+
+DC:  Sorry but there is no event titled, “ ”. Please try again.
+
+P: {tactic>rely_on_gui}{/tactic>rely_on_gui}{tactic>use_more_info}{/tactic>use_more_info}
+
+{obstacle>feedback}{/obstacle>feedback}modify math group meeting
+
+DC: Sorry but there is no event titled, “modify math group meeting”. Please try again.
+
+P: {tactic>simplification}{/tactic>simplification}modify {misheard}route{/misheard} meeting
+
+DC:  Sorry but there is no event titled, “ route meeting”. Please try again.
+
+P: {tactic>simplification}{/tactic>simplification}modifying {misheard}Mac{/misheard}
+
+DC:Sorry but there is no event titled, “Mac” to delete. Please try again.
+
+P: {tactic>use_more_info}modify group meeting on Wednesday{/tactic>use_more_info}
+
+DC: Sorry but there is no event titled, “ group meeting on Wednesday”. Please try again.
+
+P: {tactic>restart}{/tactic>restart}create event
+
+DC: What day and time should I create this event?
+
+P: Wednesday 6 o'clock to 7 o'clock p.m.
+
+DC: What is the title of this event?
+
+P: {obstacle>NLP_error}{misheard}math (group) meeting{/misheard}{/obstacle>NLP_error}
+
+DC: Is that all?
+
+P: {tactic>simplification}change title{/tactic>simplification}{tactic>hyperarticulation}{/tactic>hyperarticulation}
+
+DC: What should be the title of this event?
+
+P: {tactic>hyperarticulation}{/tactic>hyperarticulation}math group meeting
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {impact>simplification}{/impact>simplification}location Hagerty Library
+
+DC: Ready to set the location. Is that all?
+
+P: change location
+
+DC: What is the new location of this event?
+
+P: Hagerty Library
+
+DC: Ready to set the location. Is that all?
+
+P: that is all
+
+DC: Ok. Success. Calendar updated.
+
+
+**FOURTH**
+
+
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}{misheard}make (create) {/misheard}a weekly event
+
+DC: What should be the title of this event?
+
+P: {impact>hyperarticulation}{/impact>hyperarticulation}weekly workout
+
+DC: Ready to update the title of this event. Is that all?
+
+P: {obstacle>unfamiliar_commands}{/obstacle>unfamiliar_commands}set date time
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>guessing}{/tactic>guessing}make date
+
+DC: Please include a time and date for the start of this event.
+
+P: {tactic>use_knowledge}{/tactic>use_knowledge}{tactic>hyperarticulation}{/tactic>hyperarticulation}Monday 9 o'clock to 10 o'clock a.m.
+
+DC: Ready to modify the start time. Is that all?
+
+P: that is all
+
+DC: Ok. Success. Calendar updated.
+
